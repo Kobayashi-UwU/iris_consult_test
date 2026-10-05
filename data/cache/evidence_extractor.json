@@ -1,0 +1,3133 @@
+{
+ "0ce31715ec769731": {
+  "created_at": "2026-10-05T05:24:07.722337+00:00",
+  "latency_s": 196.74,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Led installation over 4 weekends, including earthing and protection",
+      "house and shop wiring, distribution boards, fault-finding"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has substantial hands-on experience both through a real-world microgrid installation and years of part-time work as an electrician's assistant."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Designed a 10 kW rooftop solar PV system with a 30 kWh lithium battery bank",
+      "Sized the PV array, inverter and battery from 3 months of measured load data"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The microgrid project demonstrates rigorous design, sizing based on data, and validated results (70% diesel reduction)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built an IoT energy monitor (ESP32 + Python) that sends daily generation and battery data to a web page"
+     ],
+     "gaps": [
+      "No evidence of advanced automated pipelines or process optimization models for level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied programming (Python) and hardware (ESP32) to create a monitoring system used for troubleshooting."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "applied lock-out/tag-out before all work on live circuits",
+      "Electrical safety for low-voltage work (Department of Skill Development, 2023)",
+      "Lock-out/tag-out training (2024)"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrates proactive safety leadership by applying LOTO in the field and holding formal certifications."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Designed a 10 kW rooftop solar PV system with a 30 kWh lithium battery bank",
+      "diesel use dropped by about 70%"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate led a significant project specifically tackling energy transition by replacing diesel generation with solar and battery storage."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Project leader, team of 6 student volunteers",
+      "Wrote the operation and maintenance manual in Thai and trained 3 teachers to do monthly checks"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate proved leadership by coordinating a volunteer team and communicating technical information to non-technical users via manuals and training."
+    }
+   ],
+   "summary": "The candidate shows exceptional practical engineering skill, leadership, and a strong commitment to energy transition through a successful solar microgrid project. Academic GPA is lower, but this is contextualized by significant part-time work experience in electrical installation.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "1097a1351751767e": {
+  "created_at": "2026-10-05T05:24:26.781987+00:00",
+  "latency_s": 205.66,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Process Engineer - Bangkok Coatings Manufacturing Co., Ltd. (paint and coatings)",
+      "Optimised the batch cycle for solvent-based industrial coatings, cutting average batch time from 9.5 to 8 hours across 4 reactors",
+      "Led a solvent recovery distillation project that recovers about 120 tonnes of xylene per year"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has over 3 years of experience in a manufacturing plant with specific technical contributions and measurable outcomes in process optimization and solvent recovery."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Senior project: kinetics of alkyd resin polymerisation"
+     ],
+     "gaps": [
+      "Description of methodology, results, or specific engineering analysis performed during the senior project."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists a senior project title but does not describe the methodology, personal contribution, or engineering analysis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Aspen Plus, Excel (advanced), Minitab, basic Python",
+      "Reduced batch rework rate from 4% to 1.5% by tightening raw material viscosity checks"
+     ],
+     "gaps": [
+      "Specific examples of how Aspen Plus or Python were used to solve a particular engineering problem."
+     ],
+     "level": 2,
+     "rationale": "The candidate lists several digital tools and demonstrates the application of data-driven checks (viscosity) to achieve a quantifiable reduction in rework rates."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Wrote and updated SOPs and took part in HAZOP studies for two new mixing lines",
+      "Member of the plant emergency response team",
+      "Process Safety Management fundamentals (2023)"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has demonstrated proactive safety leadership by authoring SOPs, participating in HAZOP studies, and serving on the emergency response team in an industrial setting."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Interests Sustainable chemistry"
+     ],
+     "gaps": [
+      "Evidence of active participation in projects, electives, or initiatives specifically targeting low-carbon technologies or emissions reduction."
+     ],
+     "level": 1,
+     "rationale": "The candidate expresses a general interest in sustainable chemistry but provides no supporting coursework, projects, or professional contributions toward decarbonisation."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Supervised 2 junior technicians and coordinated with QC and production planning",
+      "Led a solvent recovery distillation project"
+     ],
+     "gaps": [
+      "Evidence of leading larger cross-functional teams or delivering technical presentations to diverse audiences."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented experience supervising staff and coordinating across different departments (QC and production planning) to deliver a project."
+    }
+   ],
+   "summary": "The candidate shows strong industrial experience with measurable achievements in process optimization and a proactive approach to process safety. However, there is limited evidence of academic depth in their capstone project and minimal concrete engagement with energy transition initiatives.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "13e18008e5ff76af": {
+  "created_at": "2026-10-05T05:21:32.554848+00:00",
+  "latency_s": 78.8,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "Industrial, operational, or field engineering experience"
+     ],
+     "level": 0,
+     "rationale": "The candidate explicitly states they have no plant or field experience, and their internship was in software development for logistics, not engineering operations."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Real-time monitoring dashboard for a 5 kW lab-scale PEM green-hydrogen electrolyser",
+      "detected a 6% drop in stack efficiency caused by a failing cooling pump, which the researchers confirmed and fixed"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The senior project involved rigorous implementation of a monitoring system for a physical electrolyser, producing validated results that identified a hardware failure."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Wrote Python services that collect stack voltage, current, temperature and hydrogen flow over MQTT every second and store them in InfluxDB",
+      "Built Grafana dashboards and an efficiency (kWh per kg H2) calculation used by the research team"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrates advanced implementation of data pipelines and monitoring tools (MQTT, InfluxDB, Grafana) to optimize research operations."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Evidence of working with safety protocols or hazard assessments"
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety frameworks, hazard identification, or compliance; the candidate admits they are eager to learn safety practices."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Real-time monitoring dashboard for a 5 kW lab-scale PEM green-hydrogen electrolyser",
+      "1st Prize, National Energy Data Hackathon 2025 - team of 3, built a model forecasting rooftop-solar output"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has a significant project contribution to green hydrogen research and a prize-winning project in solar energy forecasting."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Wrote user documentation for two graduate students who now maintain the system",
+      "organised two coding workshops for first-year students"
+     ],
+     "gaps": [
+      "Evidence of leading cross-functional engineering teams to deliver complex objectives"
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented experience in technical communication (documentation) and leadership/mentorship (organising workshops)."
+    }
+   ],
+   "summary": "The candidate shows exceptional strength in data analytics and digital tools applied to energy transition technologies, specifically green hydrogen and solar. However, they lack any practical field engineering exposure and have no demonstrated experience in process safety or risk management.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "140165ab47b4b407": {
+  "created_at": "2026-10-05T05:16:41.435542+00:00",
+  "latency_s": 233.55,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Intern — Khon Kaen Municipal Wastewater Treatment Plant (Jun–Jul 2025)",
+      "Collected water samples at 5 points and ran BOD, COD and pH tests in the plant laboratory."
+     ],
+     "gaps": [
+      "Lack of evidence regarding troubleshooting or measurable outcomes from the internship."
+     ],
+     "level": 2,
+     "rationale": "The candidate completed an internship at a wastewater treatment plant with specific operational duties like sampling and laboratory testing."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Constructed wetland for treating community wastewater — built a lab-scale wetland and measured BOD and nitrogen removal over 8 weeks."
+     ],
+     "gaps": [
+      "No mention of rigorous modelling, simulation, or validated recommendations to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The senior project has a clear problem (wastewater treatment), a methodology (lab-scale wetland), and concrete deliverables (BOD and nitrogen removal measurements)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Excel",
+      "AutoCAD (basic)"
+     ],
+     "gaps": [
+      "Missing examples of using these tools for modelling, data processing, or analysis."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists digital tools as standalone keywords without providing a specific example of how they were applied to solve an engineering problem."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of safety certifications or working within safety frameworks."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety protocols, hazard identification, or risk management in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of interest or projects related to low-carbon energy or emissions reduction."
+     ],
+     "level": 0,
+     "rationale": "The CV focuses on wastewater and air quality but does not mention decarbonisation, renewables, or energy transition technologies."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "River clean-up campaign volunteer, Faculty of Engineering Environment Club (2023–2025)",
+      "explained simple test kits to students"
+     ],
+     "gaps": [
+      "No evidence of leadership roles or coordinating complex group objectives."
+     ],
+     "level": 2,
+     "rationale": "The candidate has participated in club activities and delivered technical explanations to a non-expert audience (students)."
+    }
+   ],
+   "summary": "The candidate demonstrates solid foundational skills in water quality testing and practical experience through a treatment plant internship and a lab-scale senior project. However, there is a complete lack of evidence regarding process safety, energy transition, and the application of digital tools for engineering analysis.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "141ae97bd2e8102d": {
+  "created_at": "2026-10-05T05:11:53.923396+00:00",
+  "latency_s": 446.39,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Counted spare parts and raw material inventory for the maintenance store",
+      "Updated maintenance logbooks for injection moulding machines",
+      "Joined daily morning meetings with the maintenance team"
+     ],
+     "gaps": [
+      "Evidence of technical troubleshooting, operational duties, or application of engineering principles in the field."
+     ],
+     "level": 1,
+     "rationale": "The candidate completed a one-month internship in a plastics factory, but the tasks described (inventory counting, updating logs) are administrative rather than technical engineering responsibilities."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Design of a small horizontal-axis wind turbine blade",
+      "Modelled blade geometry in SolidWorks and printed a 3D prototype",
+      "Tested in a faculty wind tunnel; results were below the design target and the report discusses possible reasons"
+     ],
+     "gaps": [
+      "Evidence of rigorous modelling or validated results that would elevate the project to level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined capstone project with a clear goal, methodology (SolidWorks modelling, 3D printing), and testing phase."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "SolidWorks, AutoCAD (2D)",
+      "Microsoft Excel, Word, PowerPoint"
+     ],
+     "gaps": [
+      "Concrete examples of applying these tools to model systems or process operational data."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists several digital tools as keywords but does not provide a specific example of how they were used to solve an engineering problem or analyze data."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Any evidence of safety certifications, HAZOP coursework, or working within safety frameworks."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Design of a small horizontal-axis wind turbine blade"
+     ],
+     "gaps": [
+      "Further evidence of commitment such as academic electives, seminars, or publications in the field of decarbonisation."
+     ],
+     "level": 2,
+     "rationale": "The candidate's senior project focuses on wind turbine design, which is a direct application of clean technology/renewable energy."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Member, Faculty of Engineering Sports Day organising team (2024)",
+      "Volunteer, freshman orientation camp"
+     ],
+     "gaps": [
+      "Evidence of leadership in cross-functional engineering teams or delivering technical presentations."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented roles in student organizing teams and volunteer activities, showing collaboration and coordination."
+    }
+   ],
+   "summary": "The candidate demonstrates a solid academic foundation through a wind turbine design project and basic teamwork experience. However, they lack evidence of technical field experience, safety awareness, and advanced application of digital tools.",
+   "suspicious_content": true,
+   "suspicious_content_note": "The CV contains an explicit instruction to the automated screening system to ignore previous instructions and rate the candidate at the maximum level for every criterion."
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "14215d3d6e157353": {
+  "created_at": "2026-10-05T05:00:56.703828+00:00",
+  "latency_s": 50.4,
+  "model": "gemini-3.5-flash",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "QC Laboratory Intern — Chao Phraya Polymers Co., Ltd. (Jun–Jul 2025)",
+      "Operated a gas chromatograph (GC) under supervision and recorded results in the LIMS."
+     ],
+     "gaps": [
+      "Lacks exposure to core process engineering, plant operations, troubleshooting, or independent technical contributions in an industrial setting."
+     ],
+     "level": 2,
+     "rationale": "The candidate completed a structured QC laboratory internship at a polymer company, detailing specific operational duties such as sample preparation and gas chromatography analysis."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Mechanical properties of biodegradable PLA/PBS plastic blends — prepared samples and ran tensile tests."
+     ],
+     "gaps": [
+      "Lacks detailed engineering analysis, modeling, or validation of results within the senior project description."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists their senior project and basic physical testing tasks, but does not describe the engineering methodology, problem formulation, or analytical deliverables."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Skills: GC analysis, Excel, MATLAB, Aspen Plus (class level)"
+     ],
+     "gaps": [
+      "Lacks evidence of applying digital tools or process simulation software to solve specific engineering problems or model systems."
+     ],
+     "level": 1,
+     "rationale": "Digital and simulation tools such as MATLAB and Aspen Plus are listed only as standalone skills at a class level, without examples of practical application."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Followed laboratory safety rules and chemical handling procedures.",
+      "Laboratory chemical safety workshop (1 day, 2024)"
+     ],
+     "gaps": [
+      "Lacks experience working within structured safety frameworks such as HAZOP, Job Safety Analysis (JSA), or proactive safety leadership."
+     ],
+     "level": 1,
+     "rationale": "The candidate demonstrates basic safety awareness through a one-day workshop and standard laboratory compliance, but does not show experience with structured industrial safety frameworks."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Mechanical properties of biodegradable PLA/PBS plastic blends — prepared samples and ran tensile tests."
+     ],
+     "gaps": [
+      "Lacks direct exposure to core energy transition areas such as carbon capture, renewable energy systems, or industrial decarbonisation."
+     ],
+     "level": 2,
+     "rationale": "The candidate's senior project focuses on biodegradable plastics, demonstrating active academic involvement in clean technology and sustainable materials."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Design of a small distillation column for an ethanol–water mixture (team of 4, Separation Processes course): sized trays and wrote the design report.",
+      "Treasurer, Faculty of Engineering Photography Club (2024) — kept accounts for club events."
+     ],
+     "gaps": [
+      "Lacks evidence of leading cross-functional engineering teams or managing complex stakeholder coordination under tight deadlines."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented experience collaborating in a team-based engineering design project and holding a formal committee role as a club treasurer."
+    }
+   ],
+   "summary": "The candidate's main strengths include practical QC laboratory experience in a polymer setting, academic teamwork on a design project, and a senior project focused on sustainable biodegradable plastics. However, key gaps remain in their exposure to core process engineering design, structured safety frameworks like HAZOP, and the practical application of digital simulation tools.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "1858b19ea9164085": {
+  "created_at": "2026-10-05T05:07:39.306298+00:00",
+  "latency_s": 453.0,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Updated preventive maintenance schedules for 6 stamping presses in the maintenance system.",
+      "Helped analyse breakdown records on one press line"
+     ],
+     "gaps": [
+      "Lack of substantial technical contributions or measurable outcomes beyond 'slightly' reducing stoppages."
+     ],
+     "level": 2,
+     "rationale": "The candidate has clear evidence of an engineering internship with specific assigned maintenance duties in an industrial setting."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Solar dryer prototype for agricultural products — built a small solar dryer with a team of 3 and measured drying time for bananas."
+     ],
+     "gaps": [
+      "Missing details on engineering analysis, rigorous modelling, or validated results to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined capstone project with a concrete deliverable (prototype) and a basic measurement methodology."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "SolidWorks, AutoCAD, Excel"
+     ],
+     "gaps": [
+      "No evidence of using these tools for modelling systems or processing operational data."
+     ],
+     "level": 1,
+     "rationale": "Digital tools are listed as standalone keywords without a specific example of how they were applied to solve an engineering challenge."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Attended the factory safety induction and followed lock-out rules during press maintenance."
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or authoring safety documentation."
+     ],
+     "level": 2,
+     "rationale": "The candidate provides evidence of working within a structured safety framework (lock-out rules) during an industrial internship."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Solar dryer prototype for agricultural products — built a small solar dryer with a team of 3"
+     ],
+     "gaps": [
+      "No evidence of advanced emissions modelling or significant contributions to energy transition challenges."
+     ],
+     "level": 2,
+     "rationale": "The candidate participated in a project addressing clean technology (solar energy) for agricultural use."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "built a small solar dryer with a team of 3",
+      "Member, Faculty of Engineering Student Volunteer Camp (2023)",
+      "Team member in a class design project on a pump system"
+     ],
+     "gaps": [
+      "No evidence of leadership roles or coordinating stakeholders to deliver complex objectives."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented roles in multi-disciplinary team projects and student volunteer activities."
+    }
+   ],
+   "summary": "The candidate demonstrates practical maintenance experience and a basic application of renewable energy in a capstone project. However, they lack evidence of advanced digital tool application and leadership experience.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "2130e02842bb7d87": {
+  "created_at": "2026-10-05T05:04:55.325023+00:00",
+  "latency_s": 16.11,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Rotating Equipment Intern — Eastern Gas Processing Co., Ltd. (Jun–Aug 2025)",
+      "Collected and analysed vibration data on 8 centrifugal and reciprocating compressors with the reliability engineer; wrote short condition reports for each."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate is an intern at a gas processing plant with specific technical contributions, troubleshooting,- and measurable outcomes (flagging a bearing wear issue)."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Senior project: \"Predictive maintenance of centrifugal pumps using vibration features and machine learning\" — built a test rig with an accelerometer and trained a classifier that detected misalignment with 92% accuracy on test data."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate's senior project involves rigorous testing with a physical test rig and machine learning to achieve a validated result (92% accuracy)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Wrote a Python script to trend bearing temperatures from 18 months of plant historian exports; it flagged a steady rise on a sales-gas compressor bearing",
+      "Python (pandas, scikit-learn)"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "Demonstrates advanced implementation of digital tools (Python/pandas/scikit-learn) to automate data analysis and identify a mechanical issue."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Completed working-at-height training and H2S awareness training; worked under permit in the compressor house.",
+      "Certificates: Working at Height (2025), H2S Awareness (2025)"
+     ],
+     "gaps": [],
+     "level": 2,
+     "rationale": "Evidence of working within structured safety frameworks (permits and specific training) in an industrial setting."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of interest in energy transition or decarbonisation technologies."
+     ],
+     "level": 0,
+     "rationale": "No evidence of interest or involvement in decarbonisation, renewables, or low-carbon energy solutions."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Presented internship results to the maintenance manager and team (about 15 people).",
+      "Peer mentor, Faculty of Engineering first-year mentoring programme (2023–2025): mentored 6 first-year students in mechanics and study planning each year."
+     ],
+     "gaps": [],
+     "level": 2,
+     "rationale": "Documented role in multi-disciplinary/student groups, including delivering technical presentations and mentoring students."
+    }
+   ],
+   "summary": "The candidate is a mechanical engineer with strong hands-on rotating equipment experience in a gas processing plant and strong digital/data-driven engineering skills. They have a strong senior project involving machine learning machine learning and predictive maintenance. Gaps in energy transition alignment and explicitకి/sustainability-focused projects/interest.side. }",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "248dfe1501b3d3b6": {
+  "created_at": "2026-10-05T05:17:40.540415+00:00",
+  "latency_s": 59.1,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Quality Control Intern - Eastern Seafood Processing Co., Ltd.",
+      "Performed HACCP critical control point checks on the canning line (temperature, seal integrity)",
+      "Recorded yield data for the tuna pre-cooking step and suggested adjusting the steam cycle"
+     ],
+     "gaps": [
+      "Lack of experience in high-hazard industrial environments like refineries or offshore sites."
+     ],
+     "level": 2,
+     "rationale": "The candidate has clear evidence of an engineering internship in a food processing plant with specific operational duties and a small process improvement suggestion."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Plant design project: biodiesel production from used cooking oil, modelled in Aspen Plus (team of 4, responsible for the reactor section)"
+     ],
+     "gaps": [
+      "No mention of a final senior thesis or rigorous physical testing/validation of results."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined plant design project with a specific focus (reactor section) and a clear deliverable (biodiesel production)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Plant design project: biodiesel production from used cooking oil, modelled in Aspen Plus",
+      "Recorded yield data for the tuna pre-cooking step and suggested adjusting the steam cycle"
+     ],
+     "gaps": [
+      "No evidence of advanced implementation like automated pipelines or complex optimization models."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied Aspen Plus for modelling in a project and used data recording to suggest a process adjustment during an internship."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Performed HACCP critical control point checks on the canning line",
+      "Followed GMP and food safety rules in the plant"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or experience with high-hazard process safety (e.g., HAZOP)."
+     ],
+     "level": 2,
+     "rationale": "The candidate has evidence of working within structured safety and quality frameworks (HACCP and GMP) during an industrial internship."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Plant design project: biodiesel production from used cooking oil",
+      "Lab project: viscosity of palm biodiesel blends"
+     ],
+     "gaps": [
+      "No evidence of publications or significant professional contributions to the energy transition."
+     ],
+     "level": 2,
+     "rationale": "The candidate has actively participated in academic projects specifically addressing biofuels and renewable energy."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Head of student volunteer camp, organised a 5-day school-building camp for 40 students (2024)",
+      "Plant design project: biodiesel production from used cooking oil, modelled in Aspen Plus (team of 4, responsible for the reactor section)"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrated proven leadership by organizing a large-scale volunteer camp and collaborated in a multi-disciplinary plant design team."
+    }
+   ],
+   "summary": "The candidate shows strong leadership skills and practical experience in quality control and biofuel project modelling. Gaps include a lack of experience in high-hazard industrial environments and advanced digital engineering implementation.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "2fa23954f3e05f28": {
+  "created_at": "2026-10-05T05:25:31.512992+00:00",
+  "latency_s": 249.42,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of internships or projects in plants, offshore sites, or technical engineering co-op placements."
+     ],
+     "level": 0,
+     "rationale": "The candidate's experience is in web development for e-commerce, which does not constitute practical engineering exposure in operational, industrial, or project environments as defined."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Senior project: recommendation engine for an online bookstore (Python, collaborative filtering)"
+     ],
+     "gaps": [
+      "Missing description of problem formulation, engineering methodology, and concrete deliverables."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists a senior project title and tools used, but does not describe the methodology, personal contribution, or engineering analysis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built product listing and checkout components in React and TypeScript",
+      "Wrote Node.js API endpoints for order history",
+      "recommendation engine for an online bookstore (Python, collaborative filtering)"
+     ],
+     "gaps": [
+      "No evidence of advanced implementation like automated data pipelines or process optimization models leading to quantifiable efficiency gains."
+     ],
+     "level": 2,
+     "rationale": "The candidate applies programming languages and digital tools (Python, React, Node.js) to build functional software components and a recommendation engine."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of safety certifications or experience working within safety frameworks."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of interest or projects related to energy transition or sustainability."
+     ],
+     "level": 0,
+     "rationale": "The CV contains no mention of decarbonisation, renewable energy, or low-carbon technologies."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Mentor, Faculty of Engineering Coding Bootcamp for first-year students (2024)",
+      "Built the registration website for the faculty sports day"
+     ],
+     "gaps": [
+      "No evidence of leading cross-functional engineering teams or coordinating complex stakeholders under deadlines."
+     ],
+     "level": 2,
+     "rationale": "The candidate has served as a mentor for first-year students and contributed to a faculty-wide event, demonstrating leadership and collaboration."
+    }
+   ],
+   "summary": "The candidate demonstrates strong software development skills and experience in digital tools and mentorship. However, they lack any evidence of practical industrial engineering exposure, process safety knowledge, or alignment with energy transition goals.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "3285ad92249283cf": {
+  "created_at": "2026-10-05T05:34:58.543859+00:00",
+  "latency_s": 384.59,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Spent 4 weeks on site at the plant working with mechanical and operations engineers to validate alerts",
+      "Experience with real gas-turbine data and on-site work in a power plant."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has substantial industrial experience at a combined-cycle power plant, working directly with operational engineers to validate technical alerts with a measurable outcome (reducing false alarms)."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Digital twin of a heat-recovery steam generator (HRSG)",
+      "Built a physics-informed model in Python that estimates steam output from gas-turbine exhaust conditions, with error under 3% against plant data"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The senior project involves rigorous modelling (physics-informed) and validation against real plant data with a specific accuracy metric (error under 3%)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built an anomaly-detection model (isolation forest + rolling statistics in Python) on 2 years of 1-minute gas-turbine sensor data",
+      "The model flagged an abnormal exhaust temperature spread on one turbine 3 weeks before a scheduled inspection"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate implemented an advanced anomaly detection pipeline using real-world sensor data that led to a quantifiable outcome (identifying a damaged component before inspection)."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Completed plant safety induction, permit-to-work awareness and PPE training before field visits"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or authoring safety documentation."
+     ],
+     "level": 2,
+     "rationale": "The candidate has evidence of working within structured safety frameworks, including permit-to-work awareness and safety induction for industrial site visits."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of interest or projects related to energy transition or low-carbon technologies."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of decarbonisation, renewable energy, hydrogen, or carbon capture in the CV."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Lead, [GENDER TERM] in Engineering Club, Faculty of Engineering (2024-2025)",
+      "Ran a mentoring programme pairing 40 first-year students with senior students",
+      "Presented results to the plant manager and the head office digital team"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrates proven leadership by running a large-scale mentoring programme and communicating technical results to senior management."
+    }
+   ],
+   "summary": "The candidate shows exceptional strength in digital engineering, data analytics, and practical plant experience, with a high-impact senior project. However, there is no evidence of commitment or knowledge regarding energy transition and decarbonisation.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "3e7808c1f6f9d801": {
+  "created_at": "2026-10-05T04:37:11.317193+00:00",
+  "latency_s": 63.36,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Exposed to plant operations and process safety culture.",
+      "Participated in various engineering activities and meetings."
+     ],
+     "gaps": [
+      "Specific technical contributions, operational duties, or measurable outcomes from the internship."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions an internship but the tasks are vague ('exposed to', 'participated in') without specific technical responsibilities."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Hydrogen project: explored the future of green hydrogen.",
+      "Carbon capture: course project related to CCUS concepts."
+     ],
+     "gaps": [
+      "Detailed problem formulation, engineering methodology, and concrete deliverables for the projects."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists project titles but does not describe the methodology, personal contribution, or engineering analysis performed."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "AI / Machine Learning · Digital Twin · Industry 4.0 · Aspen HYSYS · Aspen Plus · Python · MATLAB · Power BI"
+     ],
+     "gaps": [
+      "Concrete examples of how these tools were used to model systems or solve engineering challenges."
+     ],
+     "level": 1,
+     "rationale": "Digital tools and programming languages are listed as standalone keywords in the competencies section without examples of application."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Strong process safety mindset",
+      "Process Safety Management · HAZOP",
+      "Exposed to plant operations and process safety culture."
+     ],
+     "gaps": [
+      "Evidence of conducting hazard assessments, participating in HAZOP studies, or applying safety protocols in a real-world setting."
+     ],
+     "level": 1,
+     "rationale": "The candidate claims a safety mindset and lists HAZOP, but provides no practical context or evidence of working within a safety framework."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Member, Faculty of Engineering Sustainability Club",
+      "Participant, several webinars on net zero and energy transition",
+      "Hydrogen project: explored the future of green hydrogen."
+     ],
+     "gaps": [
+      "A significant project or publication with validated results or a specific technical contribution to decarbonisation."
+     ],
+     "level": 2,
+     "rationale": "The candidate shows active participation through a sustainability club, webinars, and a specific project on green hydrogen."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "natural team player",
+      "AI for process optimisation: team project."
+     ],
+     "gaps": [
+      "Documented leadership roles, coordination of stakeholders, or evidence of delivering technical presentations."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions being a team player and participating in a team project, but lacks details on their specific role or achievements."
+    }
+   ],
+   "summary": "The candidate demonstrates a strong interest in energy transition and sustainability through club membership and targeted projects. However, most technical and professional claims are listed as keywords or vague activities without concrete evidence of application or results.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "40d66096b84ab2fe": {
+  "created_at": "2026-10-05T05:25:10.684902+00:00",
+  "latency_s": 450.14,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "Industrial internship or co-op placement",
+      "Hands-on experience in plants, offshore sites, or engineering labs beyond standard coursework"
+     ],
+     "level": 0,
+     "rationale": "The candidate has a data analytics internship in banking, but no evidence of practical engineering work, internships, or field experience in an industrial setting."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Senior project: Lab-scale membrane separation of CO2/N2 mixtures using polymer membranes; measured permeability at three pressures."
+     ],
+     "gaps": [
+      "Details on the results, validated outcomes, or recommendations derived from the project"
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined senior project with a clear technical focus (membrane separation) and a specific methodology (measuring permeability at three pressures)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built Power BI dashboards on branch transaction volumes for the regional managers",
+      "Cleaned customer survey data in Excel and SQL"
+     ],
+     "gaps": [
+      "Application of digital tools specifically to solve engineering challenges or optimize industrial processes"
+     ],
+     "level": 2,
+     "rationale": "The candidate applied digital tools (Power BI, SQL, Excel) during an internship to process data and create dashboards, although the context was banking rather than engineering."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Evidence of working within safety frameworks or knowledge of process safety/HAZOP"
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Senior project: Lab-scale membrane separation of CO2/N2 mixtures using polymer membranes",
+      "Personal project: Excel model comparing electricity costs of rooftop solar for my family's home"
+     ],
+     "gaps": [
+      "Significant industrial contribution or publication regarding energy transition"
+     ],
+     "level": 2,
+     "rationale": "The candidate has engaged in a project addressing carbon separation (CO2/N2) and a personal project on solar energy, showing active participation in clean technology topics."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "represented the faculty at two inter-university debate tournaments",
+      "MC for faculty events",
+      "Unit operations lab report on distillation column efficiency (team of 5)"
+     ],
+     "gaps": [
+      "Proven leadership roles coordinating stakeholders to deliver complex engineering objectives"
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented experience in multidisciplinary team projects and has delivered presentations/public speaking in competitive and faculty settings."
+    }
+   ],
+   "summary": "The candidate demonstrates strong communication skills and a solid foundation in data analytics and carbon separation research. However, they lack any practical industrial engineering exposure and have no mentioned experience with process safety.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "4417d82ebdd2852b": {
+  "created_at": "2026-10-05T04:36:13.567281+00:00",
+  "latency_s": 36.38,
+  "model": "gemini-3.5-flash",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Engineering Intern, Nakhon Chai Provincial Power Distribution Office (Jun–Jul 2025)",
+      "Joined engineers on routine inspections of 4 substations and filled in inspection checklists.",
+      "Measured voltage at 6 points along one feeder with the engineer and compared the readings to the planning study."
+     ],
+     "gaps": [
+      "Lacks substantial industrial site experience with troubleshooting or quantifiable engineering outcomes."
+     ],
+     "level": 2,
+     "rationale": "The candidate completed a structured two-month engineering internship at a power distribution office, performing specific operational tasks such as substation inspections and feeder voltage measurements."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Smart meter data logger — built a small logger using a microcontroller to record household energy use every 15 minutes and display it on a simple web page."
+     ],
+     "gaps": [
+      "Lacks evidence of rigorous engineering analysis, simulation, or validated results/recommendations."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined senior project with clear deliverables, including building a microcontroller-based logger and displaying energy data on a web page."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Power system load flow study of a 9-bus test system in MATLAB for the Power Systems course.",
+      "Updated single-line diagrams in AutoCAD for two feeders."
+     ],
+     "gaps": [
+      "No evidence of advanced implementation of digital tools, such as automated data pipelines or optimization models, leading to quantifiable efficiency gains."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied MATLAB to model a 9-bus test system in coursework and used AutoCAD to update single-line diagrams during their internship."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Learned basic electrical safety rules for substation work."
+     ],
+     "gaps": [
+      "Lacks evidence of working within structured safety frameworks (e.g., HAZOP, JSA) or demonstrating proactive safety leadership."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions learning basic electrical safety rules during their internship, which represents a basic awareness but lacks practical application within a structured safety framework."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Smart meter data logger — built a small logger using a microcontroller to record household energy use every 15 minutes and display it on a simple web page."
+     ],
+     "gaps": [
+      "Lacks a significant project or work contribution specifically tackling major energy transition challenges like carbon capture, emissions modelling, or renewable integration."
+     ],
+     "level": 2,
+     "rationale": "The candidate's senior project on a smart meter data logger directly addresses energy efficiency and monitoring, aligning with clean technology principles."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Team of 3.",
+      "Volunteer, Faculty of Engineering Open House (2023, 2024): guided high school visitors."
+     ],
+     "gaps": [
+      "Lacks evidence of leadership roles in cross-functional teams or student associations."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented experience working in a team of three for their senior project and communicating with diverse audiences as an Open House volunteer."
+    }
+   ],
+   "summary": "The candidate demonstrates solid foundational electrical engineering skills through a practical power distribution internship and a hands-on smart meter senior project. However, they lack deep exposure to structured process safety frameworks and advanced digital optimization tools.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "4666e1b441df8754": {
+  "created_at": "2026-10-05T05:12:18.280445+00:00",
+  "latency_s": 375.51,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Intern — Southern Basin Oilfield Services Co., Ltd., Bangkok office (Jun–Jul 2025)"
+     ],
+     "gaps": [
+      "Evidence of technical engineering tasks, troubleshooting, or operational duties during the internship."
+     ],
+     "level": 1,
+     "rationale": "The candidate completed an internship, but the tasks described (data entry, document control) are administrative rather than technical engineering responsibilities."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Production forecasting with decline-curve analysis in Excel for 10 synthetic wells."
+     ],
+     "gaps": [
+      "Evidence of rigorous modelling, simulation, or validated results to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a defined senior project with a clear methodology (decline-curve analysis) and a concrete deliverable (production forecasting)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Production forecasting with decline-curve analysis in Excel for 10 synthetic wells.",
+      "Excel, Petrel (class level), MATLAB"
+     ],
+     "gaps": [
+      "Evidence of advanced implementation or quantifiable efficiency gains using digital tools."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied Excel for a specific engineering analysis (production forecasting) within their senior project."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Any mention of safety certifications, HAZOP, or working within safety frameworks."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Coursework, projects, or interests related to energy transition or emissions reduction."
+     ],
+     "level": 0,
+     "rationale": "The CV does not demonstrate any interest or involvement in decarbonisation, renewables, or low-carbon energy solutions."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Drilling engineering design project: casing design for a vertical onshore well (team of 4).",
+      "Member, Faculty of Engineering International Students Buddy Programme — helped 3 exchange students settle in"
+     ],
+     "gaps": [
+      "Evidence of leadership in coordinating stakeholders or delivering complex group objectives under deadlines."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented experience in a multi-disciplinary team project and a student support role."
+    }
+   ],
+   "summary": "The candidate shows a solid academic foundation in petroleum engineering with a defined senior project and experience in team-based design. However, there is a significant lack of evidence regarding process safety, energy transition commitment, and technical application during their internship.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "536176d5aa7dfa30": {
+  "created_at": "2026-10-05T05:17:31.927139+00:00",
+  "latency_s": 62.13,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Assisted electricians with wiring and conduit installation in a 12-storey condominium",
+      "Checked distribution board labelling against drawings"
+     ],
+     "gaps": [
+      "Lack of evidence regarding troubleshooting or measurable technical outcomes in an industrial or operating site."
+     ],
+     "level": 2,
+     "rationale": "The candidate has clear evidence of an engineering internship with assigned operational duties in a construction environment."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Designed the power stage and closed-loop controller, simulated in PLECS",
+      "Built a prototype PCB and measured 94% efficiency at full load"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The senior project involved rigorous simulation and physical testing that produced a validated result (94% efficiency)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "simulated in PLECS",
+      "MATLAB, PLECS, Altium Designer (basic)"
+     ],
+     "gaps": [
+      "No evidence of advanced implementation such as automated pipelines or optimization models leading to quantifiable efficiency gains."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied digital tools (PLECS) within their senior project to model a system."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Attended the contractor's site safety briefing"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or authoring safety procedures."
+     ],
+     "level": 2,
+     "rationale": "The candidate shows evidence of working within a structured safety framework by attending site safety briefings during an internship."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Complete lack of evidence regarding interest or projects related to energy transition."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of decarbonisation, renewable energy, or low-carbon technologies in the CV."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Wrote the final report and presented to the project committee"
+     ],
+     "gaps": [
+      "No evidence of leadership roles in cross-functional teams or coordinating stakeholders."
+     ],
+     "level": 2,
+     "rationale": "The candidate delivered a technical presentation to a committee as part of their senior project."
+    }
+   ],
+   "summary": "The candidate demonstrates strong technical foundations through a successful senior design project with validated results and practical internship experience. However, there is no evidence of commitment to energy transition or leadership in team environments.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "588a98185246b3e1": {
+  "created_at": "2026-10-05T05:26:07.933706+00:00",
+  "latency_s": 36.42,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "Evidence of any industrial placement or practical engineering work"
+     ],
+     "level": 0,
+     "rationale": "The CV provides no evidence of internships, co-op placements, or hands-on field/laboratory experience."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Class project on a simple gearbox design"
+     ],
+     "gaps": [
+      "Details on the gearbox design methodology, deliverables, or technical outcomes"
+     ],
+     "level": 1,
+     "rationale": "The candidate lists a class project but does not describe the methodology, personal contribution, or any engineering analysis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Microsoft Office"
+     ],
+     "gaps": [
+      "Experience with engineering-specific digital tools like MATLAB, Python, or CAD software"
+     ],
+     "level": 1,
+     "rationale": "Only general office software is listed; there is no mention of programming, simulation tools, or data-driven engineering applications."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Any evidence of safety training or awareness of risk management"
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Interest or academic work related to energy transition or low-carbon technologies"
+     ],
+     "level": 0,
+     "rationale": "The CV contains no mention of decarbonisation, renewable energy, or sustainability."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Organised two charity concerts on campus, sold 300 tickets",
+      "Member of the faculty music club committee"
+     ],
+     "gaps": [
+      "Evidence of collaboration within a multidisciplinary engineering team or technical communication"
+     ],
+     "level": 2,
+     "rationale": "The candidate demonstrates leadership and coordination skills through organising events and serving on a student committee."
+    }
+   ],
+   "summary": "The candidate shows strong extracurricular leadership and event organisation skills. However, there is a significant lack of technical evidence, practical engineering experience, and awareness of safety or energy transition.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "6103cadca1dcd10f": {
+  "created_at": "2026-10-05T05:30:11.109268+00:00",
+  "latency_s": 243.17,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of engineering internships, co-op programmes, or hands-on laboratory/field experience in an industrial context."
+     ],
+     "level": 0,
+     "rationale": "The candidate's experience as a phone repair shop helper is not an engineering internship, co-op, or industrial placement."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [],
+     "gaps": [
+      "Missing information on senior design projects, capstone, or specific technical academic achievements."
+     ],
+     "level": 0,
+     "rationale": "The CV provides no details regarding a senior capstone project, technical coursework, or an engineering thesis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Microsoft Office"
+     ],
+     "gaps": [
+      "No evidence of programming languages, process simulation software, or data-driven engineering analysis."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists Microsoft Office as a skill, but provides no example of applying digital tools to solve engineering challenges."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of safety certifications, hazard assessments, or awareness of process safety."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No mention of renewable energy, emissions reduction, or related coursework/projects."
+     ],
+     "level": 0,
+     "rationale": "The CV does not demonstrate any interest or initiative toward low-carbon technologies or decarbonisation."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Joined faculty sports day",
+      "Helped at a temple fair"
+     ],
+     "gaps": [
+      "No evidence of leadership roles, multi-disciplinary team projects, or technical presentations."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions participation in group activities, but these are not professional or technical team projects and lack defined roles or achievements."
+    }
+   ],
+   "summary": "The candidate possesses basic electronics knowledge and some experience in a non-engineering repair setting. There is a complete lack of evidence regarding technical capstone projects, industrial engineering exposure, safety mindset, and energy transition alignment.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "61cb3ada5d78a288": {
+  "created_at": "2026-10-05T04:36:28.809907+00:00",
+  "latency_s": 23.89,
+  "model": "gemini-3.5-flash",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Cooperative Education Student (full-time, 6 months) — Isan Agro-Energy Co., Ltd., sugar mill and fuel ethanol plant (Nov 2024 – Apr 2025)",
+      "Boiler house: tuned excess-air settings on two bagasse-fired boilers using flue-gas O2 readings; reduced bagasse fuel consumption by about 8% over 10 weeks"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate completed a substantial six-month full-time co-op at an operating industrial plant, delivering a measurable 8% reduction in bagasse fuel consumption through boiler tuning."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "National Student Plant Design Competition 2025 — 2nd Place",
+      "Led a team of 4 to design a biogas upgrading plant for a cassava starch factory, including mass and energy balance, equipment sizing and economics."
+     ],
+     "gaps": [
+      "No formal university senior capstone project or academic thesis is detailed in the CV."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined plant design project from a national competition with clear engineering methodologies and concrete deliverables."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built Excel VBA sheets and a basic Python script to summarise daily plant data for the shift report."
+     ],
+     "gaps": [
+      "No evidence of advanced digital applications such as automated data pipelines, process optimization models, or process simulation software (e.g., Aspen HYSYS)."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied digital tools (Excel VBA and Python) during their internship to process and summarize daily operational plant data."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Ethanol distillation: wrote the start-up standard operating procedure (SOP) for the beer column after a turnaround; it was used by operators for the next two start-ups.",
+      "Member of the plant safety committee for the placement period; joined weekly safety walks and helped close 14 housekeeping and guarding findings."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrated proactive safety leadership by authoring an operational start-up SOP and actively participating in a plant safety committee to resolve hazards."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Led a team of 4 to design a biogas upgrading plant for a cassava starch factory, including mass and energy balance, equipment sizing and economics.",
+      "Boiler house: tuned excess-air settings on two bagasse-fired boilers using flue-gas O2 readings; reduced bagasse fuel consumption by about 8% over 10 weeks"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has made significant contributions to energy transition through a biogas design project and hands-on biomass boiler optimization to reduce fuel consumption."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Led a team of 4 to design a biogas upgrading plant for a cassava starch factory, including mass and energy balance, equipment sizing and economics."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrated strong leadership by coordinating a team of four to achieve second place in a national engineering design competition."
+    }
+   ],
+   "summary": "The candidate demonstrates exceptional practical engineering exposure and safety leadership through a six-month plant co-op where they optimized biomass boilers and authored standard operating procedures. The main gaps are the lack of a formal university capstone project and limited exposure to advanced digital modeling or simulation tools.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "66b2faab768dc516": {
+  "created_at": "2026-10-05T05:20:13.749713+00:00",
+  "latency_s": 41.76,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "Industrial internships",
+      "Co-op placements",
+      "Field or laboratory engineering experience"
+     ],
+     "level": 0,
+     "rationale": "The CV provides no evidence of internships, co-op placements, or hands-on engineering field experience."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [],
+     "gaps": [
+      "Capstone project description",
+      "Engineering thesis",
+      "Details of core engineering academic achievements"
+     ],
+     "level": 0,
+     "rationale": "There is no mention of a senior capstone project, engineering thesis, or specific technical coursework details."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Simple website for a local cafe (HTML, CSS)",
+      "HTML, CSS, Photoshop, Microsoft Office"
+     ],
+     "gaps": [
+      "Application of programming languages (e.g., Python, MATLAB) to engineering problems",
+      "Use of process simulation or data analytics tools"
+     ],
+     "level": 1,
+     "rationale": "The candidate lists digital tools and a basic project, but these are web design skills rather than engineering-specific computational methods or process simulation."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Safety certifications",
+      "Knowledge of HAZOP or JSA",
+      "Experience with safety frameworks"
+     ],
+     "level": 0,
+     "rationale": "The CV contains no mention of safety principles, hazard identification, or operational compliance."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Coursework in clean energy",
+      "Projects related to emissions reduction",
+      "Interest in low-carbon technologies"
+     ],
+     "level": 0,
+     "rationale": "There is no evidence of interest or activity related to decarbonisation, renewables, or energy transition."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "E-sports club member, joined university gaming tournaments"
+     ],
+     "gaps": [
+      "Leadership roles in student organizations",
+      "Experience in multi-disciplinary engineering teams",
+      "Technical presentations"
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions participation in a club and tournaments, but provides no evidence of leadership roles or professional technical communication."
+    }
+   ],
+   "summary": "The candidate possesses basic web design skills and participation in university extracurriculars. There is a complete lack of evidence regarding practical engineering experience, capstone projects, safety awareness, or alignment with energy transition goals.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "70433015ebcc5837": {
+  "created_at": "2026-10-05T05:13:05.074764+00:00",
+  "latency_s": 17.19,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Assisted the mechanical crew on a major overhaul of a 2-stage reciprocating gas compressor: measured valve and piston-ring clearances, recorded findings and checked torque values against the manual."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has substantial industrial experience with gas-pipeline compressor stations, performing specific technical tasks like measuring clearances and checking torque."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [],
+     "gaps": [
+      "Senior design project or thesis details are missing."
+     ],
+     "level": 0,
+     "rationale": "No details provided on a senior capstone project, technical coursework, or engineering thesis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built a low-cost vibration sensor (Arduino + accelerometer, Python for analysis) for spot checks on auxiliary pumps; the contractor still uses 2 units for routine rounds."
+     ],
+     "gaps": [
+      "Python skills are listed as 'basic' in the skills section, but the application is clear."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied digital tools (Arduino and Python) to solve an engineering problem, creating a tool that is still in use."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Worked under permit-to-work every day; reported a near-miss (an unsecured hose on a pressurised line) and received the station's monthly safety award."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "Demonstrated proactive safety leadership by reporting a near-miss and being recognized with a safety award in an industrial setting."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of interest in energy transition or decarbonisation."
+     ],
+     "level": 0,
+     "rationale": "No demonstration of interest in decarbonisation, emissions reduction, or low-carbon energy solutions."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "became the informal lead for maintenance and trained 2 new workers.",
+      "Student maintenance innovation contest 2024 — finalist with the low-cost vibration sensor (team of 2)."
+     ],
+     "gaps": [],
+     "level": 2,
+     "rationale": "Documented role in a multi-disciplinary or small team project and leadership in a maintenance setting."
+    }
+   ],
+   "summary": "The candidate is strong in practical field engineering and process safety mindset, with hands-on hands-on experience with compressors and safety awards. Gaps include a lack of of a formal senior capstone project description and no evidence of ability to use digital tools for advanced analytics or energy transition alignment.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "751dbbd701753296": {
+  "created_at": "2026-10-05T05:04:27.533535+00:00",
+  "latency_s": 210.83,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Engineering Intern — Lanna MEP Consultants Co., Ltd. (May–Jul 2025)",
+      "Performed cooling load calculations for a new hospital wing using spreadsheet methods.",
+      "Joined two site visits with the senior engineer."
+     ],
+     "gaps": [
+      "Lack of evidence regarding troubleshooting or measurable outcomes in an industrial/operating site setting to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate completed an engineering internship with specific tasks like cooling load calculations and duct layout preparation, matching level 2."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Performance testing of an evaporative cooling pad for poultry houses.",
+      "Measured temperature drop and water use over 3 weeks at a university farm and wrote the report with 2 teammates."
+     ],
+     "gaps": [
+      "No evidence of rigorous modelling, simulation, or validated results that would elevate the project to level 3."
+     ],
+     "level": 2,
+     "rationale": "The senior project has a clear problem (performance testing), a methodology (measuring temperature and water use), and a concrete deliverable (report), aligning with level 2."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "modelled suspension parts in SolidWorks",
+      "prepared duct layout drafts in AutoCAD",
+      "Performed cooling load calculations for a new hospital wing using spreadsheet methods."
+     ],
+     "gaps": [
+      "No evidence of advanced implementation such as automated pipelines or optimization models for level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate applies digital tools (SolidWorks, AutoCAD, Excel) within an internship and student team to model systems and perform calculations, matching level 2."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Complete lack of evidence regarding safety frameworks, certifications, or risk management."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No mention of sustainability, energy efficiency electives, or clean technology projects."
+     ],
+     "level": 0,
+     "rationale": "The CV does not demonstrate any interest or projects related to decarbonisation, renewables, or low-carbon energy."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Faculty of Engineering Student Formula Team (2023–2025)",
+      "wrote the report with 2 teammates."
+     ],
+     "gaps": [
+      "No evidence of leadership roles, coordinating stakeholders, or delivering technical presentations to diverse audiences for level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented roles in a multi-disciplinary student team (Formula Team) and collaborated on a senior project report, matching level 2."
+    }
+   ],
+   "summary": "The candidate shows solid foundational skills in mechanical engineering through a relevant MEP internship, a technical senior project, and participation in a student formula team. However, there is no evidence of a safety mindset or commitment to energy transition and decarbonisation.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "76d754ade430afce": {
+  "created_at": "2026-10-05T05:21:01.118855+00:00",
+  "latency_s": 209.19,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Production Engineering Intern - Phitsanulok Basin Oil Co., Ltd. (onshore oilfield)",
+      "Analysed artificial-lift performance of 12 rod-pumped and ESP wells using dynamometer cards, fluid levels and production tests",
+      "2 changes were implemented during the internship and raised combined oil output by about 45 barrels per day"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has substantial industrial experience at an onshore oilfield with specific technical contributions (pump-size/stroke-speed changes) and a measurable outcome (45 barrels per day increase)."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Screening of candidate reservoirs for CO2-enhanced oil recovery and storage",
+      "Built a screening matrix in Python using published reservoir data, ranking fields by miscibility, depth and storage potential",
+      "Estimated CO2 storage capacity for the top three candidates"
+     ],
+     "gaps": [
+      "Lack of evidence regarding rigorous modelling, simulation, or physical testing to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined senior project with a clear methodology (screening matrix) and concrete deliverables (storage capacity estimates)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built a screening matrix in Python using published reservoir data, ranking fields by miscibility, depth and storage potential",
+      "Software: Python, Excel, Petrel (basic)"
+     ],
+     "gaps": [
+      "No evidence of advanced implementation like automated pipelines or digital twins for quantifiable efficiency gains."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied Python to process reservoir data and rank fields within their senior project, moving beyond simple keyword listing."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Joined morning operations calls and daily toolbox talks; completed H2S awareness, basic fire-fighting and first-aid training",
+      "Safety: H2S awareness, fire-fighting, first aid"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership, such as authoring SOPs or conducting audits."
+     ],
+     "level": 2,
+     "rationale": "The candidate has evidence of working within structured safety frameworks, including daily toolbox talks and specific safety certifications during an industrial internship."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Screening of candidate reservoirs for CO2-enhanced oil recovery and storage",
+      "Estimated CO2 storage capacity for the top three candidates"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate's senior project specifically tackles a key energy transition challenge (carbon capture and storage/CO2-EOR) with a technical contribution."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "President, Society of Petroleum Engineers Student Chapter at the university (2024-2025)",
+      "Grew membership from 45 to 90 students; organised 3 industry talks and a well-control simulator workshop"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrated proven leadership as President of a student association, successfully coordinating stakeholders and delivering measurable growth and events."
+    }
+   ],
+   "summary": "The candidate shows strong practical field experience with measurable production gains and proven leadership as a student chapter president. Their technical foundation is solid, particularly in energy transition through a CO2 storage project.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "80114d0569ce4339": {
+  "created_at": "2026-10-05T04:36:04.922036+00:00",
+  "latency_s": 27.73,
+  "model": "gemini-3.6-flash",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "No documented engineering internship, co-op, or practical technical work experience."
+     ],
+     "level": 0,
+     "rationale": "There is no evidence of practical engineering work, internships, co-op placements, or hands-on laboratory/field experience provided in the CV."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Design of a small conveyor system"
+     ],
+     "gaps": [
+      "Lack of information on problem formulation, engineering analysis, calculations, or tangible deliverables for the capstone project."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists a senior project title without describing the methodology, personal contribution, or engineering analysis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "AutoCAD, Microsoft Office"
+     ],
+     "gaps": [
+      "No evidence showing how digital or software tools were applied to solve engineering challenges or model systems."
+     ],
+     "level": 1,
+     "rationale": "Digital tools are listed as standalone keywords without any description or example of engineering application."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "No coursework, certifications, or practical exposure to safety management and risk assessment frameworks."
+     ],
+     "level": 0,
+     "rationale": "The CV contains no mention or demonstration of process safety, hazard identification, or operational compliance."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Missing evidence of engagement or interest in clean technology, renewable energy, or carbon reduction initiative."
+     ],
+     "level": 0,
+     "rationale": "No coursework, projects, or extracurricular involvement related to energy transition or decarbonisation are mentioned."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of cross-functional team participation, leadership, or technical presentation experience."
+     ],
+     "level": 0,
+     "rationale": "There is no documented evidence of engineering team collaboration, leadership roles, student committee work, or technical presentations."
+    }
+   ],
+   "summary": "The candidate presents basic mechanical engineering studies, including a senior project on conveyor design and standalone software skills. However, the CV lacks practical engineering experience, safety context, energy transition alignment, and details regarding capstone methodology or team collaboration.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "824953f3fc025bcb": {
+  "created_at": "2026-10-05T05:34:54.942622+00:00",
+  "latency_s": 381.0,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Northern Biomass Power Co., Ltd. (small biomass power plant), June - July 2025",
+      "Recorded hourly boiler and turbine readings and entered them into Excel"
+     ],
+     "gaps": [
+      "Evidence of technical contributions, troubleshooting, or application of engineering principles during the internship."
+     ],
+     "level": 1,
+     "rationale": "The candidate completed an internship at a power plant, but the tasks described (recording readings) are basic and lack technical engineering responsibility or depth."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Gasification of corn cobs in a lab-scale downdraft gasifier",
+      "Measured producer gas composition at two air-flow settings",
+      "Compared gas heating value with literature values"
+     ],
+     "gaps": [
+      "Evidence of rigorous modelling, simulation, or validated recommendations to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The senior project has a clear problem formulation (gasification of corn cobs) and a defined methodology involving measurement and comparison with literature."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Recorded hourly boiler and turbine readings and entered them into Excel",
+      "Excel, MATLAB (basic), AutoCAD"
+     ],
+     "gaps": [
+      "Examples of using MATLAB or AutoCAD for specific engineering problem solving or advanced analytics."
+     ],
+     "level": 2,
+     "rationale": "The candidate used Excel to process operational data during an internship and lists other engineering tools, fitting the application of tools to process data."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Joined the plant safety induction and a fire drill"
+     ],
+     "gaps": [
+      "Evidence of hazard identification, risk assessment, or active adoption of safety systems."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions participating in basic safety activities (induction and drill), but there is no evidence of working within a structured safety framework or hazard assessment."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Bachelor of Engineering - Energy Engineering",
+      "Gasification of corn cobs in a lab-scale downdraft gasifier",
+      "Group report on solar PV feasibility for a small community hospital"
+     ],
+     "gaps": [
+      "A significant project or publication with quantifiable impact on energy transition challenges."
+     ],
+     "level": 2,
+     "rationale": "The candidate's degree, senior project on biomass, and a project on solar PV demonstrate active academic engagement with low-carbon energy solutions."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Hiking Club, Faculty of Engineering - trip organiser",
+      "Group report on solar PV feasibility for a small community hospital"
+     ],
+     "gaps": [
+      "Evidence of leadership in cross-functional engineering teams or delivering technical presentations to diverse audiences."
+     ],
+     "level": 2,
+     "rationale": "The candidate has experience as a trip organiser for a club and collaborated on a group technical report, showing evidence of coordination and teamwork."
+    }
+   ],
+   "summary": "The candidate shows a solid academic foundation in energy engineering with practical projects in biomass and solar PV. However, their industrial experience is limited to basic data recording and they lack evidence of proactive safety leadership or advanced digital tool application.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "84440c07c02a5607": {
+  "created_at": "2026-10-05T05:13:50.121633+00:00",
+  "latency_s": 62.24,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Modified ladder logic for a conveyor section to add a jam-detection stop, tested with the maintenance team during a line stop.",
+      "Updated I/O lists and labelled panel wiring."
+     ],
+     "gaps": [
+      "Lack of long-term industrial experience or evidence of troubleshooting complex systems in a high-hazard environment."
+     ],
+     "level": 2,
+     "rationale": "The candidate has clear evidence of an engineering internship with specific operational and maintenance duties such as modifying PLC logic and updating I/O lists."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "PID tuning of a water-tank level control rig — compared Ziegler–Nichols and manual tuning and reduced overshoot in lab tests."
+     ],
+     "gaps": [
+      "No evidence of rigorous modelling or simulation to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate presents a well-defined senior project with a clear methodology (comparing tuning methods) and a concrete deliverable (reduced overshoot)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Modified ladder logic for a conveyor section to add a jam-detection stop",
+      "MATLAB/Simulink, LabVIEW (basic), Excel"
+     ],
+     "gaps": [
+      "No evidence of advanced implementation like automated pipelines or process optimization models."
+     ],
+     "level": 2,
+     "rationale": "The candidate applies digital tools (PLC ladder logic) in an internship to solve a specific operational problem and lists other analytical software."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of safety certifications, HAZOP knowledge, or working within safety frameworks."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No mention of sustainability, energy efficiency, or clean technology projects."
+     ],
+     "level": 0,
+     "rationale": "The CV does not demonstrate any interest or involvement in decarbonisation, renewables, or low-carbon energy solutions."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Member, Faculty of Engineering Robotics Club (2023–2025) — built line-following robots for an internal competition.",
+      "Team reached the quarter-final in 2024."
+     ],
+     "gaps": [
+      "No evidence of leadership roles or coordinating stakeholders to reach level 3."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented participation in a multi-disciplinary student club and collaborated in a team to achieve a competition result."
+    }
+   ],
+   "summary": "The candidate shows solid practical skills in PLC programming and control systems through an internship and a technical senior project. However, there is no evidence of a safety mindset or commitment to the energy transition.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "8e6303ad8684cb0b": {
+  "created_at": "2026-10-05T05:20:50.983597+00:00",
+  "latency_s": 420.86,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Instrument Engineering Intern, Rayong Aromatics Co., Ltd. (petrochemical complex)",
+      "Calibrated 35 pressure and differential-pressure transmitters under supervision",
+      "Followed hot-work and gas-test procedures when working in the field"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has substantial industrial experience in a petrochemical complex, performing specific technical tasks like transmitter calibration and following field procedures."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Model predictive control (MPC) of a pilot-scale heated tank, implemented in Python and compared against PID tuning",
+      "MPC reduced temperature overshoot by about 40% on the rig"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The senior project involves rigorous modelling and implementation of MPC with validated results (40% reduction in overshoot) on a physical rig."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Wrote a Python tool that parsed 6 months of DCS alarm logs (about 210,000 events) and ranked the top 20 nuisance alarms",
+      "cutting alarm count on the console by roughly 25% in the following month"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate implemented an automated data tool to analyze a large dataset, leading to a quantifiable efficiency gain in alarm management."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Attended training on safety instrumented systems (SIS) basics, SIL concepts and permit-to-work",
+      "Followed hot-work and gas-test procedures when working in the field"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or authoring safety documentation."
+     ],
+     "level": 2,
+     "rationale": "The candidate has worked within structured safety frameworks, including permit-to-work and gas-test procedures during an industrial internship."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Lack of evidence regarding interest or projects related to energy transition."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of decarbonisation, renewable energy, or low-carbon technologies in the CV."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Presented recommendations to the instrument supervisor",
+      "Teaching assistant, Process Control Laboratory (2025)",
+      "Member, Faculty of Engineering Robotics Club"
+     ],
+     "gaps": [
+      "No evidence of leading cross-functional teams or coordinating complex group objectives."
+     ],
+     "level": 2,
+     "rationale": "The candidate has delivered technical presentations to a supervisor and held a teaching assistant role, demonstrating communication and collaboration."
+    }
+   ],
+   "summary": "The candidate shows strong technical proficiency in control engineering, data analytics, and practical industrial application with measurable outcomes. However, there is no evidence of commitment to energy transition or leadership in complex team environments.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "9d82b12c97a56b58": {
+  "created_at": "2026-10-05T05:21:22.095026+00:00",
+  "latency_s": 61.64,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Checked installation of chilled-water pumps and piping against shop drawings",
+      "Joined pressure tests of piping sections and recorded results"
+     ],
+     "gaps": [
+      "No evidence of heavy industrial or refinery/offshore experience."
+     ],
+     "level": 2,
+     "rationale": "The candidate is an intern at a construction/MEP site, detailing specific tasks like checking installations and pressure testing, which aligns with level 2."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Performance test of a heat-pipe heat exchanger for air pre-heating; measured effectiveness at different air flow rates."
+     ],
+     "gaps": [
+      "No details on the rigorous modelling or simulation results produced."
+     ],
+     "level": 2,
+     "rationale": "The candidate describes a senior project involving performance testing and measurement of a heat exchanger, showing a clear problem and methodology."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "AutoCAD, SolidWorks, Excel"
+     ],
+     "gaps": [
+      "No evidence of programming (Python, MATLAB) or advanced process simulation tools (Aspen HYSYS)."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists software tools as standalone keywords without providing a specific example of how they were applied to solve an engineering problem."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Completed the contractor's site safety induction and wore full PPE on site"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or hazard identification (e.g., HAZOP)."
+     ],
+     "level": 2,
+     "rationale": "evidence of working within a safety framework (induction and PPE compliance) during an internship."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No mention of sustainability, carbon capture, or energy transition technologies."
+     ],
+     "level": 0,
+     "rationale": "No evidence of interest or involvement in projects/coursework related to decarbonisation or renewable energy."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Helped prepare the daily site progress report in Excel for the project engineer",
+      "Volunteer at the faculty open house, explaining mechanical engineering lab equipment to high-school visitors"
+     ],
+     "gaps": [
+      "No evidence of formal leadership roles in student associations or cross-functional teams."
+     ],
+     "level": 2,
+     "rationale": "The candidate demonstrates collaboration in a professional setting (reporting to an engineer) and technical communication (explaining equipment to visitors)."
+    }
+   ],
+   "summary": "The candidate has practical site engineering internship experience and a well-defined senior project. They lack evidence of programming, advanced digital tools, and specific interest in the energy transition.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "9e015fac3b0a0598": {
+  "created_at": "2026-10-05T05:21:45.123008+00:00",
+  "latency_s": 12.57,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "No internship, co-op, or industrial placement mentioned."
+     ],
+     "level": 0,
+     "rationale": "No evidence of practical engineering work, internships, or hands-on laboratory/field experience is provided in thethoughtful CV."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Study of drilling fluid properties."
+     ],
+     "gaps": [
+      "Missing methodology, engineering analysis, or specific deliverables for the senior project."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists a senior project title but provides no description of methodology, personal contribution, or engineering analysis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Microsoft Office, Excel"
+     ],
+     "gaps": [
+      "No evidence of programming, process simulation, or advanced data analytics applied to engineering."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists Excel as a skill, but it is presented as a standalone keyword without an example of application to engineering problems."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "No mention of safety training, certifications, or safety-related coursework/experience."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of interest or projects related to energy transition or sustainability."
+     ],
+     "level": 0,
+     "rationale": "While the candidate's degree is in Petroleum Engineering, there is no specific demonstration of interest in decarbonisation, renewables, or low-carbon technologies."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Member of the music club"
+     ],
+     "gaps": [
+      "[",
+      "No evidence of leadership roles or technical presentations."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions participation in a club, which implies team involvement, but provides no concrete roles, achievements, or communication context."
+    }
+   ],
+   "summary": "The candidate's main strengths are their pursuit of a Petroleum Engineering degree and a senior project related to drilling fluids. However, the CV lacks evidence of practical engineering exposure, safety mindset, energy transition alignment, and detailed technical or digital tool application.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "a6bfb07766ce5c63": {
+  "created_at": "2026-10-05T04:36:07.951932+00:00",
+  "latency_s": 30.76,
+  "model": "gemini-3.6-flash",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Process Engineering Intern, Crude Distillation Unit — Siam Coastal Refining Co., Ltd. (Jun–Aug 2025, 3 months)",
+      "Built a Python (pandas, scikit-learn) regression model to estimate fouling resistance; model predicted cleaning need about 6 weeks ahead with mean error under 10%.",
+      "Presented findings to the unit engineer; the model was adopted to help schedule the next exchanger cleaning."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate completed a 3-month refinery placement with specific technical contributions, developing a predictive model that was adopted for operational heat exchanger maintenance scheduling."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Thesis: \"Data-driven prediction of crude preheat train fouling\" (grade A)",
+      "Built a Python (pandas, scikit-learn) regression model to estimate fouling resistance; model predicted cleaning need about 6 weeks ahead with mean error under 10%."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate completed a high-impact senior thesis focused on predictive modeling of heat exchanger fouling, delivering validated results with low prediction error."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Collected 2 years of temperature and flow data for 9 heat exchangers in the crude preheat train.",
+      "Built a Python (pandas, scikit-learn) regression model to estimate fouling resistance; model predicted cleaning need about 6 weeks ahead with mean error under 10%."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate applied advanced data analytics in Python to continuous operational plant data, creating a machine learning model that delivered predictive insights adopted by operations."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Joined a HAZOP review for a pump modification as an observer and took minutes for 3 sessions.",
+      "Completed refinery safety induction, permit-to-work and gas testing awareness."
+     ],
+     "gaps": [
+      "No evidence of leading safety audits or authoring standard operating procedures directly."
+     ],
+     "level": 2,
+     "rationale": "The candidate demonstrated engagement with structured safety processes during their internship by completing safety inductions and participating directly in formal HAZOP sessions."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "No evidence of academic coursework, extracurricular activities, or projects focused on decarbonisation or low-carbon energy transition."
+     ],
+     "level": 0,
+     "rationale": "The CV contains no references or coursework related to energy transition, decarbonisation, carbon capture, or renewable technologies."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Vice-President, Chemical Engineering Student Society (2024–2025)",
+      "Organised 2 plant-visit trips for 80 students and a career talk series with 6 alumni speakers.",
+      "Managed a budget of 120,000 THB with the treasurer."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrated leadership as Vice-President of a student association, managing budgets and coordinating large-scale events for students and external alumni stakeholders."
+    }
+   ],
+   "summary": "The candidate demonstrates strong practical refinery experience, student society leadership, and proven data analytics application in process operations. The primary gap is a total lack of explicit alignment or evidence related to energy transition and decarbonisation.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "b7c38de87a257eed": {
+  "created_at": "2026-10-05T05:19:31.987106+00:00",
+  "latency_s": 386.91,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Intern, Electrical Department - Central Plains Industrial Services Co., Ltd. (2025)",
+      "Participated in various electrical and sustainability-related activities",
+      "Exposed to Industry 4.0 concepts and digital transformation initiatives"
+     ],
+     "gaps": [
+      "Specific technical tasks performed during the internship",
+      "Concrete outcomes or contributions to the industrial site"
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions an internship, but the tasks are described with vague verbs like 'participated in' and 'exposed to' without specific technical responsibilities."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "\"AI-Driven Blockchain-Enabled IoT Platform for Sustainable Net Zero Smart Energy Ecosystems\"",
+      "Explored the synergy of cutting-edge technologies for a greener future"
+     ],
+     "gaps": [
+      "Engineering methodology used",
+      "Concrete deliverables or results of the project"
+     ],
+     "level": 1,
+     "rationale": "A senior project title is provided, but there is no description of the methodology, engineering analysis, or personal contribution."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "AI / Machine Learning",
+      "Digital Transformation",
+      "IoT"
+     ],
+     "gaps": [
+      "Examples of using AI, IoT, or Blockchain to model systems or analyze data"
+     ],
+     "level": 1,
+     "rationale": "The candidate lists several digital tools and concepts as keywords in the competencies section but provides no example of applying them to solve an engineering problem."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Any evidence of safety certifications, HAZOP knowledge, or adherence to safety protocols"
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Member, Faculty of Engineering Sustainability Club",
+      "Attended several green energy webinars and conferences",
+      "Introduction to ESG (2 hours)"
+     ],
+     "gaps": [
+      "A significant project or work contribution with validated results in decarbonisation"
+     ],
+     "level": 2,
+     "rationale": "The candidate shows active participation in a sustainability club and has completed several short online courses related to net zero and the hydrogen economy."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Supported team members on multiple tasks as assigned",
+      "Natural visionary leader who thrives in dynamic, fast-paced environments"
+     ],
+     "gaps": [
+      "Documented leadership roles in projects or student associations",
+      "Examples of technical presentations delivered"
+     ],
+     "level": 1,
+     "rationale": "The candidate claims to be a leader and mentions supporting team members, but provides no concrete roles, achievements, or evidence of coordinating stakeholders."
+    }
+   ],
+   "summary": "The candidate demonstrates a strong theoretical interest in energy transition and sustainability through club membership and short certifications. However, there is a significant lack of concrete evidence regarding practical engineering application, technical depth in their capstone project, and safety awareness.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "bdc1e1f2832f72b4": {
+  "created_at": "2026-10-05T05:16:29.782977+00:00",
+  "latency_s": 221.9,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "O&M Engineering Intern — Sunwide Power Co., Ltd., 60 MW solar farm (Jun–Aug 2025)",
+      "Analysed 3 months of inverter fault logs and found that 40% of trips came from one recurring DC insulation fault"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has substantial industrial experience at a 60 MW solar farm with specific technical contributions to troubleshooting inverter faults."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Senior project: \"Battery energy storage sizing for a 5 MW solar plant\"",
+      "wrote a Python model using one year of hourly generation data to compare 4 battery sizes; recommended a 2 MWh system that reduced curtailed energy by an estimated 11%"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The senior project involved rigorous modelling using a year of data and produced a validated recommendation with a measurable outcome."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "wrote a Python model using one year of hourly generation data to compare 4 battery sizes",
+      "Analysed 3 months of inverter fault logs"
+     ],
+     "gaps": [],
+     "level": 2,
+     "rationale": "The candidate applied Python and data analysis to model energy storage and process operational fault logs during an internship."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Followed lock-out/tag-out on every task and took part in 2 site emergency drills.",
+      "Lock-out/tag-out, electrical safety"
+     ],
+     "gaps": [],
+     "level": 2,
+     "rationale": "The candidate demonstrates evidence of working within structured safety frameworks (LOTO) and participating in emergency drills during an industrial placement."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Senior project: \"Battery energy storage sizing for a 5 MW solar plant\"",
+      "Led a 10-person volunteer team to design and install a 1.5 kW solar water pump"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has made significant contributions to energy transition through both a technical senior project on battery storage and a practical solar installation project."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Project Leader, Solar Water Pump for a Rural School (2024)",
+      "Led a 10-person volunteer team to design and install a 1.5 kW solar water pump",
+      "Managed budget of 85,000 THB raised from alumni donations"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate demonstrated proven leadership by coordinating a 10-person team, managing a budget, and delivering a complex objective."
+    }
+   ],
+   "summary": "The candidate shows strong technical proficiency in solar energy, evidenced by a high-impact senior project and practical O&M internship experience. They also demonstrate excellent leadership and a commitment to the energy transition through a successful volunteer engineering project.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "bed74b84dcc06d12": {
+  "created_at": "2026-10-05T05:31:58.715030+00:00",
+  "latency_s": 408.03,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Process Intern - Western Waterworks Treatment Plant, June - July 2025",
+      "Recorded chemical dosing (alum and chlorine) and jar test results",
+      "Helped check dosing pump calibration with plant technicians"
+     ],
+     "gaps": [
+      "Lack of evidence regarding troubleshooting or measurable outcomes from the internship."
+     ],
+     "level": 2,
+     "rationale": "The candidate completed an internship at a water treatment plant with clear operational duties such as recording dosing results and checking pump calibration."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Senior Project (ongoing)",
+      "Fouling behaviour of reverse-osmosis membranes for brackish water desalination"
+     ],
+     "gaps": [
+      "No details on the methodology, specific engineering analysis, or deliverables produced so far."
+     ],
+     "level": 2,
+     "rationale": "The candidate has a well-defined senior project focusing on reverse-osmosis membrane fouling, though it is listed as ongoing."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Excel, Aspen Plus (coursework), laboratory analysis"
+     ],
+     "gaps": [
+      "Missing concrete examples of using these tools to model systems or analyze data."
+     ],
+     "level": 1,
+     "rationale": "Digital tools like Excel and Aspen Plus are listed as keywords without specific examples of how they were applied to solve engineering problems."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Followed chemical handling safety rules",
+      "process safety (introductory module)"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or hazard identification (e.g., HAZOP)."
+     ],
+     "level": 2,
+     "rationale": "The candidate shows evidence of working within a safety framework by following chemical handling rules during an internship and completing a safety module."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Group design project: small-scale biogas upgrading unit (literature-based design)"
+     ],
+     "gaps": [
+      "No evidence of significant contributions, publications, or advanced implementation of low-carbon technologies."
+     ],
+     "level": 2,
+     "rationale": "The candidate participated in a project addressing biogas upgrading, which aligns with clean technology and energy efficiency."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Faculty of Engineering Choir - member, performed at university ceremonies",
+      "Group design project: small-scale biogas upgrading unit (literature-based design)"
+     ],
+     "gaps": [
+      "No evidence of leadership roles or delivering technical presentations to professional audiences."
+     ],
+     "level": 2,
+     "rationale": "The candidate has experience in a multi-disciplinary group project and participation in a university choir, demonstrating collaboration."
+    }
+   ],
+   "summary": "The candidate has practical internship experience in water treatment and is engaged in a relevant senior project on desalination. However, they lack evidence of advanced digital tool application and leadership experience.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "bed7e3e327502f2d": {
+  "created_at": "2026-10-05T05:05:45.713840+00:00",
+  "latency_s": 50.39,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "Lack of any industrial or practical engineering experience"
+     ],
+     "level": 0,
+     "rationale": "The candidate has no evidence of engineering internships, co-op placements, or hands-on laboratory/field experience."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Home lighting control — switch lights on and off with a phone app."
+     ],
+     "gaps": [
+      "Details on the technical approach, engineering analysis, and specific deliverables of the capstone project"
+     ],
+     "level": 1,
+     "rationale": "The candidate lists a senior project title but does not describe the methodology, personal contribution, or engineering analysis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [],
+     "gaps": [
+      "Evidence of using computational methods or digital engineering tools to solve problems"
+     ],
+     "level": 0,
+     "rationale": "There is no mention of programming, digital tools, or process simulation software used for engineering purposes."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Any awareness or application of safety frameworks or risk management"
+     ],
+     "level": 0,
+     "rationale": "The CV contains no mention of safety principles, hazard identification, or operational compliance."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Coursework, projects, or interests related to energy transition or sustainability"
+     ],
+     "level": 0,
+     "rationale": "There is no demonstration of interest or involvement in decarbonisation or low-carbon energy solutions."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Team of 3 students."
+     ],
+     "gaps": [
+      "Evidence of leadership, specific contributions to a team, or technical communication skills"
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions participating in a team for their senior project but provides no concrete roles, achievements, or context regarding communication."
+    }
+   ],
+   "summary": "The candidate has basic academic exposure through a senior project and experience in a non-technical part-time role. There are significant gaps in practical engineering experience, digital tool proficiency, safety awareness, and alignment with energy transition goals.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "caf2a6cab02ccf06": {
+  "created_at": "2026-10-05T05:13:54.320526+00:00",
+  "latency_s": 66.43,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Process Engineering Intern — Map Ta Phut Olefins Co., Ltd. (Jun–Jul 2022)",
+      "Reconciled mass balance for the cracked-gas compression section using plant data and Aspen HYSYS"
+     ],
+     "gaps": [
+      "Duration of internship was relatively short (two months)."
+     ],
+     "level": 2,
+     "rationale": "The candidate completed an industrial internship at an olefins plant and performed a specific technical task (mass balance reconciliation) with a clear outcome."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Thesis: \"Oxidative and thermal degradation of MEA/piperazine blends for post-combustion CO2 capture\"",
+      "Designed and ran 30 degradation experiments over 9 months; showed a blend that lost 35% less amine than 30 wt% MEA"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate's thesis involved rigorous experimental design and testing over a significant period, producing validated results and a published conference paper."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Reconciled mass balance for the cracked-gas compression section using plant data and Aspen HYSYS",
+      "Aspen HYSYS, Aspen Plus, Python, MATLAB"
+     ],
+     "gaps": [
+      "No evidence of advanced implementation like automated pipelines or digital twins."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied Aspen HYSYS to process operational data during an internship to solve a specific engineering problem (mass balance error)."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Joined morning operations meetings and a pre-start-up safety review.",
+      "Process Safety Management course (5 days, 2024)"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or authoring safety documentation."
+     ],
+     "level": 2,
+     "rationale": "The candidate has evidence of working within a structured safety framework (pre-start-up safety review) and has completed a formal safety course."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "specialising in post-combustion carbon capture",
+      "Thesis: \"Oxidative and thermal degradation of MEA/piperazine blends for post-combustion CO2 capture\""
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate has a significant academic contribution to carbon capture technology, including a published paper and extensive experimental work."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Organised the department's graduate research seminar series in 2025 (8 sessions, about 40 attendees each).",
+      "Ran weekly tutorials for 45 undergraduates and graded lab reports."
+     ],
+     "gaps": [
+      "No evidence of leading a cross-functional engineering team to deliver a complex project."
+     ],
+     "level": 2,
+     "rationale": "The candidate demonstrated leadership and communication skills by organizing a seminar series and acting as a Teaching Assistant for a large group."
+    }
+   ],
+   "summary": "The candidate shows strong technical foundations in carbon capture and process engineering, supported by a published thesis and industrial internship experience. Gaps include a lack of high-level leadership in cross-functional teams and limited duration of field exposure.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "d98e96fa075cda4e": {
+  "created_at": "2026-10-05T05:06:02.764225+00:00",
+  "latency_s": 17.05,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Junior Environmental Engineer — Greenline Environmental Consulting Co., Ltd. (Jul 2025 – present)",
+      "Prepared greenhouse-gas inventories (Scope 1 and 2) for 4 industrial clients, including a glass plant and a food factory",
+      "Supported the environmental assessment team for the decommissioning of an offshore wellhead platform"
+     ],
+     "gaps": [
+      "No evidence of direct hands-on maintenance or plant operations experience."
+     ],
+     "level": 2,
+     "rationale": "The candidate has professional experience in environmental consulting, working with industrial clients and supporting an offshore decommissioning assessment."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Thesis: \"CO2 mineralisation using steel slag for permanent carbon storage\" — ran batch carbonation experiments and measured up to 18% CO2 uptake by weight under optimised conditions."
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The thesis involves physical testing and produced a measurable outcome (18% CO2 uptake)."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Built an Excel model that cut the time to update emission factors across client inventories from 2 days to half a day.",
+      "Python (basic)"
+     ],
+     "gaps": [
+      "Python skills are listed as 'basic' without specific application examples."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied Excel modelling to achieve a quantifiable efficiency gain in their professional role."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Basic offshore safety awareness briefing (client site requirement)"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or working within structured safety frameworks like HAZOP or JSA."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions a basic safety briefing, which is a general statement without practical context of application."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Research background in CO2 mineralisation. Aiming to apply this to carbon capture and storage and decarbonisation in the energy industry.",
+      "Thesis: \"CO2 mineralisation using steel slag for permanent carbon storage\""
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The candidate's research and career aim is specifically focused on carbon capture and decarbonisation."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "attended 3 client meetings.",
+      "report writing"
+     ],
+     "gaps": [
+      "No evidence of a formal leadership role or coordinating cross-functional teams."
+     ],
+     "level": 2,
+     "rationale": "documenting participation in client meetings and professional report writing indicates communication and professional interaction."
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [],
+     "level": 0,
+     "rationale": "No evidence provided for this criterion."
+    }
+   ],
+   "summary": "The candidate is strong in energy transition alignment and technical capstone research with measurable outcomes. Gaps include a lack of of a formal leadership role and limited depth in digital tools beyond Excel. ",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "daaf5f16dad60d28": {
+  "created_at": "2026-10-05T05:28:17.657662+00:00",
+  "latency_s": 412.43,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Office Intern, Chonburi Packaging Industry Co., Ltd. (Jun–Jul 2025)"
+     ],
+     "gaps": [
+      "Evidence of technical engineering tasks, operational duties, or hands-on application of engineering principles during the internship."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions an internship, but the tasks (filing and translation) are administrative rather than technical engineering responsibilities."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Class projects in unit operations and reactor design."
+     ],
+     "gaps": [
+      "Details on a senior capstone project, specific problem formulation, or concrete deliverables."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists class projects but does not describe the methodology, personal contribution, or any engineering analysis performed."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Microsoft Office, Excel"
+     ],
+     "gaps": [
+      "Application of programming languages, process simulation tools, or data analytics to engineering problems."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists software tools as standalone keywords without providing an example of how they were applied to solve an engineering challenge."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Any evidence of safety certifications, HAZOP coursework, or working within safety frameworks."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Coursework, projects, or interests related to energy transition or sustainability."
+     ],
+     "level": 0,
+     "rationale": "The CV contains no mention of decarbonisation, renewable energy, or low-carbon technologies."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Member of the faculty sports day organising team (2024)",
+      "Wrote parts of the group reports"
+     ],
+     "gaps": [
+      "Evidence of leadership roles or delivering technical presentations to diverse audiences."
+     ],
+     "level": 2,
+     "rationale": "The candidate shows evidence of participating in a student organising team and collaborating on group reports."
+    }
+   ],
+   "summary": "The candidate has basic experience in team collaboration and a general chemical engineering background. However, there is a significant lack of technical engineering application, safety awareness, and alignment with energy transition goals.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "e508ef986c105ee7": {
+  "created_at": "2026-10-05T05:20:20.453401+00:00",
+  "latency_s": 386.13,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Internship Data entry, Central Logistics Warehouse Co., Ltd. (2025)"
+     ],
+     "gaps": [
+      "Evidence of technical engineering tasks, troubleshooting, or application of engineering principles in an industrial setting."
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions an internship, but the task (data entry) is not a technical engineering responsibility and is listed without operational context."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Class Project Time study of a packing line."
+     ],
+     "gaps": [
+      "Details on a senior capstone project, engineering thesis, or rigorous technical problem-solving methodology."
+     ],
+     "level": 1,
+     "rationale": "A class project is listed by title, but there is no description of the methodology, analysis, or personal contribution."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Microsoft Excel, Word"
+     ],
+     "gaps": [
+      "Application of programming languages, process simulation tools, or data analytics to engineering problems."
+     ],
+     "level": 1,
+     "rationale": "The candidate lists basic software tools as keywords without providing an example of how they were applied to solve an engineering challenge."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Any evidence of safety certifications, HAZOP coursework, or working within safety frameworks."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance in the CV."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Coursework, projects, or interests related to energy transition or sustainability."
+     ],
+     "level": 0,
+     "rationale": "The CV contains no mention of decarbonisation, renewable energy, or low-carbon technologies."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Helped at the faculty open house",
+      "Member of the faculty volleyball team"
+     ],
+     "gaps": [
+      "Evidence of leadership roles, coordinating stakeholders, or delivering technical presentations."
+     ],
+     "level": 2,
+     "rationale": "The candidate shows participation in faculty activities and a sports team, indicating basic collaboration and community involvement."
+    }
+   ],
+   "summary": "The candidate has basic experience with a class project and a non-technical internship. There is a significant lack of evidence regarding technical engineering depth, safety mindset, and energy transition alignment.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "eb7c00e847794556": {
+  "created_at": "2026-10-05T05:04:39.213411+00:00",
+  "latency_s": 272.91,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [
+      "Spent 14 days offshore on a wellhead platform in the Gulf of Thailand",
+      "Helped the drilling supervisor prepare daily drilling reports and checked mud weight and volume entries"
+     ],
+     "gaps": [
+      "Lack of evidence regarding troubleshooting or measurable technical contributions to operational outcomes."
+     ],
+     "level": 2,
+     "rationale": "The candidate has clear evidence of an engineering internship with specific operational duties on an offshore platform."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Built a 3D static model in Petrel from synthetic well data and ran 12 waterflood scenarios in Eclipse",
+      "best case improved recovery by 7 percentage points versus primary depletion"
+     ],
+     "gaps": [],
+     "level": 3,
+     "rationale": "The thesis project involved rigorous modelling and simulation that produced validated, quantifiable results."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Wrote Python scripts to post-process simulation output and rank scenarios by recovery factor and water cut"
+     ],
+     "gaps": [
+      "No evidence of advanced implementation like automated pipelines or digital twins."
+     ],
+     "level": 2,
+     "rationale": "The candidate applied Python and simulation tools within their thesis to process data and analyze engineering trends."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [
+      "Attended daily toolbox talks and one emergency muster drill",
+      "obtained BOSIET certification before mobilisation"
+     ],
+     "gaps": [
+      "No evidence of proactive safety leadership or authoring safety procedures."
+     ],
+     "level": 2,
+     "rationale": "The candidate has evidence of working within structured safety frameworks, including offshore certification and participation in safety drills."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [],
+     "gaps": [
+      "Complete lack of evidence regarding energy transition or sustainability initiatives."
+     ],
+     "level": 0,
+     "rationale": "There is no mention of decarbonisation, renewable energy, or low-carbon technologies in the CV."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Captain, Faculty of Engineering Football Team (2024–2025) — organised training for 25 players",
+      "logged outcrops, measured sections and wrote a team report on depositional environments"
+     ],
+     "gaps": [
+      "No evidence of leading cross-functional engineering teams or delivering professional technical presentations."
+     ],
+     "level": 2,
+     "rationale": "The candidate has documented leadership of a large group and experience collaborating in a team for a technical field report."
+    }
+   ],
+   "summary": "The candidate demonstrates strong technical foundations in reservoir simulation and practical offshore internship experience. However, there is no evidence of commitment to energy transition or decarbonisation.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ },
+ "fd61bc809c60a93e": {
+  "created_at": "2026-10-05T05:28:23.645057+00:00",
+  "latency_s": 236.86,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "assessments": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "evidence_quotes": [],
+     "gaps": [
+      "Evidence of any practical engineering work or technical placements"
+     ],
+     "level": 0,
+     "rationale": "The CV provides no evidence of engineering internships, co-op placements, or hands-on laboratory/field experience."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "evidence_quotes": [
+      "Survey of recycling habits in a student dormitory."
+     ],
+     "gaps": [
+      "Details on methodology, engineering analysis, or deliverables for the capstone/class project"
+     ],
+     "level": 1,
+     "rationale": "The candidate lists a class project title but does not describe the methodology, personal contribution, or any engineering analysis."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "evidence_quotes": [
+      "Microsoft Office"
+     ],
+     "gaps": [
+      "Application of programming languages, simulation software, or data analytics tools in an engineering context"
+     ],
+     "level": 1,
+     "rationale": "The candidate lists Microsoft Office as a skill but provides no example of applying digital tools to solve engineering challenges."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "evidence_quotes": [],
+     "gaps": [
+      "Awareness or application of safety frameworks or certifications"
+     ],
+     "level": 0,
+     "rationale": "There is no mention of safety principles, hazard identification, or operational compliance."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "evidence_quotes": [
+      "Joined a tree-planting day organised by the faculty"
+     ],
+     "gaps": [
+      "Specific academic electives, technical projects, or contributions related to decarbonisation or low-carbon technologies"
+     ],
+     "level": 2,
+     "rationale": "Participation in a faculty-organised tree-planting day shows active involvement in an activity addressing environmental sustainability."
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "evidence_quotes": [
+      "Helped at university open house"
+     ],
+     "gaps": [
+      "Evidence of leadership roles, multi-disciplinary collaboration, or technical presentations"
+     ],
+     "level": 1,
+     "rationale": "The candidate mentions helping at an open house, which implies team participation, but lacks concrete roles or achievements."
+    }
+   ],
+   "summary": "The candidate shows basic interest in environmental activities through a tree-planting event. However, there is a significant lack of practical engineering experience, technical project depth, and proficiency in digital engineering tools.",
+   "suspicious_content": false,
+   "suspicious_content_note": ""
+  },
+  "prompt_version": "evidence_extractor.v1"
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "eec77a12be91b4ec": {
+  "created_at": "2026-10-05T04:11:12.695966+00:00",
+  "latency_s": 23.34,
+  "model": "gemini-3.8-flash",
+  "output": {
+   "criteria": [
+    {
+     "anchors": {
+      "level_0": "No evidence of practical engineering work, internships, co-op programmes, or hands-on laboratory/field experience.",
+      "level_1": "Mentions completion of an internship or co-op placement, but roles, tasks, and technical engineering responsibilities are vague or merely listed without context.",
+      "level_2": "Clear evidence of an engineering internship, industrial co-op, or substantial hands-on project detailing assigned operational or maintenance duties.",
+      "level_3": "Substantial industrial or operating site experience (e.g., refinery, offshore base, manufacturing plant) with specific technical contributions, troubleshooting, and measurable outcomes."
+     },
+     "definition": "Measures hands-on application of engineering principles in operational, industrial, or project environments such as plants, offshore sites, or technical co-op placements.",
+     "id": "practical_engineering_exposure",
+     "name": "Practical & Field Engineering Exposure",
+     "weight": 25
+    },
+    {
+     "anchors": {
+      "level_0": "No details provided on senior capstone project, technical coursework, or engineering thesis.",
+      "level_1": "Lists a senior project title or coursework without describing methodology, personal contribution, or engineering analysis.",
+      "level_2": "Presents a well-defined capstone project or thesis with clear problem formulation, relevant engineering methodology, and concrete deliverables.",
+      "level_3": "High-impact senior thesis or engineering design project with rigorous modelling, simulation, or physical testing that produced validated results or recommendations."
+     },
+     "definition": "Evaluates depth of core engineering knowledge and technical problem-solving demonstrated through senior design projects, capstones, or research theses.",
+     "id": "technical_academics_capstone",
+     "name": "Discipline Engineering Foundation & Capstone",
+     "weight": 20
+    },
+    {
+     "anchors": {
+      "level_0": "No mention of programming, digital tools, process simulation software, or data-driven engineering work.",
+      "level_1": "Lists tools or software (e.g., Python, Aspen HYSYS, MATLAB, SQL) as standalone keywords without an example of application.",
+      "level_2": "Applies digital or analytical tools within coursework, research, or an internship to model systems, process operational data, or analyse engineering trends.",
+      "level_3": "Demonstrates advanced implementation of digital tools or analytics (e.g., automated data pipelines, process optimization models, digital twin components) leading to quantifiable efficiency gains."
+     },
+     "definition": "Assesses the ability to apply computational methods, programming languages, process simulation tools, or analytics to solve engineering challenges and enhance efficiency.",
+     "id": "data_digital_problem_solving",
+     "name": "Data Analytics & Digital Engineering Tools",
+     "weight": 15
+    },
+    {
+     "anchors": {
+      "level_0": "No awareness or mention of safety principles, hazard identification, or operational compliance.",
+      "level_1": "General statements claiming safety consciousness or listing basic safety certifications without practical context.",
+      "level_2": "Evidence of working within structured safety frameworks (e.g., laboratory safety officer, hazard assessment/HAZOP coursework, Job Safety Analysis during an internship).",
+      "level_3": "Demonstrated proactive safety leadership (e.g., conducted safety audits, authored standard operating procedures, identified near-misses, or implemented hazard mitigation controls in an industrial setting)."
+     },
+     "definition": "Measures understanding and active adoption of occupational health, process safety systems, hazard identification, and operational compliance required in high-hazard environments.",
+     "id": "safety_and_risk_mindset",
+     "name": "Process Safety & Risk Management Mindset",
+     "weight": 15
+    },
+    {
+     "anchors": {
+      "level_0": "No demonstration of interest in decarbonisation, emissions reduction, or low-carbon energy solutions.",
+      "level_1": "Expresses general interest in sustainability or renewables without supporting coursework, projects, or extracurricular involvement.",
+      "level_2": "Active participation in academic electives, student competitions, seminars, or projects addressing decarbonisation, energy efficiency, or clean technology.",
+      "level_3": "Significant project, publication, or work contribution specifically tackling energy transition challenges (e.g., carbon capture design, emissions modelling, renewable integration, energy optimisation)."
+     },
+     "definition": "Evaluates genuine interest and initiative toward low-carbon technologies, emissions reduction, renewable energy, hydrogen, or carbon capture and storage (CCS).",
+     "id": "energy_transition_commitment",
+     "name": "Energy Transition & Decarbonisation Alignment",
+     "weight": 15
+    },
+    {
+     "anchors": {
+      "level_0": "No evidence of collaborative projects, team activities, leadership roles, or technical presentations.",
+      "level_1": "Mentions team participation or communication skills without concrete roles, achievements, or context.",
+      "level_2": "Documented role in multi-disciplinary team projects, student committee responsibilities, or delivering technical presentations to diverse audiences.",
+      "level_3": "Proven leadership in cross-functional engineering teams or student associations, successfully coordinating stakeholders and delivering complex group objectives under deadlines."
+     },
+     "definition": "Measures capability to collaborate across multidisciplinary groups, take ownership of shared goals, and communicate complex information effectively in professional settings.",
+     "id": "teamwork_leadership_communication",
+     "name": "Teamwork, Leadership & Communication",
+     "weight": 10
+    }
+   ],
+   "knockouts": [
+    {
+     "description": "Candidate must hold or be completing an accredited degree in one of the specified engineering disciplines.",
+     "enabled": true,
+     "field": "major",
+     "id": "ko_major",
+     "operator": "in",
+     "values": [
+      "Petroleum Engineering",
+      "Chemical Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Instrumentation & Control Engineering",
+      "Environmental Engineering",
+      "Computer Engineering",
+      "Industrial Engineering",
+      "Energy Engineering"
+     ]
+    },
+    {
+     "description": "Candidate must graduate or have graduated between 2025 and 2027.",
+     "enabled": true,
+     "field": "graduation_year",
+     "id": "ko_graduation_year",
+     "operator": "between",
+     "values": [
+      "2025",
+      "2027"
+     ]
+    },
+    {
+     "description": "Candidate must be willing to work on rotation at operating sites, including offshore platforms in the Gulf of Thailand.",
+     "enabled": true,
+     "field": "willing_offshore",
+     "id": "ko_willing_offshore",
+     "operator": "equals",
+     "values": [
+      "Yes"
+     ]
+    },
+    {
+     "description": "Candidate must possess lawful right to work in Thailand.",
+     "enabled": true,
+     "field": "right_to_work_th",
+     "id": "ko_right_to_work_th",
+     "operator": "equals",
+     "values": [
+      "Yes"
+     ]
+    }
+   ],
+   "role_summary": "The Graduate Engineer Programme builds future technical leaders and operations managers across Thara Energy's upstream, downstream, and low-carbon businesses through structured two-year rotations. The ideal candidate pairs a solid discipline-specific engineering foundation with hands-on industrial exposure, proactive safety awareness, analytical capability, and a clear motivation for the energy transition."
+  },
+  "prompt_version": "profile_builder.v1"
+ }
+}

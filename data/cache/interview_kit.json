@@ -1,0 +1,161 @@
+{
+ "8b1e7eefaf94956c": {
+  "created_at": "2026-10-05T05:38:54.961726+00:00",
+  "latency_s": 236.36,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Verify the candidate's technical depth in data-driven optimization and validate the specific leadership and execution details of their microgrid project.",
+   "questions": [
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "What specific libraries or algorithms would you use?",
+      "How would you handle data noise or missing sensor readings?"
+     ],
+     "good_answer_signals": [
+      "Mentions of predictive maintenance or machine learning",
+      "Discussion of automated control loops (PID or logic-based)",
+      "Understanding of data cleaning and validation"
+     ],
+     "purpose": "probe_gap",
+     "question": "You used Python and ESP32 for monitoring; how would you evolve this system to automatically optimize energy distribution or predict battery failure?"
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "What was the specific data anomaly?",
+      "How did you verify the data was accurate before acting?"
+     ],
+     "good_answer_signals": [
+      "Clear link between data observation and physical troubleshooting",
+      "Systematic approach to root cause analysis",
+      "Ability to explain the 'why' behind the data trend"
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a time when the data from your IoT monitor contradicted your expectations, and how you used that data to solve the problem?"
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "How would you handle data storage and retrieval?",
+      "How would you ensure the security of the remote connections?"
+     ],
+     "good_answer_signals": [
+      "Mention of cloud platforms (AWS/Azure/GCP) or MQTT protocols",
+      "Discussion of database management (SQL/NoSQL)",
+      "Awareness of scalability and network latency"
+     ],
+     "purpose": "probe_gap",
+     "question": "If you had to scale this monitoring system to 100 sites, what digital tools or architecture would you implement to manage the data efficiently?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What was your specific role in the fix?",
+      "What was the impact of this challenge on the project timeline or budget?"
+     ],
+     "good_answer_signals": [
+      "Detailed description of a physical engineering problem",
+      "Evidence of hands-on troubleshooting",
+      "Clear explanation of the technical resolution"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding the microgrid installation, walk me through a specific technical challenge you encountered during the 4-weekend installation and how you resolved it."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "What safety margin or 'days of autonomy' did you factor in?",
+      "How did you validate these calculations against the actual 18-month performance?"
+     ],
+     "good_answer_signals": [
+      "Reference to specific load profiles and peak demand",
+      "Correct application of Depth of Discharge (DoD) and capacity formulas",
+      "Comparison of theoretical design vs. actual field data"
+     ],
+     "purpose": "verify_evidence",
+     "question": "You achieved a 70% reduction in diesel use; can you explain the exact calculations you used to size the battery bank to ensure reliability during low-sun periods?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "eedf7f5b40ea457c": {
+  "created_at": "2026-10-05T05:35:10.747258+00:00",
+  "latency_s": 12.15,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "focus_summary": "This interview aims to validate the candidate's technical depth in reservoir screening and digital tools, and to assess their potential for proactive safety leadership within an integrated energy company.",
+   "questions": [
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Tell me about a specific time during your senior project when you had to use mathematical modelling or simulation to validate your reservoir screening matrix results."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a situation where you used Python or other digital tools to automate a repetitive task or create a more efficient data pipeline for engineering-related work?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": ""
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Walk me through the technical logic behind the pump-size and stroke-speed changes you proposed at the Phitsanulok Basin Oil field."
+    },
+    {
+     "criterion_id": "and_energy_transition_commitment",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": ""
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ }
+}
