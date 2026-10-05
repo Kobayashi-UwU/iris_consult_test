@@ -1,0 +1,37 @@
+Sarawut Kaewkla
+sarawut.kae24@example.com | 088-688-2056 | Mueang Nakhon Ratchasima District, Nakhon Ratchasima
+
+PERSONAL DETAILS
+Date of Birth: 8 August 2002
+Gender: Male
+Nationality: Thai
+
+EDUCATION
+Suranaree University of Technology
+Bachelor of Engineering, Electrical Engineering - expected May 2026
+GPA: 3.35
+TOEIC: 665
+
+SENIOR PROJECT
+Design and Testing of a 500 W Synchronous Buck DC-DC Converter
+- Designed the power stage and closed-loop controller, simulated in PLECS
+- Built a prototype PCB and measured 94% efficiency at full load
+- Wrote the final report and presented to the project committee
+
+WORK EXPERIENCE
+Electrical Intern - Korat Electrical Contracting Co., Ltd.
+June - July 2025
+- Assisted electricians with wiring and conduit installation in a 12-storey condominium
+- Checked distribution board labelling against drawings
+- Attended the contractor's site safety briefing
+
+Physics Tutor (part-time), 2023 - 2025
+- Tutored high-school students in physics and mathematics, about 6 hours per week
+
+SKILLS
+- MATLAB, PLECS, Altium Designer (basic)
+- Circuit design and soldering
+- Microsoft Office
+
+LANGUAGES
+Thai (native), English (intermediate)

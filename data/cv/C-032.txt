@@ -1,0 +1,45 @@
+Patcharee Lertsiri
+patcharee.ler32@example.com | 084-884-2408 | Bang Kapi District, Bangkok
+
+PERSONAL DETAILS
+Date of Birth: 3 August 1999
+Gender: Female
+Nationality: Thai
+
+PROFESSIONAL SUMMARY
+Process engineer with 3+ years of experience in batch chemical manufacturing, specialising in process optimisation and solvent recovery.
+
+EXPERIENCE
+Process Engineer - Bangkok Coatings Manufacturing Co., Ltd. (paint and coatings)
+July 2022 - present
+- Optimised the batch cycle for solvent-based industrial coatings, cutting average batch time from 9.5 to 8 hours across 4 reactors
+- Led a solvent recovery distillation project that recovers about 120 tonnes of xylene per year, saving roughly 4 million THB annually
+- Wrote and updated SOPs and took part in HAZOP studies for two new mixing lines
+- Supervised 2 junior technicians and coordinated with QC and production planning
+- Member of the plant emergency response team
+
+EDUCATION
+Chulalongkorn University
+Bachelor of Engineering, Chemical Engineering, 2022
+GPA 3.35
+TOEIC 850
+Senior project: kinetics of alkyd resin polymerisation
+
+SKILLS
+- Aspen Plus, Excel (advanced), Minitab, basic Python
+- Process safety: HAZOP participation, management of change, permit-to-work
+- Lean / 5S
+
+TRAINING
+- Process Safety Management fundamentals (2023)
+- Chemical spill response (2023)
+
+LANGUAGES
+Thai (native), English (professional working proficiency)
+
+INTERESTS
+Sustainable chemistry, hiking
+
+ACHIEVEMENTS
+- Company "Best Improvement Project" award 2024 for the solvent recovery project
+- Reduced batch rework rate from 4% to 1.5% by tightening raw material viscosity checks

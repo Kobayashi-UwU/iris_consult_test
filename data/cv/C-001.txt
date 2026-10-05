@@ -1,0 +1,34 @@
+Ploypailin Srisuwan
+ploypailin.sri01@example.com | 087-237-8919 | Bang Kapi, Bangkok
+
+PERSONAL DETAILS
+Date of Birth: 14 May 2003
+Gender: Female
+Nationality: Thai
+
+PROFILE
+Chemical engineering graduate with hands-on refinery experience and a data-driven approach to process reliability. Looking to build a long-term career in process engineering and operations.
+
+EDUCATION
+Chulalongkorn University
+B.Eng. in Chemical Engineering, expected May 2026 | GPA 3.62
+Thesis: "Data-driven prediction of crude preheat train fouling" (grade A)
+Relevant courses: Process Control, Process Safety Engineering, Separation Processes, Heat Transfer
+English: TOEIC 890
+
+EXPERIENCE
+Process Engineering Intern, Crude Distillation Unit — Siam Coastal Refining Co., Ltd. (Jun–Aug 2025, 3 months)
+- Collected 2 years of temperature and flow data for 9 heat exchangers in the crude preheat train.
+- Built a Python (pandas, scikit-learn) regression model to estimate fouling resistance; model predicted cleaning need about 6 weeks ahead with mean error under 10%.
+- Presented findings to the unit engineer; the model was adopted to help schedule the next exchanger cleaning.
+- Joined a HAZOP review for a pump modification as an observer and took minutes for 3 sessions.
+- Completed refinery safety induction, permit-to-work and gas testing awareness.
+
+LEADERSHIP
+Vice-President, Chemical Engineering Student Society (2024–2025)
+- Organised 2 plant-visit trips for 80 students and a career talk series with 6 alumni speakers.
+- Managed a budget of 120,000 THB with the treasurer.
+
+SKILLS
+Python (pandas, scikit-learn), Aspen HYSYS (course level), MATLAB, Excel, P&ID reading, HAZOP basics
+Thai (native), English (professional)

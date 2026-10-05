@@ -1,0 +1,32 @@
+Jirapat Intharasuk
+jirapat.int09@example.com | 083-433-9271 | Mueang Chiang Mai, Chiang Mai
+
+PERSONAL DETAILS
+Date of Birth: 7 June 2003
+Gender: Male
+Nationality: Thai
+
+SKILLS
+SolidWorks · AutoCAD · MATLAB (basic) · HVAC load calculation · Excel
+Thai (native), English (good)
+
+EDUCATION
+Chiang Mai University
+B.Eng. Mechanical Engineering, expected May 2026
+GPA 3.22 | TOEIC 700
+
+EXPERIENCE
+Engineering Intern — Lanna MEP Consultants Co., Ltd. (May–Jul 2025)
+- Performed cooling load calculations for a new hospital wing using spreadsheet methods.
+- Helped size air handling units and prepared duct layout drafts in AutoCAD.
+- Joined two site visits with the senior engineer.
+
+ACTIVITIES
+Faculty of Engineering Student Formula Team (2023–2025)
+- Suspension sub-team member: modelled suspension parts in SolidWorks and helped with assembly before competition.
+
+COURSE PROJECT
+Pump and piping system design for a small office building (Fluid Mechanics course) — selected pump size and calculated head losses.
+
+SENIOR PROJECT
+Performance testing of an evaporative cooling pad for poultry houses. Measured temperature drop and water use over 3 weeks at a university farm and wrote the report with 2 teammates.

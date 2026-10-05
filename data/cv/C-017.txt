@@ -1,0 +1,32 @@
+Apichart Sombat
+apichart.som17@example.com | 089-629-9623 | Warin Chamrap, Ubon Ratchathani
+
+PERSONAL DETAILS
+Date of Birth: 12 September 2002
+Gender: Male
+Nationality: Thai
+
+FIELD AND MAINTENANCE EXPERIENCE
+Maintenance Intern — Mekong Pipeline Services Co., Ltd., gas-pipeline compressor station contractor (Jun–Aug 2025)
+- Assisted the mechanical crew on a major overhaul of a 2-stage reciprocating gas compressor: measured valve and piston-ring clearances, recorded findings and checked torque values against the manual.
+- Worked under permit-to-work every day; reported a near-miss (an unsecured hose on a pressurised line) and received the station's monthly safety award.
+- Built a low-cost vibration sensor (Arduino + accelerometer, Python for analysis) for spot checks on auxiliary pumps; the contractor still uses 2 units for routine rounds.
+
+Technician (part-time, weekends), Family-run rice mill, Ubon Ratchathani (2021–2024, 3 years)
+- Maintained motors, belts, bearings and the husk-fired dryer; became the informal lead for maintenance and trained 2 new workers.
+- Cut unplanned stoppages during harvest season by setting up a simple weekly greasing and inspection checklist.
+
+COMPETITION / PROJECT
+Student maintenance innovation contest 2024 — finalist with the low-cost vibration sensor (team of 2).
+
+EDUCATION
+Ubon Ratchathani University
+B.Eng. Mechanical Engineering, 2026 — GPA 2.91
+English: TOEIC 585
+
+CERTIFICATES
+Working at Height (2025) · Confined Space Entry (2025) · Basic Fire Fighting (2025)
+
+SKILLS
+Rotating equipment maintenance, compressor overhaul, vibration measurement, Arduino, Python (basic), AutoCAD
+Thai (native), Lao/Isan (native), English (working)

@@ -1,0 +1,29 @@
+Nattawut Pholsri
+nattawut.pho11@example.com | 087-707-7109 | Mueang Ratchaburi, Ratchaburi
+
+PERSONAL DETAILS
+Date of Birth: 19 August 2003 | Gender: Male | Nationality: Thai
+
+SUMMARY
+Mechanical engineer with hands-on rotating-equipment experience in a gas processing plant and a strong interest in predictive maintenance.
+
+WORK EXPERIENCE
+Rotating Equipment Intern — Eastern Gas Processing Co., Ltd. (Jun–Aug 2025)
+- Collected and analysed vibration data on 8 centrifugal and reciprocating compressors with the reliability engineer; wrote short condition reports for each.
+- Wrote a Python script to trend bearing temperatures from 18 months of plant historian exports; it flagged a steady rise on a sales-gas compressor bearing, which was inspected and found to have early wear before failure.
+- Completed working-at-height training and H2S awareness training; worked under permit in the compressor house.
+- Presented internship results to the maintenance manager and team (about 15 people).
+
+EDUCATION
+King Mongkut's University of Technology Thonburi
+B.Eng. Mechanical Engineering, expected May 2026
+GPA 3.51 | TOEIC 820
+Senior project: "Predictive maintenance of centrifugal pumps using vibration features and machine learning" — built a test rig with an accelerometer and trained a classifier that detected misalignment with 92% accuracy on test data.
+
+LEADERSHIP
+Peer mentor, Faculty of Engineering first-year mentoring programme (2023–2025): mentored 6 first-year students in mechanics and study planning each year.
+
+SKILLS
+Vibration analysis basics, Python (pandas, scikit-learn), SolidWorks, MATLAB, P&ID reading
+Certificates: Working at Height (2025), H2S Awareness (2025)
+Languages: Thai (native), English (professional)

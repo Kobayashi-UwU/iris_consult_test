@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+local.db
+*.db
+.pytest_cache/
+.DS_Store
+
+# Confidential case brief from IRIS - do not publish
+IRIS-Case-Brief-*.pdf

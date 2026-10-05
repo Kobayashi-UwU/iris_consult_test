@@ -1,0 +1,33 @@
+Siriporn Chantarasorn
+siriporn.cha15@example.com | 085-355-2785 | Mueang Nakhon Pathom, Nakhon Pathom
+
+PERSONAL DETAILS
+Date of Birth: 15 July 2003
+Gender: Female
+Nationality: Thai
+
+SUMMARY
+Electrical engineer with solar-farm operations experience, a strong safety habit and a track record of leading volunteer energy projects.
+
+EDUCATION
+Kasetsart University
+B.Eng. Electrical Engineering, expected May 2026
+GPA 3.38 | TOEIC 780
+Senior project: "Battery energy storage sizing for a 5 MW solar plant" — wrote a Python model using one year of hourly generation data to compare 4 battery sizes; recommended a 2 MWh system that reduced curtailed energy by an estimated 11%.
+
+INTERNSHIP
+O&M Engineering Intern — Sunwide Power Co., Ltd., 60 MW solar farm (Jun–Aug 2025)
+- Analysed 3 months of inverter fault logs and found that 40% of trips came from one recurring DC insulation fault; the site team scheduled cable inspections on the affected strings.
+- Helped the protection engineer review and update protection-relay settings for the 22 kV switchyard under supervision.
+- Followed lock-out/tag-out on every task and took part in 2 site emergency drills.
+- Wrote weekly performance reports comparing actual vs expected energy yield.
+
+VOLUNTEER LEADERSHIP
+Project Leader, Solar Water Pump for a Rural School (2024)
+- Led a 10-person volunteer team to design and install a 1.5 kW solar water pump for a school of 120 students in Kanchanaburi province.
+- Managed budget of 85,000 THB raised from alumni donations and trained 2 teachers on basic maintenance.
+
+SKILLS
+Python (pandas), MATLAB, ETAP (course level), AutoCAD Electrical, Excel
+Lock-out/tag-out, electrical safety
+Languages: Thai (native), English (professional)

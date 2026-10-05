@@ -1,0 +1,34 @@
+Weerachai Pimpa
+weerachai.pim31@example.com | 087-747-3489 | Mueang Phitsanulok District, Phitsanulok
+
+Summary
+Electrical engineering graduate who has designed, built and maintained a real off-grid power system. Hands-on, safety-conscious, and used to leading volunteer teams in remote locations.
+
+Education
+Naresuan University
+Bachelor of Engineering, Electrical Engineering - expected May 2026
+GPA 2.85 | TOEIC 560
+
+Key Project - Solar + Battery Microgrid for a Remote Village School (2024 - present)
+Project leader, team of 6 student volunteers
+- Designed a 10 kW rooftop solar PV system with a 30 kWh lithium battery bank for a school that previously ran on a diesel generator
+- Sized the PV array, inverter and battery from 3 months of measured load data; prepared single-line diagram and bill of materials within a 650,000 THB donor budget
+- Led installation over 4 weekends, including earthing and protection; applied lock-out/tag-out before all work on live circuits
+- System has run for 18 months; diesel use dropped by about 70% (from roughly 300 to 90 litres per month)
+- Wrote the operation and maintenance manual in Thai and trained 3 teachers to do monthly checks
+- Built an IoT energy monitor (ESP32 + Python) that sends daily generation and battery data to a web page; used it to find and fix a faulty string fuse in month 7
+
+Work Experience
+Electrician's Assistant (part-time), Phitsanulok, 2021 - 2025
+- Worked about 20 hours per week throughout university to support my family: house and shop wiring, distribution boards, fault-finding
+- This work reduced study time, which is reflected in my GPA
+
+Training & Certificates
+- Electrical safety for low-voltage work (Department of Skill Development, 2023)
+- Lock-out/tag-out training (2024)
+
+Skills
+PV system design (PVsyst, student version), AutoCAD Electrical, ESP32/Arduino, Python, Excel
+
+Languages
+Thai (native), English (intermediate)

@@ -1,0 +1,29 @@
+Thitima Srisawat
+thitima.sri18@example.com | 086-766-8542 | Bang Kruai, Nonthaburi
+
+PROFILE
+Instrumentation and control engineering graduate with PLC programming experience. Enjoys automation and troubleshooting.
+
+EDUCATION
+King Mongkut's University of Technology North Bangkok
+B.Eng. Instrumentation & Control Engineering, 2026
+GPA 2.98 · TOEIC 640
+
+INTERNSHIP
+Automation Intern — Siam Beverage Bottling Co., Ltd. (Jun–Jul 2025)
+- Modified ladder logic for a conveyor section to add a jam-detection stop, tested with the maintenance team during a line stop.
+- Updated I/O lists and labelled panel wiring.
+
+SENIOR PROJECT
+PID tuning of a water-tank level control rig — compared Ziegler–Nichols and manual tuning and reduced overshoot in lab tests.
+
+COURSE PROJECT
+Temperature measurement system with thermocouples and a data acquisition card; calibrated against a reference thermometer.
+
+ACTIVITIES
+Member, Faculty of Engineering Robotics Club (2023–2025) — built line-following robots for an internal competition. Team reached the quarter-final in 2024.
+
+SKILLS
+PLC (ladder logic), HMI basics, MATLAB/Simulink, LabVIEW (basic), Excel
+Thai (native), English (good)
+Available to start June 2026; open to shift work and site rotation.

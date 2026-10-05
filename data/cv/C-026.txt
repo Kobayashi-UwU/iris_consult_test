@@ -1,0 +1,37 @@
+Arisa Hemmin
+arisa.hem26@example.com | 082-962-8894 | Hat Yai District, Songkhla
+
+Personal Details
+Date of Birth: 8 January 2003
+Gender: Female
+Nationality: Thai
+
+Education
+Suranaree University of Technology
+B.Eng. Petroleum Engineering, expected May 2026
+GPA 3.41 | TOEIC 800
+
+Field Experience
+Production Engineering Intern - Phitsanulok Basin Oil Co., Ltd. (onshore oilfield)
+May - July 2025, 14-days-on / 14-days-off rotation at the field camp
+- Analysed artificial-lift performance of 12 rod-pumped and ESP wells using dynamometer cards, fluid levels and production tests
+- Identified 4 wells with under-sized or over-sized pumps and proposed pump-size and stroke-speed changes; 2 changes were implemented during the internship and raised combined oil output by about 45 barrels per day
+- Joined morning operations calls and daily toolbox talks; completed H2S awareness, basic fire-fighting and first-aid training
+- Shadowed a workover operation and prepared the job summary report
+
+Senior Project
+Screening of candidate reservoirs for CO2-enhanced oil recovery and storage
+- Built a screening matrix in Python using published reservoir data, ranking fields by miscibility, depth and storage potential
+- Estimated CO2 storage capacity for the top three candidates
+
+Leadership
+President, Society of Petroleum Engineers Student Chapter at the university (2024-2025)
+- Grew membership from 45 to 90 students; organised 3 industry talks and a well-control simulator workshop
+
+Skills
+- Technical: nodal analysis (PROSPER, student licence), decline-curve analysis, well-test basics
+- Software: Python, Excel, Petrel (basic)
+- Safety: H2S awareness, fire-fighting, first aid
+
+Languages
+Thai (native), English (professional), Malay (basic)

@@ -1,0 +1,27 @@
+Jakkrit Moonkham
+jakkrit.moo28@example.com | 086-336-6732 | Thung Song District, Nakhon Si Thammarat
+
+Personal Details
+Date of Birth: 24 December 2003 | Gender: Male | Nationality: Thai
+
+Education
+Rajamangala University of Technology Srivijaya
+Bachelor of Engineering, Computer Engineering, 2026
+GPA 2.80 | TOEIC 500
+
+Projects
+- Simple website for a local cafe (HTML, CSS)
+
+Activities
+- E-sports club member, joined university gaming tournaments
+
+Skills
+HTML, CSS, Photoshop, Microsoft Office
+
+Hobbies
+Online games, watching movies
+- Helped friends fix computers
+- Online course: introduction to web design
+
+Languages
+Thai (native), English (basic)

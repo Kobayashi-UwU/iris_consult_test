@@ -1,0 +1,37 @@
+Chatchai Limpanit
+chatchai.lim19@example.com | 083-903-7461 | Thung Khru, Bangkok
+
+PERSONAL DETAILS
+Date of Birth: 22 April 2001
+Gender: Male
+Nationality: Thai
+
+RESEARCH SUMMARY
+Chemical engineer (M.Eng.) specialising in post-combustion carbon capture, with process-engineering internship experience in an olefins plant.
+
+EDUCATION
+King Mongkut's University of Technology Thonburi
+M.Eng. Chemical Engineering, expected May 2026 — GPA 3.70
+Thesis: "Oxidative and thermal degradation of MEA/piperazine blends for post-combustion CO2 capture"
+- Designed and ran 30 degradation experiments over 9 months; showed a blend that lost 35% less amine than 30 wt% MEA under the same conditions.
+- Published: conference paper at a regional greenhouse-gas control technologies conference (2025), first author.
+B.Eng. Chemical Engineering, King Mongkut's University of Technology Thonburi, 2023
+English: IELTS 7.5
+
+EXPERIENCE
+Process Engineering Intern — Map Ta Phut Olefins Co., Ltd. (Jun–Jul 2022)
+- Reconciled mass balance for the cracked-gas compression section using plant data and Aspen HYSYS; closed the balance from 6% to under 2% error by correcting two flow-meter compensations.
+- Joined morning operations meetings and a pre-start-up safety review.
+
+Teaching Assistant, Process Dynamics and Control (2024–2025)
+- Ran weekly tutorials for 45 undergraduates and graded lab reports.
+
+LEADERSHIP
+Organised the department's graduate research seminar series in 2025 (8 sessions, about 40 attendees each).
+
+TRAINING
+Process Safety Management course (5 days, 2024)
+
+SKILLS
+Aspen HYSYS, Aspen Plus, Python, MATLAB, design of experiments, technical writing
+Thai (native), English (professional)

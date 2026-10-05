@@ -1,0 +1,34 @@
+Pimchanok Asawaruk
+pimchanok.asa35@example.com | 085-395-8165 | Phaya Thai District, Bangkok
+
+PROFILE
+Computer engineer focused on industrial AI: building models that plant engineers actually trust and use. Experience with real gas-turbine data and on-site work in a power plant.
+
+EXPERIENCE
+Digital Engineering Intern - Chao Phraya Power Co., Ltd. (combined-cycle power generation)
+June - August 2025
+- Built an anomaly-detection model (isolation forest + rolling statistics in Python) on 2 years of 1-minute gas-turbine sensor data (about 180 tags)
+- The model flagged an abnormal exhaust temperature spread on one turbine 3 weeks before a scheduled inspection; the inspection confirmed a damaged combustor liner component
+- Spent 4 weeks on site at the plant working with mechanical and operations engineers to validate alerts and reduce false alarms from 12 to 2 per week
+- Completed plant safety induction, permit-to-work awareness and PPE training before field visits
+- Presented results to the plant manager and the head office digital team
+
+EDUCATION
+Chulalongkorn University
+Bachelor of Engineering - Computer Engineering, expected May 2026
+GPA 3.55 | IELTS 7.5
+
+Senior project: Digital twin of a heat-recovery steam generator (HRSG)
+- Built a physics-informed model in Python that estimates steam output from gas-turbine exhaust conditions, with error under 3% against plant data
+- Interactive dashboard (Streamlit) to test what-if scenarios for duct firing
+
+LEADERSHIP
+Lead, Women in Engineering Club, Faculty of Engineering (2024-2025)
+- Ran a mentoring programme pairing 40 first-year students with senior students
+- Organised a plant visit and two career talks
+
+SKILLS
+Python (pandas, scikit-learn, PyTorch), SQL, Streamlit, time-series analysis, Git, basic thermodynamics for power cycles
+
+LANGUAGES
+Thai (native), English (fluent)

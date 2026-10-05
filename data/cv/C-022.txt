@@ -1,0 +1,33 @@
+Pongsakorn Ruangrit
+pongsakorn.rua22@example.com | 084-414-4218 | Mueang Rayong District, Rayong
+
+Personal Details
+Date of Birth: 27 March 2003 | Gender: Male | Nationality: Thai
+
+Education
+King Mongkut's Institute of Technology Ladkrabang
+Bachelor of Engineering in Instrumentation & Control Engineering, expected May 2026
+GPA 3.30 | TOEIC 720
+Senior project: Model predictive control (MPC) of a pilot-scale heated tank, implemented in Python and compared against PID tuning; MPC reduced temperature overshoot by about 40% on the rig.
+
+Internship
+Instrument Engineering Intern, Rayong Aromatics Co., Ltd. (petrochemical complex), Map Ta Phut
+June - August 2025 (3 months)
+- Calibrated 35 pressure and differential-pressure transmitters under supervision and recorded as-found/as-left results in the maintenance system
+- Joined the weekly DCS alarm review meeting for the aromatics unit
+- Wrote a Python tool that parsed 6 months of DCS alarm logs (about 210,000 events) and ranked the top 20 nuisance alarms by frequency and chattering behaviour
+- Presented recommendations to the instrument supervisor; 8 alarm set-points and dead-bands were changed after management-of-change review, cutting alarm count on the console by roughly 25% in the following month
+- Attended training on safety instrumented systems (SIS) basics, SIL concepts and permit-to-work
+- Followed hot-work and gas-test procedures when working in the field
+
+Skills
+- Control & instrumentation: DCS operation, PLC (ladder logic), HART calibrators, P&ID reading
+- Software: Python (pandas, matplotlib), MATLAB/Simulink, Excel
+- Safety: permit-to-work, gas testing awareness, PPE and H2S awareness
+
+Activities
+- Teaching assistant, Process Control Laboratory (2025)
+- Member, Faculty of Engineering Robotics Club, built line-following robot controller
+
+Background
+Grew up next to an industrial estate in Rayong and have seen plant shutdowns and start-ups up close; motivated to build a career in safe and reliable plant operations.

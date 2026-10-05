@@ -1,0 +1,39 @@
+Ratchanon Duangdee
+ratchanon.dua36@example.com | 082-532-7084 | San Sai District, Chiang Mai
+
+PERSONAL DETAILS
+Date of Birth: 29 November 2003
+Gender: Male
+Nationality: Thai
+
+EDUCATION
+Chiang Mai University
+Bachelor of Engineering - Energy Engineering, expected May 2026
+GPA 3.08
+TOEIC 640
+
+SENIOR PROJECT
+Gasification of corn cobs in a lab-scale downdraft gasifier
+- Measured producer gas composition at two air-flow settings
+- Compared gas heating value with literature values
+
+INTERNSHIP
+Northern Biomass Power Co., Ltd. (small biomass power plant), June - July 2025
+- Recorded hourly boiler and turbine readings and entered them into Excel
+- Joined the plant safety induction and a fire drill
+
+SKILLS
+Excel, MATLAB (basic), AutoCAD
+
+ACTIVITIES
+Hiking Club, Faculty of Engineering - trip organiser
+
+ADDITIONAL PROJECTS
+- Class project: energy audit of a faculty building, identified lighting and air-conditioning savings of about 8% on paper
+- Group report on solar PV feasibility for a small community hospital
+
+LANGUAGES
+Thai (native), Northern Thai dialect, English (intermediate)
+
+INTERESTS
+Biomass and bioenergy, outdoor activities, photography

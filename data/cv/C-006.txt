@@ -1,0 +1,27 @@
+Pakorn Jirasakul
+pakorn.jir06@example.com | 082-922-3514 | Lat Phrao, Bangkok
+
+EDUCATION
+Chulalongkorn University — B.Eng. Petroleum Engineering, expected May 2026
+GPA 3.45 | TOEIC 860
+Thesis: "Waterflood scenario screening for a layered sandstone reservoir using numerical simulation"
+- Built a 3D static model in Petrel from synthetic well data and ran 12 waterflood scenarios in Eclipse.
+- Wrote Python scripts to post-process simulation output and rank scenarios by recovery factor and water cut; best case improved recovery by 7 percentage points versus primary depletion.
+
+EXPERIENCE
+Summer Intern, Drilling Services — Gulf Siam Well Services Co., Ltd. (Jun–Jul 2025)
+- Spent 14 days offshore on a wellhead platform in the Gulf of Thailand (14/14 rotation with the crew).
+- Helped the drilling supervisor prepare daily drilling reports and checked mud weight and volume entries against the mud logger's data.
+- Attended daily toolbox talks and one emergency muster drill; obtained BOSIET certification before mobilisation.
+- Onshore: updated well schematics for 5 wells and organised the end-of-well report files.
+
+FIELD TRAINING
+Petroleum Geology Field Camp (10 days, 2024) — logged outcrops, measured sections and wrote a team report on depositional environments.
+
+LEADERSHIP & SPORT
+Captain, Faculty of Engineering Football Team (2024–2025) — organised training for 25 players and reached the inter-faculty semi-final.
+
+SKILLS
+Petrel, Eclipse, Python (numpy, pandas, matplotlib), Excel, well-log interpretation basics
+Certificates: BOSIET (2025)
+Languages: Thai (native), English (professional)

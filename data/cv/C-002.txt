@@ -1,0 +1,33 @@
+Thanakorn Wongsa
+Email: thanakorn.won02@example.com  Tel: 084-374-7838  Address: Mueang Nakhon Pathom, Nakhon Pathom
+
+OBJECTIVE
+To join a graduate engineering programme where I can develop my skills in power distribution and electrical systems.
+
+EDUCATION
+King Mongkut's Institute of Technology Ladkrabang
+Bachelor of Engineering (Electrical Engineering), 2026
+GPA: 3.10
+TOEIC: 680
+
+SENIOR PROJECT
+Smart meter data logger — built a small logger using a microcontroller to record household energy use every 15 minutes and display it on a simple web page. Team of 3.
+
+INTERNSHIP
+Engineering Intern, Nakhon Chai Provincial Power Distribution Office (Jun–Jul 2025)
+- Joined engineers on routine inspections of 4 substations and filled in inspection checklists.
+- Updated single-line diagrams in AutoCAD for two feeders.
+- Learned basic electrical safety rules for substation work.
+
+- Measured voltage at 6 points along one feeder with the engineer and compared the readings to the planning study.
+
+COURSE PROJECT
+Power system load flow study of a 9-bus test system in MATLAB for the Power Systems course.
+
+ACTIVITIES
+- Volunteer, Faculty of Engineering Open House (2023, 2024): guided high school visitors.
+- Member, Faculty of Engineering Electrical Club.
+
+SKILLS
+AutoCAD, MATLAB, Arduino, Microsoft Office
+Languages: Thai (native), English (good)

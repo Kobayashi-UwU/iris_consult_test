@@ -1,0 +1,36 @@
+Krittin Wattanakul
+krittin.wat27@example.com | 089-199-7813 | Khlong Luang District, Pathum Thani
+
+ABOUT ME
+Chemical engineering graduate with strong analytical and presentation skills, curious about how data can improve industrial decisions.
+
+EXPERIENCE
+Data Analytics Intern, Siam Metro Bank (retail banking analytics team)
+June - August 2025
+- Built Power BI dashboards on branch transaction volumes for the regional managers
+- Cleaned customer survey data in Excel and SQL
+- Presented weekly findings to the team lead
+
+EDUCATION
+Thammasat University
+Bachelor of Engineering, Chemical Engineering - 2026
+GPA 3.18
+IELTS 7.0
+
+Senior project: Lab-scale membrane separation of CO2/N2 mixtures using polymer membranes; measured permeability at three pressures.
+
+SKILLS
+- Power BI, SQL, Excel
+- Aspen Plus (coursework)
+- Public speaking and presentation
+
+ACTIVITIES
+- Debate Club, Faculty of Engineering - represented the faculty at two inter-university debate tournaments
+- MC for faculty events
+
+PROJECTS
+- Unit operations lab report on distillation column efficiency (team of 5), graded A
+- Personal project: Excel model comparing electricity costs of rooftop solar for my family's home
+
+INTERESTS
+Reading about energy markets and how data is used in industry; would like to learn plant operations.

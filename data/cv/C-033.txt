@@ -1,0 +1,34 @@
+Tanawat Sirichai
+tanawat.sir33@example.com | 081-121-1327 | Lat Krabang District, Bangkok
+
+EDUCATION
+King Mongkut's Institute of Technology Ladkrabang
+B.Eng. in Computer Engineering, expected May 2026
+GPA 3.40 | TOEIC 780
+
+EXPERIENCE
+Web Developer Intern - ShopNow Online Co., Ltd. (e-commerce)
+June - August 2025
+- Built product listing and checkout components in React and TypeScript
+- Wrote Node.js API endpoints for order history
+- Fixed 30+ bugs reported by the QA team
+
+PROJECTS
+- Senior project: recommendation engine for an online bookstore (Python, collaborative filtering)
+- Personal: task management mobile app (Flutter), 500+ downloads
+
+COMPETITIONS
+- Competitive programming: regional finalist, national collegiate programming contest 2024
+
+SKILLS
+JavaScript, TypeScript, React, Node.js, Python, SQL, Git, Docker
+
+LANGUAGES
+Thai (native), English (good)
+
+ACTIVITIES
+- Mentor, Faculty of Engineering Coding Bootcamp for first-year students (2024)
+- Built the registration website for the faculty sports day
+
+INTERESTS
+Software architecture, mobile development, open-source contributions. Looking for a role where I can build software products and grow as a developer.

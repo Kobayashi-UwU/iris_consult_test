@@ -1,0 +1,30 @@
+Kanokwan Thepsiri
+kanokwan.the13@example.com | 081-981-4947 | Chatuchak, Bangkok
+
+PERSONAL DETAILS
+Date of Birth: 28 May 2002
+Gender: Female
+Nationality: Thai
+
+PROFILE
+Environmental engineer with one year of consulting experience in greenhouse-gas accounting and an offshore decommissioning assessment. Research background in CO2 mineralisation. Aiming to apply this to carbon capture and storage and decarbonisation in the energy industry.
+
+EXPERIENCE
+Junior Environmental Engineer — Greenline Environmental Consulting Co., Ltd. (Jul 2025 – present)
+- Prepared greenhouse-gas inventories (Scope 1 and 2) for 4 industrial clients, including a glass plant and a food factory, following the GHG Protocol; reconciled fuel and electricity data across 12 months.
+- Supported the environmental assessment team for the decommissioning of an offshore wellhead platform: compiled marine baseline data, drafted sections on waste management and emissions, and attended 3 client meetings.
+- Built an Excel model that cut the time to update emission factors across client inventories from 2 days to half a day.
+
+EDUCATION
+Kasetsart University
+B.Eng. Environmental Engineering, 2025 — GPA 3.25
+IELTS 6.5
+Thesis: "CO2 mineralisation using steel slag for permanent carbon storage" — ran batch carbonation experiments and measured up to 18% CO2 uptake by weight under optimised conditions.
+
+TRAINING
+- GHG accounting and verification course (3 days, 2025)
+- Basic offshore safety awareness briefing (client site requirement)
+
+SKILLS
+GHG Protocol, life cycle assessment basics, Excel modelling, Python (basic), report writing
+Thai (native), English (professional)
