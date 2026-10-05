@@ -8,26 +8,22 @@ from core.db import get_state, session_scope
 from core.pipeline import candidate_dicts, run_screening
 from core.redaction import redact
 from core.seed import read_ground_truth
-from core.workflow import WorkflowError, active_profile, can_screen, evaluations
+from core.workflow import WorkflowError, can_screen, evaluations, is_confirmed
 
-ui.header("Screening", "Rules check eligibility, code removes personal data, the AI finds evidence for each "
-          "criterion, and code verifies every quote and calculates the score.", step=2)
+ui.header("Screening", "Check all 40 applications against the approved profile. Personal details are removed "
+          "before the AI reads anything, and every score is backed by quotes from the CV.", step=2)
 
 with session_scope() as s:
     ok, why = can_screen(s)
     scr = get_state(s, "screening")
-    prof = active_profile(s)
+    confirmed = is_confirmed(s)
 
-if scr and scr.get("stale"):
-    ui.note("The success profile changed after the last run. Run screening again.", "warn")
 
-left, right = st.columns([0.3, 0.7], vertical_alignment="center")
-if left.button("Run screening" if not scr else "Run again", type="primary" if not scr else "secondary",
-               disabled=not ok, width="stretch"):
+def run() -> None:
     bar = st.progress(0.0, text="Starting")
 
     def progress(done, total, cid):
-        bar.progress(done / max(total, 1), text=f"{done} of {total} assessed")
+        bar.progress(done / max(total, 1), text=f"Reading application {done} of {total}")
 
     try:
         with session_scope() as s:
@@ -35,12 +31,20 @@ if left.button("Run screening" if not scr else "Run again", type="primary" if no
         st.rerun()
     except WorkflowError as exc:
         ui.note(ui.esc(exc), "bad")
-if prof:
-    right.caption(f"Profile v{prof.version} · shortlist of {config.SHORTLIST_SIZE} · borderline band "
-                  f"±{config.BORDERLINE_BAND:g} points")
-if not ok:
-    ui.note(ui.esc(why), "plain")
-if not scr:
+
+
+if not scr or scr.get("stale"):
+    if scr and scr.get("stale"):
+        ui.note("The success profile changed since the last run, so the results are out of date.", "warn")
+    st.markdown(
+        "<div class='hero'><div class='big'>Screen 40 applications</div><div class='muted'>For each applicant: "
+        "eligibility rules, then personal details removed, then the AI quotes evidence for each criterion, then "
+        "code checks the quotes and calculates the score. Takes a few seconds in demo mode.</div></div>",
+        unsafe_allow_html=True)
+    if st.button("Screen the applications", type="primary", disabled=not ok):
+        run()
+    if not ok:
+        ui.note(ui.esc(why), "plain")
     st.stop()
 
 with session_scope() as s:
@@ -48,31 +52,41 @@ with session_scope() as s:
     cands = {c["candidate_id"]: c for c in candidate_dicts(s)}
 
 b = scr["buckets"]
+st.markdown(
+    f"<div class='hero'><div class='label muted'>Result</div><div class='big'>{b.get('Proposed', 0)} proposed for "
+    f"interview, {b.get('Needs Review', 0)} need your judgement</div><div class='muted'>"
+    f"{b.get('Not Proposed', 0)} not proposed and {b.get('Ineligible', 0)} ineligible. Nobody is contacted until "
+    f"the Recruiter confirms the shortlist in the next step.</div></div>", unsafe_allow_html=True)
 m = st.columns(4)
 m[0].metric("Proposed", b.get("Proposed", 0))
-m[1].metric("Needs review", b.get("Needs Review", 0))
+m[1].metric("Need your judgement", b.get("Needs Review", 0))
 m[2].metric("Not proposed", b.get("Not Proposed", 0))
 m[3].metric("Ineligible", b.get("Ineligible", 0))
+ui.next_up(2)
 
-rows = []
-for cid, e in sorted(evs.items(), key=lambda kv: (kv[1].rank == 0, kv[1].rank, kv[0])):
-    rows.append({
+# ---------------- deeper detail
+st.write("")
+st.markdown("## Details")
+tab_res, tab_ai, tab_base, tab_check = st.tabs(
+    ["All results", "What the AI sees", "Compared with a shortcut", "Planted test cases"])
+
+with tab_res:
+    rows = [{
         "Rank": e.rank or None, "Candidate": cid, "Major": cands[cid]["major"], "Score": e.total_score,
         "Result": e.bucket, "Flags": ui.flags_text(e.flags), "Model": e.model or "rules",
         "Reason": "; ".join(e.knockout_reasons),
-    })
-st.dataframe(
-    pd.DataFrame(rows), hide_index=True, width="stretch", height=400,
-    column_config={"Score": st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%.1f")},
-)
-models_used = sorted({e.model for e in evs.values() if e.model})
-st.caption(f"Names and universities are hidden here. {len(evs)} applications · source: "
-           + ", ".join(f"{k} {v}" for k, v in scr["sources"].items())
-           + (f" · models: {', '.join(models_used)} (fallback chain; each scorecard shows its model)"
-              if len(models_used) > 1 else ""))
-st.page_link("views/review.py", label="Continue to shortlist review")
-
-tab_ai, tab_base, tab_check = st.tabs(["What the AI sees", "Compared with a shortcut", "Planted test cases"])
+    } for cid, e in sorted(evs.items(), key=lambda kv: (kv[1].rank == 0, kv[1].rank, kv[0]))]
+    st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch", height=420,
+                 column_config={"Score": st.column_config.ProgressColumn("Score", min_value=0, max_value=100,
+                                                                         format="%.1f")})
+    models_used = sorted({e.model for e in evs.values() if e.model})
+    st.caption("Names and universities are hidden here. Shortlist size "
+               f"{config.SHORTLIST_SIZE}; applicants within {config.BORDERLINE_BAND:g} points of the cut-off, or with "
+               "a flag, need a human decision."
+               + (f" Models used: {', '.join(models_used)} (fallback chain; each scorecard names its model)."
+                  if len(models_used) > 1 else ""))
+    if st.button("Run screening again", disabled=confirmed or not ok):
+        run()
 
 with tab_ai:
     pick = st.selectbox("Applicant", sorted(cands), key="redact_pick")
@@ -81,15 +95,15 @@ with tab_ai:
     l, r = st.columns(2)
     l.caption("Original CV, never sent to the AI")
     l.markdown(f"<div class='cv'>{ui.esc(c['cv_text'])}</div>", unsafe_allow_html=True)
-    r.caption("Sent to the AI, after automatic redaction")
+    r.caption("What the AI receives")
     r.markdown(f"<div class='cv'>{ui.esc(red)}</div>", unsafe_allow_html=True)
     st.caption("Removed: " + (", ".join(f"{k.replace('_', ' ')} ({v})" for k, v in counts.items()) or "nothing"))
 
 eligible = {cid for cid, e in evs.items() if e.knockout_pass}
 base = baseline_select(list(cands.values()), eligible, config.SHORTLIST_SIZE)
 with tab_base:
-    st.caption(f"A common shortcut under volume: GPA of at least {BASELINE_GPA_MIN:.2f}, then rank by keyword count. "
-               f"Same shortlist size ({config.SHORTLIST_SIZE}).")
+    st.caption(f"A common shortcut under volume: GPA of at least {BASELINE_GPA_MIN:.2f}, then rank by keyword count, "
+               f"same shortlist size ({config.SHORTLIST_SIZE}).")
     ours = {cid for cid, e in evs.items() if e.bucket in ("Proposed", "Needs Review")}
     theirs = {cid for cid, v in base.items() if v["baseline_selected"]}
     l, r = st.columns(2)

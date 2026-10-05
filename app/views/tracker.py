@@ -11,6 +11,11 @@ from core.workflow import STATUS_ORDER, current_decisions, evaluations, statuses
 
 ui.header("Tracker", "Where every applicant stands, how the funnel converts, and what the workflow saves at scale.",
           step=5)
+if ui.steps_done()[3]:
+    st.markdown("<div class='hero'><div class='label muted'>Complete</div><div class='big'>Every applicant has an "
+                "outcome</div><div class='muted'>Below: the funnel and time saved. The fairness check and the full "
+                "audit trail are under Governance in the menu.</div></div>", unsafe_allow_html=True)
+    ui.go("Open fairness & audit", "views/fairness.py", primary=False, key="to_fair")
 
 with session_scope() as s:
     st_map = statuses(s)

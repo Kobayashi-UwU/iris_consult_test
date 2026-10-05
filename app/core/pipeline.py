@@ -243,17 +243,47 @@ def send_regrets(s: Session, actor_role: str) -> int:
     return n
 
 
-INTERVIEW_SLOTS = [
-    "Mon 9 Nov 2026, 09:30–10:00 (video)", "Mon 9 Nov 2026, 10:30–11:00 (video)",
-    "Mon 9 Nov 2026, 14:00–14:30 (video)", "Tue 10 Nov 2026, 09:30–10:00 (video)",
-    "Tue 10 Nov 2026, 11:00–11:30 (video)", "Tue 10 Nov 2026, 15:00–15:30 (video)",
-    "Wed 11 Nov 2026, 09:30–10:00 (video)", "Wed 11 Nov 2026, 13:30–14:00 (video)",
-    "Thu 12 Nov 2026, 10:00–10:30 (video)", "Thu 12 Nov 2026, 14:30–15:00 (video)",
-    "Fri 13 Nov 2026, 09:30–10:00 (video)", "Fri 13 Nov 2026, 11:00–11:30 (video)",
-    "Fri 13 Nov 2026, 14:00–14:30 (video)", "Fri 13 Nov 2026, 15:30–16:00 (video)",
-]
+def _slots() -> list[str]:
+    """Mock calendar: two weeks of 30-minute video interviews, six per day."""
+    from datetime import date, timedelta
+    times = ["09:30–10:00", "10:30–11:00", "11:30–12:00", "13:30–14:00", "14:30–15:00", "15:30–16:00"]
+    out, d = [], date(2026, 11, 9)
+    while len(out) < 60:
+        if d.weekday() < 5:
+            out += [f"{d.strftime('%a')} {d.day} {d.strftime('%b %Y')}, {t} (video)" for t in times]
+        d += timedelta(days=1)
+    return out
+
+
+INTERVIEW_SLOTS = _slots()
 
 
 def booked_slots(s: Session) -> set[str]:
     rows = s.scalars(select(Communication).where(Communication.kind == "invite", Communication.sent.is_(True)))
     return {r.draft_json.get("slot") for r in rows if r.draft_json.get("slot")}
+
+
+def send_all_invites(s: Session, client: LLMClient, actor_role: str) -> tuple[int, list[str], list[str]]:
+    """Send every pending invitation with its AI draft as written and the next free slot."""
+    ok, why = can_generate(s)
+    if not ok:
+        raise WorkflowError(why)
+    sent, failed, no_slot = 0, [], []
+    taken = booked_slots(s)
+    for cid, st in sorted(statuses(s).items()):
+        if st != "Approved":
+            continue
+        try:
+            ensure_interview_kit(s, client, cid)
+            inv = ensure_invite(s, client, cid)
+        except LLMUnavailable:
+            failed.append(cid)
+            continue
+        slot = next((x for x in INTERVIEW_SLOTS if x not in taken), "")
+        if not slot:
+            no_slot.append(cid)
+            continue
+        taken.add(slot)
+        send_invite(s, cid, inv.draft_json["subject"], inv.edited_text, slot, actor_role)
+        sent += 1
+    return sent, failed, no_slot

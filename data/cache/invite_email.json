@@ -9,12 +9,52 @@
   },
   "prompt_version": "invite_email.v1"
  },
+ "00e2af89c98b6aca": {
+  "created_at": "2026-10-05T06:58:00.073834+00:00",
+  "latency_s": 6.37,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}}, We are pleased to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027. Your application stood out due to your practical field engineering exposure, particularly your experience with PLC logic and I/O lists, as well as your well-defined senior project methodology. We would like to propose {{interview_slot}} for this discussion. Please confirm if this time works for you, or suggest an alternative time by replying to this email. Talent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
  "0dabb5ae93a4b5db": {
   "created_at": "2026-10-05T05:56:42.634556+00:00",
   "latency_s": 5.92,
   "model": "gemma-4-26b-a4b-it",
   "output": {
    "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your strong discipline engineering foundation, specifically your capstone project involving gasification processes, and your proficiency in using data analytics tools to process operational data.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in Thara Energy. We have proposed {{interview_slot}} for this meeting.\n\nPlease confirm if this time works for you, or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "10068842fbd9e328": {
+  "created_at": "2026-10-05T06:54:26.867225+00:00",
+  "latency_s": 4.91,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your practical field engineering exposure, specifically your experience with cooling load calculations and duct layout preparation. Additionally, your senior project's structured approach to performance testing and methodology was a standout feature of your application. \n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in the role. We have proposed {{interview_slot}} for this meeting. Please let us know if this time works for you, or feel free to suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "2817ccf05f180300": {
+  "created_at": "2026-10-05T06:58:38.376285+00:00",
+  "latency_s": 3.91,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe are pleased to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027. Your application stood out due to your strong leadership and coordination skills demonstrated through your experience on a student committee.\n\nWe would like to propose {{interview_slot}} for this meeting. Please let us know if this works for you, or feel free to suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "33acb4bd9202017d": {
+  "created_at": "2026-10-05T06:57:12.042698+00:00",
+  "latency_s": 4.49,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your active participation in sustainability clubs and your specific project work on green hydrogen.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in this role. We have proposed {{interview_slot}} for this meeting.\n\nPlease confirm if this time works for you, or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
    "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
   },
   "prompt_version": "invite_email.v1"
@@ -26,6 +66,16 @@
   "output": {
    "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your practical field engineering exposure through your internship at a power distribution office and your strong foundation in discipline engineering, specifically your capstone project involving a microcontroller-based energy data logger.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in this role. We propose the following time: {{interview_slot}}.\n\nPlease let us know if this time works for you, or feel free to suggest an another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another another=",
    "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "3a121723b8e0621f": {
+  "created_at": "2026-10-05T06:55:54.698050+00:00",
+  "latency_s": 44.58,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your application for the Graduate Engineer Programme 2027. Your well-defined capstone project, specifically your use of SolidWorks modelling and 3D printing, stood out to us. Additionally, your focus on wind turbine design demonstrates a strong alignment with our goals in energy transition and decarbonisation.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your background further. We propose the following time: {{interview_slot}}.\n\nPlease confirm if this works for you or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Interview Invitation: Graduate Engineer Programme 2027 - Thara Energy"
   },
   "prompt_version": "invite_email.v1"
  },
@@ -49,6 +99,26 @@
   },
   "prompt_version": "invite_email.v1"
  },
+ "6dba6b79b350c042": {
+  "created_at": "2026-10-05T06:54:26.095317+00:00",
+  "latency_s": 8.88,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your practical field engineering exposure through your QC laboratory internship and your focus on sustainable materials in your senior project. We would like to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027.\n\nWe have proposed {{interview_slot}} for this meeting. Please let us know if this works for you, or feel free to suggest another time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "823b9d9845f8d968": {
+  "created_at": "2026-10-05T06:58:38.382594+00:00",
+  "latency_s": 36.26,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your application for the Graduate Engineer Programme 2027. Your active involvement in environmental sustainability, specifically your participation in a faculty-organised tree-planting day, stood out to us.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your profile further. We propose the following time: {{interview_slot}}.\n\nPlease confirm if this works for you or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Interview Invitation: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
  "98e6d3f1bde7e451": {
   "created_at": "2026-10-05T05:57:05.172374+00:00",
   "latency_s": 9.29,
@@ -65,6 +135,16 @@
   "model": "gemma-4-26b-a4b-it",
   "output": {
    "body": "Dear {{first_name}},\n\nWe were impressed by your strong discipline engineering foundation, particularly the validated results from your capstone project, and your practical field engineering exposure through your internship. We would like to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027.\n\nWe have proposed {{interview_slot}} for this meeting. Please let us know if this works for you, or feel free to suggest another time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "a7f4f305c99daec2": {
+  "created_at": "2026-10-05T06:58:25.056342+00:00",
+  "latency_s": 14.58,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your application for the Graduate Engineer Programme 2027. Specifically, your experience in applying digital engineering tools like Python and React to build functional software components stood out to us. We also noted your strong leadership and collaboration skills through your experience as a mentor for first-year students.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in this role. We propose the following time: {{interview_slot}}.\n\nPlease let us know if this works for you, or feel free to suggest another time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
    "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
   },
   "prompt_version": "invite_email.v1"
@@ -99,12 +179,52 @@
   },
   "prompt_version": "invite_email.v1"
  },
+ "b2ff3f93fc99f6e4": {
+  "created_at": "2026-10-05T06:59:13.917849+00:00",
+  "latency_s": 21.5,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your strong overall application and would like to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027.\n\nWe have proposed the following time: {{interview_slot}}.\n\nPlease let us know if this works for you or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Interview Invitation: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
  "b43c5fe2861a2e13": {
   "created_at": "2026-10-05T05:42:29.185963+00:00",
   "latency_s": 5.5,
   "model": "gemma-4-26b-a4b-it",
   "output": {
    "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your practical field engineering exposure at a combined-cycle power plant and your rigorous approach to physics-informed modelling in your senior project.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your experience further. We propose the following time: {{interview_slot}}.\n\nPlease confirm if this works for you, or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "b4dbfa3faddeb003": {
+  "created_at": "2026-10-05T06:57:49.497859+00:00",
+  "latency_s": 4.33,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe are pleased to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027. Your experience in student organizing teams and your ability to collaborate on group reports stood out during our review of your application. \n\nWe would like to propose {{interview_slot}} for this meeting. Please let us know if this works for you, or feel free to suggest an another time by replying to this email.\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "b4f36d1bd6e2a3bf": {
+  "created_at": "2026-10-05T06:56:02.338435+00:00",
+  "latency_s": 41.17,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your application for the Graduate Engineer Programme 2027. Your practical field engineering exposure during your wastewater treatment plant internship, as well as the clear methodology and deliverables of your senior capstone project, truly stood out to us.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your background further. We propose the following time: {{interview_slot}}.\n\nPlease confirm if this works for you or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Interview Invitation: Graduate Engineer Programme 2027 - Thara Energy"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "b54c363be1399517": {
+  "created_at": "2026-10-05T07:02:22.894979+00:00",
+  "latency_s": 4.44,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by the discipline engineering foundation you demonstrated through your senior project's methodology and production forecasting deliverables. Your application of data analytics and digital engineering tools, specifically using Excel for engineering analysis, also stood out to us.\n\nWe would like to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027. We have proposed {{interview_slot}} for this meeting.\n\nPlease confirm if this time works for you, or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
    "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
   },
   "prompt_version": "invite_email.v1"
@@ -159,6 +279,16 @@
   },
   "prompt_version": "invite_email.v1"
  },
+ "db46176a0becdbb8": {
+  "created_at": "2026-10-05T07:04:56.792050+00:00",
+  "latency_s": 28.08,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your application for the Graduate Engineer Programme 2027. Your active participation in faculty activities and sports teams demonstrates strong teamwork and leadership skills that would be a great fit for Thara Energy.\n\nWe would like to invite you to a 30-minute first-round video interview to learn more about your background. We propose the following time: {{interview_slot}}.\n\nPlease confirm if this works for you or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Interview Invitation: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
  "dd618596eb2ebc43": {
   "created_at": "2026-10-05T05:39:00.479724+00:00",
   "latency_s": 5.52,
@@ -179,12 +309,42 @@
   },
   "prompt_version": "invite_email.v1"
  },
+ "ef8f0c6aa46b0b4f": {
+  "created_at": "2026-10-05T06:57:35.160216+00:00",
+  "latency_s": 6.77,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your practical field engineering exposure through your internship and your strong foundation in discipline engineering demonstrated in your heat exchanger capstone project.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in Thara Energy. We have proposed {{interview_slot}} for this meeting.\n\nPlease confirm if this time works for you, or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "f1b37672b6332661": {
+  "created_at": "2026-10-05T06:57:43.023096+00:00",
+  "latency_s": 17.99,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your application for the Graduate Engineer Programme 2027. Your active participation in a sustainability club and your commitment to learning about net zero and the hydrogen economy truly stood out to us.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your background further. We have a slot available on {{interview_slot}}. Please let us know if this works for you or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Interview Invitation: Graduate Engineer Programme 2027 - Thara Energy"
+  },
+  "prompt_version": "invite_email.v1"
+ },
  "f33a429481a29a40": {
   "created_at": "2026-10-05T05:42:50.618646+00:00",
   "latency_s": 4.98,
   "model": "gemma-4-26b-a4b-it",
   "output": {
    "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your practical field engineering exposure, specifically your work developing a predictive model for heat exchanger maintenance scheduling during your refinery placement. Your senior thesis on predictive modeling of heat exchanger fouling also demonstrated a strong technical foundation. \n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in our programme. We have proposed {{interview_slot}} for this meeting. Please let us know if this time works for you, or feel free to suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "f8326a43b23d7b96": {
+  "created_at": "2026-10-05T06:57:12.358296+00:00",
+  "latency_s": 4.28,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe are pleased to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027. Your application stood out due to your strong technical focus in your capstone project regarding membrane separation and your experience using digital tools like Power BI and SQL for data analytics.\n\nWe would like to propose {{interview_slot}} for this meeting. Please confirm if this works for you, or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
    "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
   },
   "prompt_version": "invite_email.v1"
