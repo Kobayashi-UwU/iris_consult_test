@@ -1,0 +1,24 @@
+{
+ "model": "gemma-4-26b-a4b-it, gemma-4-31b-it",
+ "created_at": "2026-10-05T06:19:21.013340+00:00",
+ "rows": [
+  {
+   "candidate": "C-017",
+   "model": "gemma-4-26b-a4b-it",
+   "run 1 score": 56.7,
+   "run 2 score": 56.7,
+   "difference": 0.0,
+   "criteria with a different level": 0,
+   "within 5 points": true
+  },
+  {
+   "candidate": "C-031",
+   "model": "gemma-4-31b-it",
+   "run 1 score": 95.0,
+   "run 2 score": 95.0,
+   "difference": 0.0,
+   "criteria with a different level": 0,
+   "within 5 points": true
+  }
+ ]
+}

@@ -144,7 +144,7 @@ def main() -> None:
                          "within 5 points": abs(scores[0] - scores[1]) <= 5})
             print(f"  {rows[-1]}")
         (config.CACHE_DIR / "consistency.json").write_text(json.dumps({
-            "model": ", ".join(sorted({evals[c][2] for c in CONSISTENCY_SAMPLE})), "created_at": datetime.now(timezone.utc).isoformat(), "rows": rows,
+            "model": ", ".join(sorted({r["model"] for r in rows})), "created_at": datetime.now(timezone.utc).isoformat(), "rows": rows,
         }, indent=1), encoding="utf-8")
 
     print(f"Done in {time.time() - t0:.0f}s. Cache files: {sorted(p.name for p in config.CACHE_DIR.glob('*.json'))}")
