@@ -17,7 +17,8 @@ from core.db import session_scope
 from core.pipeline import candidate_dicts
 from core.redaction import redact
 from core.scoring import FLAG_LABELS
-from core.workflow import (ROLE_RECRUITER, WorkflowError, can_review, confirm_blockers, confirm_shortlist,
+from core.workflow import (ROLE_RECRUITER, WorkflowError, bulk_approve_proposed, can_review, confirm_blockers,
+                           confirm_shortlist,
                            current_decisions, evaluations, is_confirmed, is_override, record_decision)
 
 ui.header("Shortlist review", "Decide who is invited to interview. Open an applicant, read the evidence, and choose. "
@@ -54,12 +55,18 @@ st.markdown(f"""<style>
                             min-height: 0 !important; padding: 0 !important; }}
 [class*="st-key-rowbtn_"] button {{ opacity: 0; cursor: pointer; }}
 [class*="st-key-row_"]:hover .rowx {{ background: #f3f6f6; }}
-.rowx {{ display: grid; grid-template-columns: 44px 84px 1fr 120px 110px 120px; gap: 8px; align-items: center;
-        padding: 10px 14px; border-bottom: 1px solid {ui.LINE}; background: #fff; font-size: 0.9rem; }}
+[class*="st-key-row_"] {{ flex: 1; min-width: 0; }}
+[class*="st-key-line_"] {{ background: #fff; border-bottom: 1px solid {ui.LINE}; padding-right: 10px; }}
+[class*="st-key-line_"] [data-testid="stElementContainer"] {{ margin: 0 !important; }}
+[class*="st-key-line_sel_"] {{ background: {ui.ACCENT_SOFT}; }}
+[class*="st-key-line_sel_"] .rowx {{ background: {ui.ACCENT_SOFT}; }}
+.rowx {{ display: grid; grid-template-columns: 44px 84px 1fr 130px 100px; gap: 8px; align-items: center;
+        padding: 10px 14px; background: #fff; font-size: 0.9rem; }}
+.rowx.head {{ grid-template-columns: 44px 84px 1fr 130px 100px 172px; }}
 .rowx.head {{ background: #f4f4f0; color: {ui.MUTED}; font-size: 0.75rem; text-transform: uppercase; letter-spacing: .05em;
              border-radius: 10px 10px 0 0; border: 1px solid {ui.LINE}; }}
 .rowx.sel {{ background: {ui.ACCENT_SOFT}; box-shadow: inset 3px 0 0 {ui.ACCENT}; font-weight: 600; }}
-.rowlist {{ border-left: 1px solid {ui.LINE}; border-right: 1px solid {ui.LINE}; }}
+
 .bar {{ height: 6px; background: {ui.TRACK}; border-radius: 3px; overflow: hidden; }}
 .bar > span {{ display: block; height: 100%; background: {ui.ACCENT}; }}
 </style>""", unsafe_allow_html=True)
@@ -102,7 +109,8 @@ def next_open(after: str | None) -> str | None:
     return undecided[0] if undecided else None
 
 
-def decide(cid: str, choice: str) -> None:
+def record(cid: str, choice: str) -> str | None:
+    """Record a decision with the note (or a standard reason). Returns an error message, or None."""
     e = pool[cid]
     note_text = st.session_state.get(f"note_{cid}", "").strip()
     must = e.bucket == "Needs Review" or is_override(e.bucket, choice)
@@ -112,11 +120,49 @@ def decide(cid: str, choice: str) -> None:
             record_decision(s, cid, choice, code if (must or note_text) else "",
                             (note_text or text) if (must or note_text) else "", ROLE_RECRUITER)
         decisions[cid] = True  # local view, only used to pick the next applicant
-        st.session_state["sel_cid"] = next_open(cid)
-        st.session_state["scroll_to"] = "review-list"
-        st.rerun()
+        return None
     except WorkflowError as exc:
-        ui.note(ui.esc(exc), "bad")
+        return str(exc)
+
+
+def decide(cid: str, choice: str) -> None:
+    err = record(cid, choice)
+    if err:
+        ui.note(ui.esc(err), "bad")
+        return
+    st.session_state["sel_cid"] = next_open(cid)
+    st.session_state["scroll_to"] = "review-list"
+    st.rerun()
+
+
+CHOICES = {"–": None, "Invite": "Approved", "Don't invite": "Rejected", "Hold": "On Hold"}
+CHOICE_OF = {v: k for k, v in CHOICES.items() if v}
+
+
+def on_inline_change(cid: str) -> None:
+    """Dropdown in the list changed: record it; if it was the open applicant, open the next one."""
+    choice = CHOICES.get(st.session_state.get(f"dec_{cid}"))
+    if not choice:
+        return
+    err = record(cid, choice)
+    if err:
+        st.session_state["inline_error"] = f"{cid}: {err}"
+    elif st.session_state.get("sel_cid") == cid:
+        st.session_state["sel_cid"] = next_open(cid)
+
+
+def apply_system() -> None:
+    """Fill in the system's suggestion for every undecided applicant that has one."""
+    with session_scope() as s:
+        bulk_approve_proposed(s, ROLE_RECRUITER)
+    if st.session_state.get("show_all_rows"):
+        for cid in by_rank:
+            if pool[cid].bucket == "Not Proposed" and cid not in decisions:
+                record(cid, "Rejected")
+    with session_scope() as s:
+        done = current_decisions(s)
+    pending = [c for c in visible_ids() if c not in done]
+    st.session_state["sel_cid"] = pending[0] if pending else None
 
 
 def scroll(target: str) -> None:
@@ -175,25 +221,37 @@ if sel not in pool:
     st.session_state["sel_cid"] = sel
 
 name_col = "Name" if not blind else "Major"
+undecided_with_suggestion = [c for c in order if c not in decisions and pool[c].bucket != "Needs Review"]
+b1, b2 = st.columns([0.3, 0.7], vertical_alignment="center")
+b1.button("Apply system suggestions", on_click=apply_system, disabled=confirmed or not undecided_with_suggestion,
+          width="stretch", help="Sets every undecided row to what the system suggests. Rows marked 'Your call' "
+                                "have no suggestion and stay for you to decide.")
+b2.caption("Or choose in the Your decision column, row by row. Click a row to read the full evidence.")
+if st.session_state.get("inline_error"):
+    ui.note(ui.esc(st.session_state.pop("inline_error")), "bad")
+
 st.markdown(f"<div class='rowx head'><span>Rank</span><span>ID</span><span>{name_col}</span><span>Score</span>"
             "<span>System</span><span>Your decision</span></div>", unsafe_allow_html=True)
 with st.container(gap=None):
     for cid in order:
         e, c, d = pool[cid], cands[cid], decisions.get(cid)
         label = c["major"] if blind else f"{c['full_name']} · {c['major']}"
-        dec = DECISION_TEXT.get(d.human_decision, "") if d is not None and d is not True else ""
-        if not dec and pool[cid].bucket == "Not Proposed" and not confirmed:
-            dec = "<span class='muted'>–</span>"
-        with st.container(key=f"row_{cid}", gap=None):
-            st.markdown(
-                f"<div class='rowx {'sel' if cid == sel else ''}'><span class='muted'>{e.rank}</span><span>{cid}</span>"
-                f"<span>{ui.esc(label)}</span><span style='display:flex;align-items:center;gap:8px'><div class='bar' style='flex:1'><span style='width:{e.total_score:.0f}%'></span>"
-                f"</div><span class='muted' style='font-size:.8rem;min-width:22px;text-align:right'>{e.total_score:.0f}</span></span>"
-                f"<span>{SUGGESTION[e.bucket]}</span><span>{dec}</span></div>", unsafe_allow_html=True)
-            if st.button(f"Open {cid}", key=f"rowbtn_{cid}"):
-                st.session_state["sel_cid"] = cid
-                st.session_state["scroll_to"] = "applicant"
-                st.rerun()
+        st.session_state[f"dec_{cid}"] = CHOICE_OF.get(d.human_decision, "–") if d is not None else "–"
+        with st.container(key=f"line_{'sel_' if cid == sel else ''}{cid}", horizontal=True, gap=None,
+                          vertical_alignment="center"):
+            with st.container(key=f"row_{cid}", gap=None):
+                st.markdown(
+                    f"<div class='rowx'><span class='muted'>{e.rank}</span><span>{cid}</span>"
+                    f"<span>{ui.esc(label)}</span><span style='display:flex;align-items:center;gap:8px'>"
+                    f"<div class='bar' style='flex:1'><span style='width:{e.total_score:.0f}%'></span></div>"
+                    f"<span class='muted' style='font-size:.8rem;min-width:22px;text-align:right'>{e.total_score:.0f}"
+                    f"</span></span><span>{SUGGESTION[e.bucket]}</span></div>", unsafe_allow_html=True)
+                if st.button(f"Open {cid}", key=f"rowbtn_{cid}"):
+                    st.session_state["sel_cid"] = cid
+                    st.session_state["scroll_to"] = "applicant"
+                    st.rerun()
+            st.selectbox("Your decision", list(CHOICES), key=f"dec_{cid}", label_visibility="collapsed", width=170,
+                         on_change=on_inline_change, args=(cid,), disabled=confirmed)
 
 # ---------------------------------------------------------------- the open applicant
 
