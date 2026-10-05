@@ -15,7 +15,7 @@
 | Database | **Railway Postgres** (production) / **SQLite** (local) ผ่าน **SQLAlchemy 2.0** | ข้อมูลไม่หายตอน redeploy และโค้ดชุดเดียวใช้ได้ทั้งสองแบบ |
 | Data | **pandas** | ใช้ทำ mock data, funnel และ fairness calc |
 | Charts | **Plotly** | Interactive และรองรับใน Streamlit โดยตรง |
-| Retry | **tenacity** | ใช้ exponential backoff เมื่อชน rate limit ของ free tier |
+| Model fallback | เขียนเองใน `ai/client.py` | สลับรุ่นตามลำดับความสามารถเมื่อรุ่นไหนโควตาหมดหรือล่ม และคุมจังหวะ request ต่อนาทีของแต่ละรุ่น |
 | Fuzzy match | **rapidfuzz** | ใช้ตรวจว่า quote ที่ AI ยกมาอยู่ใน CV จริง |
 | Testing | **pytest** | ทดสอบ scoring, redaction, fairness และ state machine |
 | Hosting | **Railway** (GitHub → auto deploy) | ผู้ใช้มีบัญชีอยู่แล้ว และ deploy app กับ DB ได้ในที่เดียว |
@@ -76,11 +76,13 @@ flowchart TB
 ### 3.1 การตั้งค่า
 | ค่า | ค่าตั้งต้น | หมายเหตุ |
 |---|---|---|
-| `GEMINI_MODEL` | รุ่น Flash ล่าสุดใน AI Studio (เช่น `gemini-2.5-flash`) | ตั้งผ่าน env var ได้ ต้องเช็กชื่อรุ่นใน AI Studio ก่อนใช้ |
+| `GEMINI_MODEL` | รุ่น Flash ล่าสุดใน AI Studio (เช่น `gemini-3.8-flash`) | ตั้งผ่าน env var ได้ ต้องเช็กชื่อรุ่นใน AI Studio ก่อนใช้ |
 | `temperature` | 0.1–0.2 | ให้ผลคงที่ แต่ไม่ทำให้ภาษาแข็งเกินไป |
 | `response_mime_type` | `application/json` | ใช้ร่วมกับ `response_schema` (Pydantic) |
-| Concurrency | 2 requests พร้อมกัน (ค่าตั้งต้น) | ไม่ให้ชน RPM ของ free tier |
-| Retry | สูงสุด 6 ครั้ง, exponential backoff ตั้งแต่ 2s ถึง 40s | ใช้กับ 429, 5xx, network error และ JSON ที่ validate ไม่ผ่าน |
+| Concurrency | 2 requests พร้อมกัน (ค่าตั้งต้น) | |
+| **Model fallback chain** | `gemini-3.8-flash → 3.7-flash → 3.6-flash → 3.5-flash → gemma-4-31b-it → gemma-4-26b-a4b-it` (ตั้งได้ด้วย `GEMINI_MODELS`) | Free tier จำกัดโควตาแยกต่อรุ่น (Flash: 5 RPM / 20 RPD, Gemma: 30 RPM / 14.4K RPD) ถ้ารุ่นไหนโควตารายวันหมด (429 PerDay) model ไม่พร้อม (503) หรือ retire (404) จะพักรุ่นนั้นแล้วไปรุ่นถัดไป ส่วน JSON ที่ validate ไม่ผ่านจะลองรุ่นถัดไปเฉพาะ call นั้น |
+| RPM pacing | ตัวคุม request ต่อนาทีของแต่ละรุ่นฝั่ง client | รอนาทีถัดไปของรุ่นที่ดีกว่า แทนที่จะลดลงไปรุ่นที่สามารถน้อยกว่าเพราะ limit รายนาที |
+| ความสม่ำเสมอ | บันทึกรุ่นที่ใช้ไว้กับทุกผลลัพธ์ และแสดงใน scorecard | ข้อจำกัด: ผู้สมัครแต่ละคนอาจถูกประเมินด้วยคนละรุ่น ใน production ควรใช้รุ่น paid รุ่นเดียวประเมินทุก CV |
 
 ### 3.2 Agents / Prompts
 เก็บ prompt ไว้ที่ `prompts/` เป็นไฟล์ที่มี version เช่น `profile_builder.v1.md` และบันทึก `prompt_version` ลง audit log ทุกครั้ง
@@ -204,7 +206,7 @@ iris_consult_testi/
 
 ## 7. Dependencies
 
-`requirements.txt` (pinned): `streamlit`, `google-genai`, `pydantic`, `sqlalchemy`, `psycopg[binary]`, `pandas`, `plotly`, `tenacity`, `rapidfuzz`, `python-dotenv`. ส่วน `requirements-dev.txt` เพิ่ม `pytest`
+`requirements.txt` (pinned): `streamlit`, `google-genai`, `pydantic`, `sqlalchemy`, `psycopg[binary]`, `pandas`, `plotly`, `rapidfuzz`, `python-dotenv`. ส่วน `requirements-dev.txt` เพิ่ม `pytest`
 
 ---
 
@@ -213,7 +215,8 @@ iris_consult_testi/
 | Variable | ตัวอย่าง | หมายเหตุ |
 |---|---|---|
 | `GEMINI_API_KEY` | `AIza…` | ใช้เฉพาะ live mode และ `build_cache.py` เก็บใน Railway Variables ห้าม commit |
-| `GEMINI_MODEL` | `gemini-2.5-flash` | ต้องเช็กชื่อรุ่นใน AI Studio |
+| `GEMINI_MODEL` | `gemini-3.8-flash` | รุ่นแรกของ chain |
+| `GEMINI_MODELS` | (ไม่ต้องตั้ง) | กำหนด chain เองแบบคั่นด้วย comma |
 | `APP_MODE` | `demo` / `live` | ค่าตั้งต้นคือ `demo` ส่วน toggle ใน sidebar เปิด live ได้เมื่อมี key |
 | `DATABASE_URL` | Railway inject ให้ | ถ้าไม่ตั้งจะใช้ `sqlite:///local.db` และ `config.py` แปลง scheme เป็น `postgresql+psycopg://` ให้อัตโนมัติ |
 | `LLM_CONCURRENCY` | `2` | จำนวน call พร้อมกันใน live mode (ตั้งไว้ต่ำเพราะ rate limit ของ free tier) |

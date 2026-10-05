@@ -25,10 +25,10 @@ def candidates():
 def stub_client():
     """A live-mode client whose Gemini call is replaced by the deterministic stub."""
     from ai.client import LLMClient
-    from tests.stub_llm import STUB_MODEL, stub_generate
+    from tests.stub_llm import STUB_MODEL, stub_call
     c = LLMClient("live")
-    c.mode, c.model = "live", STUB_MODEL
-    c._generate = stub_generate
+    c.mode, c.model, c.models = "live", STUB_MODEL, [STUB_MODEL]
+    c._call = stub_call
     return c
 
 

@@ -29,12 +29,24 @@ from core.seed import jd_text, read_candidates_csv  # noqa: E402
 CONSISTENCY_SAMPLE = ["C-001", "C-004", "C-005", "C-017", "C-025"]
 
 
+def patient(fn, *args, tries: int = 6, wait_s: int = 45):
+    """Outer retry for long 'model overloaded' (503) spells; the client already retries short blips."""
+    for i in range(tries):
+        try:
+            return fn(*args)
+        except Exception as exc:  # noqa: BLE001
+            if i == tries - 1:
+                raise
+            print(f"  retry {i + 1}/{tries - 1} in {wait_s}s: {str(exc)[:90]}", flush=True)
+            time.sleep(wait_s)
+
+
 def make_client(stub: bool) -> LLMClient:
     client = LLMClient("live")
     if stub:
-        from tests.stub_llm import STUB_MODEL, stub_generate
-        client.mode, client.model = "live", STUB_MODEL
-        client._generate = stub_generate
+        from tests.stub_llm import STUB_MODEL, stub_call
+        client.mode, client.model, client.models = "live", STUB_MODEL, [STUB_MODEL]
+        client._call = stub_call
         if config.CACHE_DIR.resolve() == (config.DATA_DIR / "cache").resolve():
             sys.exit("Refusing to write stub results into data/cache. Set CACHE_DIR to a scratch folder.")
     elif client.mode != "live":
@@ -49,9 +61,8 @@ def parallel(fn, items, workers):
         for r in pool.map(fn, items):
             out.append(r)
             done += 1
-            if done % 5 == 0:
-                CACHE.save()
-                print(f"  {done}/{len(items)}", flush=True)
+            CACHE.save()
+            print(f"  {done}/{len(items)}", flush=True)
     CACHE.save()
     return out
 
@@ -60,18 +71,20 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--stub", action="store_true")
     ap.add_argument("--skip-consistency", action="store_true")
+    ap.add_argument("--kits-top", type=int, default=20,
+                    help="Precompute interview kits and invites for the N highest-scoring candidates (Live mode covers the rest)")
     args = ap.parse_args()
     client = make_client(args.stub)
     workers = 1 if args.stub else config.LLM_CONCURRENCY
     t0 = time.time()
 
-    print(f"Model: {client.model} · cache: {config.CACHE_DIR}")
+    print(f"Model chain: {' → '.join(client.models)} · cache: {config.CACHE_DIR}")
     print("1/4 Success profile")
-    profile, res = agents.build_profile(client, jd_text())
+    profile, res = patient(agents.build_profile, client, jd_text())
     CACHE.save()
     if not args.stub:
         (config.DATA_DIR / "success_profile_v1.json").write_text(json.dumps(profile, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"  {len(profile['criteria'])} criteria, weights {[c['weight'] for c in profile['criteria']]} ({res.source})")
+    print(f"  {len(profile['criteria'])} criteria, weights {[c['weight'] for c in profile['criteria']]} ({res.source}, {res.model})")
 
     cands = read_candidates_csv()
     redacted = {}
@@ -84,21 +97,23 @@ def main() -> None:
     print(f"2/4 Evidence extraction for {len(cands)} CVs")
 
     def evidence(c):
-        out, _ = agents.extract_evidence(client, redacted[c["candidate_id"]], profile)
+        out, res = patient(agents.extract_evidence, client, redacted[c["candidate_id"]], profile)
         enriched, flags = enrich_assessments(out["assessments"], profile["criteria"], redacted[c["candidate_id"]])
-        return c["candidate_id"], enriched, flags
-    evals = {cid: (enr, flags) for cid, enr, flags in parallel(evidence, cands, workers)}
-    for cid, (enr, flags) in sorted(evals.items()):
-        print(f"  {cid} {total_score(enr):5.1f} {flags or ''}")
+        return c["candidate_id"], enriched, flags, res.model
+    evals = {cid: (enr, flags, model) for cid, enr, flags, model in parallel(evidence, cands, workers)}
+    for cid, (enr, flags, model) in sorted(evals.items()):
+        print(f"  {cid} {total_score(enr):5.1f} {model} {flags or ''}")
 
-    print("3/4 Interview kits and invitation drafts")
+    print(f"3/4 Interview kits and invitation drafts (top {args.kits_top})")
 
     def kit_and_invite(c):
         cid = c["candidate_id"]
-        agents.interview_kit(client, redacted[cid], profile, evals[cid][0])
-        agents.invite_email(client, agents.strengths_for_email(evals[cid][0]))
+        patient(agents.interview_kit, client, redacted[cid], profile, evals[cid][0])
+        patient(agents.invite_email, client, agents.strengths_for_email(evals[cid][0]))
         return cid
-    parallel(kit_and_invite, cands, workers)
+    # Highest-scoring candidates first, so the likely interviewees get the most capable models in the chain.
+    ranked = sorted(cands, key=lambda c: -total_score(evals[c["candidate_id"]][0]))[:args.kits_top]
+    parallel(kit_and_invite, ranked, workers)
 
     if not args.skip_consistency:
         print("4/4 Consistency check (independent repeat calls, not cached)")
@@ -109,18 +124,19 @@ def main() -> None:
             user = prompt.user.substitute({"criteria": json.dumps(core, indent=1), "cv": redacted[cid]})
             scores, levels = [], []
             for _ in range(2):
-                out = client._generate(prompt.system, user, CandidateEvaluation)
+                # Same model that produced the cached result, so this measures repeatability, not model differences.
+                out = patient(client._call, evals[cid][2], prompt.system, user, CandidateEvaluation)
                 enr, _ = enrich_assessments(out["assessments"], profile["criteria"], redacted[cid])
                 scores.append(total_score(enr))
                 levels.append([a["level"] for a in enr])
             changed = sum(a != b for a, b in zip(*levels))
-            rows.append({"candidate": cid, "run 1 score": scores[0], "run 2 score": scores[1],
+            rows.append({"candidate": cid, "model": evals[cid][2], "run 1 score": scores[0], "run 2 score": scores[1],
                          "difference": round(abs(scores[0] - scores[1]), 1),
                          "criteria with a different level": changed,
                          "within 5 points": abs(scores[0] - scores[1]) <= 5})
             print(f"  {rows[-1]}")
         (config.CACHE_DIR / "consistency.json").write_text(json.dumps({
-            "model": client.model, "created_at": datetime.now(timezone.utc).isoformat(), "rows": rows,
+            "model": ", ".join(sorted({evals[c][2] for c in CONSISTENCY_SAMPLE})), "created_at": datetime.now(timezone.utc).isoformat(), "rows": rows,
         }, indent=1), encoding="utf-8")
 
     print(f"Done in {time.time() - t0:.0f}s. Cache files: {sorted(p.name for p in config.CACHE_DIR.glob('*.json'))}")

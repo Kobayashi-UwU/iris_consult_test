@@ -112,6 +112,8 @@ for f in e.flags:
     st.warning(f"**{ui.FLAG_SHORT.get(f, f)}**: {FLAG_LABELS.get(f, f)}", icon="⚠️")
 if e.summary:
     st.markdown(f"**AI summary:** {e.summary}")
+st.caption(f"Assessed by `{e.model or 'rules'}` · prompt `{e.prompt_version}` · profile v{e.profile_version} · "
+           f"input hash `{e.input_hash}`")
 
 left, right = st.columns([0.55, 0.45])
 with left:

@@ -60,13 +60,18 @@ m[4].metric("Not proposed", b.get("Not Proposed", 0))
 src = ", ".join(f"{k}: {v}" for k, v in scr["sources"].items())
 st.caption(f"Run at {scr['run_at'][:19].replace('T', ' ')} UTC · mode **{scr['mode']}** · result sources: {src} · "
            f"average AI time per CV {scr['avg_ai_seconds_per_cv']}s · run time {scr['wall_seconds']}s")
+models_used = sorted({e.model for e in evs.values() if e.model})
+if len(models_used) > 1:
+    st.caption(f"ℹ️ Models used: {', '.join(models_used)}. The app uses a fallback chain (most capable first) because "
+               "free-tier quotas are per model. Each scorecard shows its model; in production one paid model would "
+               "assess every CV for consistency.")
 
 rows = []
 for cid, e in sorted(evs.items(), key=lambda kv: (kv[1].rank == 0, kv[1].rank, kv[0])):
     c = cands[cid]
     rows.append({
         "Rank": e.rank or None, "Candidate": cid, "Major": c["major"], "Score": e.total_score,
-        "Bucket": e.bucket, "Flags": ui.flags_text(e.flags),
+        "Bucket": e.bucket, "Flags": ui.flags_text(e.flags), "AI model": e.model or "rules",
         "Why ineligible": "; ".join(e.knockout_reasons),
     })
 df = pd.DataFrame(rows)

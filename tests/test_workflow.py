@@ -74,12 +74,12 @@ def test_invalid_transition_rejected(fresh_db):
 
 def test_ai_never_sees_weights_or_pii(stub_client, candidates):
     seen = []
-    orig = stub_client._generate
+    orig = stub_client._call
 
-    def spy(system, user, schema):
+    def spy(model, system, user, schema):
         seen.append(user)
-        return orig(system, user, schema)
-    stub_client._generate = spy
+        return orig(model, system, user, schema)
+    stub_client._call = spy
     from ai.agents import extract_evidence
     from core.redaction import redact
     c = candidates[0]

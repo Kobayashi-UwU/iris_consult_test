@@ -113,3 +113,8 @@ def stub_generate(system: str, user: str, schema) -> dict:
                         "30-minute video interview on {{interview_slot}}. Please reply to confirm.\n\n"
                         "Talent Acquisition Team, Thara Energy"}
     raise ValueError(schema)
+
+
+def stub_call(model: str, system: str, user: str, schema) -> dict:
+    """Drop-in for LLMClient._call."""
+    return stub_generate(system, user, schema)

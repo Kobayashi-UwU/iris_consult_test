@@ -64,7 +64,7 @@ def sidebar() -> None:
                        "prototype works without an API key. On = calls Gemini live, falling back to the cache on errors.")
         st.session_state["mode"] = "live" if (st.session_state.get("_live_toggle") and live_ok) else "demo"
         if st.session_state["mode"] == "live":
-            st.caption(f"🟢 Live · `{config.GEMINI_MODEL}`")
+            st.caption(f"🟢 Live · fallback chain: {' → '.join(f'`{m}`' for m in config.MODEL_CHAIN)}")
         else:
             st.caption("🔵 Demo · precomputed Gemini results" + ("" if live_ok else " (no API key configured)"))
         st.divider()
