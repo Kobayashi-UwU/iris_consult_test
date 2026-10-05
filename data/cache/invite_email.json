@@ -9,6 +9,16 @@
   },
   "prompt_version": "invite_email.v1"
  },
+ "0dabb5ae93a4b5db": {
+  "created_at": "2026-10-05T05:56:42.634556+00:00",
+  "latency_s": 5.92,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nCongratulations on your application for the Graduate Engineer Programme 2027. We were particularly impressed by your strong discipline engineering foundation, specifically your capstone project involving gasification processes, and your proficiency in using data analytics tools to process operational data.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your interest in Thara Energy. We have proposed {{interview_slot}} for this meeting.\n\nPlease confirm if this time works for you, or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
  "376f4f4961469623": {
   "created_at": "2026-10-05T05:53:28.124273+00:00",
   "latency_s": 16.77,
@@ -39,6 +49,16 @@
   },
   "prompt_version": "invite_email.v1"
  },
+ "98e6d3f1bde7e451": {
+  "created_at": "2026-10-05T05:57:05.172374+00:00",
+  "latency_s": 9.29,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your practical field engineering exposure, particularly your experience with gas-pipeline compressor stations. Your proactive approach to process safety and risk management was also a very strong point in your application. \n\nWe would like to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027. \n\nProposed time: {{interview_slot}}\n\nPlease let us know if this works for you, or feel free to suggest an alternative time by replying to this email. \n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
  "9bea293edb49ade8": {
   "created_at": "2026-10-05T05:46:04.048940+00:00",
   "latency_s": 4.33,
@@ -56,6 +76,16 @@
   "output": {
    "body": "Dear {{first_name}},\n\nWe were impressed by your practical field engineering exposure, particularly your technical contributions to troubleshooting inverter faults at a solar farm. Your senior project's rigorous modelling and validated recommendations also stood out to us. \n\nWe would like to invite you to a 30-minute first-round video interview for our Graduate Engineer Programme 2027. \n\nProposed time: {{interview_slot}}\n\nPlease confirm if this works for you, or suggest another time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
    "subject": "Invitation to Interview: Graduate Engineer Programme 2027"
+  },
+  "prompt_version": "invite_email.v1"
+ },
+ "aa004bca10308288": {
+  "created_at": "2026-10-05T06:00:51.152908+00:00",
+  "latency_s": 36.19,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "body": "Dear {{first_name}},\n\nWe were impressed by your application for the Graduate Engineer Programme 2027. Your research on carbon capture and decarbonisation, as well as the measurable outcomes of your thesis regarding CO2 uptake, truly stood out to us.\n\nWe would like to invite you to a 30-minute first-round video interview to discuss your background further. We have proposed the following time: {{interview_slot}}.\n\nPlease confirm if this works for you or suggest an alternative time by replying to this email.\n\nBest regards,\n\nTalent Acquisition Team, Thara Energy",
+   "subject": "Interview Invitation: Graduate Engineer Programme 2027 - Thara Energy"
   },
   "prompt_version": "invite_email.v1"
  },
