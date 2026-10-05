@@ -1,4 +1,434 @@
 {
+ "35dc566437d963fd": {
+  "created_at": "2026-10-05T05:49:11.578175+00:00",
+  "latency_s": 420.07,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Verify the candidate's technical depth in academic foundations and advanced digital tools while validating the impact and ownership of their practical plant achievements.",
+   "questions": [
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "What specific engineering principles did you apply to solve this?",
+      "How did you validate that your solution was correct?"
+     ],
+     "good_answer_signals": [
+      "Clear application of first-principles engineering",
+      "Structured approach to problem solving",
+      "Ability to link theory to a practical outcome"
+     ],
+     "purpose": "probe_gap",
+     "question": "Since you didn't list a formal senior capstone project, could you describe the most complex technical engineering problem you solved during your degree and the methodology you used?"
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "If not, how would you approach learning a tool like Aspen HYSYS for this role?",
+      "Can you describe a time you used data to identify a trend that wasn't immediately obvious?"
+     ],
+     "good_answer_signals": [
+      "Mention of simulation tools (HYSYS, PRO/II) or advanced Python libraries",
+      "Understanding of the difference between data reporting and data analysis",
+      "Willingness to learn complex digital tools"
+     ],
+     "purpose": "probe_gap",
+     "question": "Beyond basic data summarization, have you used any process simulation software or advanced modeling tools to optimize a system or predict a result?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "What specific cost-benefit analysis did you perform?",
+      "Which design parameter had the biggest impact on the ROI?"
+     ],
+     "good_answer_signals": [
+      "Discussion of CAPEX vs OPEX",
+      "Justification of equipment selection based on both performance and cost",
+      "Quantitative reasoning for design choices"
+     ],
+     "purpose": "probe_gap",
+     "question": "In your national plant design competition, how did you handle the trade-off between technical efficiency and economic viability in your biogas plant design?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What happened if the O2 readings were too high or too low?",
+      "Who did you have to convince to allow these changes on a live boiler?"
+     ],
+     "good_answer_signals": [
+      "Detailed explanation of the relationship between O2, combustion, and efficiency",
+      "Reference to specific measurements and logs",
+      "Evidence of collaboration with operators"
+     ],
+     "purpose": "verify_evidence",
+     "question": "You achieved an 8% reduction in bagasse fuel consumption; walk me through exactly how you tuned the excess-air settings and how you verified the result."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "How did you verify that the operators actually understood and followed the SOP?",
+      "What would have happened if that step was missed?"
+     ],
+     "good_answer_signals": [
+      "Identification of a specific hazard (e.g., pressure buildup, thermal shock)",
+      "Clear link between a procedural step and a safety outcome",
+      "Focus on human factors in SOP design"
+     ],
+     "purpose": "verify_evidence",
+     "question": "When authoring the start-up SOP for the beer column, what was the most critical safety risk you identified, and how did you ensure the SOP mitigated it?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "41b93ece17c07919": {
+  "created_at": "2026-10-05T05:53:11.353110+00:00",
+  "latency_s": 9.81,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "focus_summary": "This interview should establish whether the candidate's technical foundation and safety mindset are sufficient for industrial site work, and whether their digital tool usage is sophisticated-enough to support the energy transition.",
+   "questions": [
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a situation where you identified a potential safety hazard during your substation inspections?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Walk me through the engineering analysis or simulation you performed to validate the results of your smart meter data logger project."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "How do you see your experience with smart meter data logging as a contribution to the broader goal of decarbonisation and renewable energy integration?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "During your internship, when you measured voltage at six points along a feeder, what was your specific role in the following process and how did the following comparison to the planning study was achieved?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Can you describe your personal contribution to the and the technical challenges you faced while building the[] micro-controller based logger?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "522b9f7f442cfb2f": {
+  "created_at": "2026-10-05T05:41:56.053219+00:00",
+  "latency_s": 400.64,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Verify the candidate's ability to apply technical rigor to real-world operational challenges and assess their proactive approach to safety and digital tool implementation.",
+   "questions": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What specific physical constraint did you find?",
+      "How did you validate your solution with the plant operators?"
+     ],
+     "good_answer_signals": [
+      "Recognition of the difference between simulation and reality",
+      "Collaboration with field personnel",
+      "Evidence of iterative problem-solving"
+     ],
+     "purpose": "probe_gap",
+     "question": "Given your short internship at the olefins plant, can you describe a time you had to adapt your theoretical knowledge to a practical constraint you encountered on-site?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "What was the specific risk and the potential consequence?",
+      "How did you communicate this to the team?"
+     ],
+     "good_answer_signals": [
+      "Attention to detail in risk identification",
+      "Ability to challenge the status quo for safety",
+      "Understanding of the 'why' behind safety protocols"
+     ],
+     "purpose": "probe_gap",
+     "question": "During your pre-start-up safety review or your safety course, can you share an instance where you identified a potential risk that others had overlooked?"
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "Which Python libraries or digital tools would you integrate?",
+      "How would you ensure the data quality from the flow-meters?"
+     ],
+     "good_answer_signals": [
+      "Mention of scripting or API integration (e.g., HYSYS Open COM)",
+      "Logical flow for data pipeline construction",
+      "Awareness of data cleaning/validation"
+     ],
+     "purpose": "probe_gap",
+     "question": "You used Aspen HYSYS for mass balance reconciliation; how would you automate this process if you had to perform it daily for multiple plant sections?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "What was the specific anomaly in the data?",
+      "How did you prove the new result was valid?"
+     ],
+     "good_answer_signals": [
+      "Detailed explanation of experimental variables",
+      "Systematic approach to troubleshooting",
+      "Honesty about failures and a data-driven correction"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding your thesis on MEA/piperazine blends, walk me through a specific experiment that failed or produced unexpected results and how you corrected your methodology."
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "How does the cost of piperazine compare to the savings in amine loss?",
+      "What impact would this have on the regeneration energy requirements?"
+     ],
+     "good_answer_signals": [
+      "Ability to scale lab results to industrial context",
+      "Consideration of OPEX/CAPEX trade-offs",
+      "Deep technical understanding of the chemical process"
+     ],
+     "purpose": "verify_evidence",
+     "question": "You achieved a 35% reduction in amine loss in your research; can you explain the economic or operational trade-offs of implementing this blend in a full-scale industrial plant?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "74d092109097be55": {
+  "created_at": "2026-10-05T05:53:27.779708+00:00",
+  "latency_s": 57.31,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Verify the candidate's technical achievements in MPC and alarm management while probing for alignment with energy transition and proactive safety/leadership capabilities.",
+   "questions": [
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "Can you name a specific low-carbon technology you are interested in?",
+      "How would you measure the success of a decarbonisation project?"
+     ],
+     "good_answer_signals": [
+      "Mentions energy efficiency or emissions monitoring",
+      "Connects control systems to reducing waste/fuel consumption",
+      "Demonstrates awareness of Thai energy transition goals"
+     ],
+     "purpose": "probe_gap",
+     "question": "Given the shift toward net-zero, how do you see your skills in instrumentation and control contributing to the decarbonisation of a traditional energy plant?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "What was the risk if you hadn't spoken up?",
+      "How did the supervisor react to your observation?"
+     ],
+     "good_answer_signals": [
+      "Proactive identification of risk",
+      "Immediate reporting or corrective action",
+      "Understanding of the 'why' behind the safety rule"
+     ],
+     "purpose": "probe_gap",
+     "question": "Describe a time when you noticed a potential safety hazard or a deviation from procedure during your internship; what did you do?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "How did you handle a disagreement on the approach?",
+      "What was your specific role in ensuring the group stayed on track?"
+     ],
+     "good_answer_signals": [
+      "Evidence of coordinating tasks",
+      "Adaptation of communication style for different audiences",
+      "Focus on shared objectives over individual tasks"
+     ],
+     "purpose": "probe_gap",
+     "question": "Tell me about a situation where you had to coordinate with people from different backgrounds or disciplines to achieve a technical goal."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "What specific parameters did you tune to get that result?",
+      "What happened when the model didn't match the physical reality?"
+     ],
+     "good_answer_signals": [
+      "Detailed explanation of the tuning process",
+      "Ability to explain the gap between simulation and reality",
+      "Clear link between action and the 40% metric"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding your MPC project, walk me through the specific challenges you faced when moving from the Python model to the physical rig and how you achieved the 40% overshoot reduction."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "How did you handle missing or noisy data in the logs?",
+      "What was the most difficult part of the data parsing process?"
+     ],
+     "good_answer_signals": [
+      "Clear definition of 'chattering' or 'nuisance' alarms",
+      "Logical flow from data analysis to recommendation",
+      "Mention of validation with operators or supervisors"
+     ],
+     "purpose": "verify_evidence",
+     "question": "You reduced alarm counts by 25% using a Python tool; can you explain the logic you used to identify 'nuisance' alarms and how you validated those findings?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "828185233dfbb959": {
+  "created_at": "2026-10-05T05:45:59.715655+00:00",
+  "latency_s": 4.21,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "focus_summary": "This interview aims to evaluate the candidate's alignment with the energy transition, their ability to to solve complex technical problems using digital tools, and to verify the technical depth of their senior project.",
+   "questions": [
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a specific instance where you researched or applied knowledge related to decarbonisation or renewable energy technologies?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "88bfb2769566cd24": {
+  "created_at": "2026-10-05T05:42:37.662256+00:00",
+  "latency_s": 8.47,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "focus_summary": "This interview should establish if the candidate's academic foundation and interest in renewable energy is sufficient to bridge the gap in high-hazard industrial experience and high-level digital engineering tools.",
+   "questions": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Tell me about a time you had to follow strict safety protocols in a high-pressure or high-risk environment, or how you would approach a new high-hazard site visit."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding your biodiesel plant design project, can you walk me through the specific calculations or assumptions you made for the reactor section to ensure the accuracy of your model?"
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "\"\""
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "\"\""
+    },
+    {
+     "criterion_id": "填_id",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "\"\""
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
  "8b1e7eefaf94956c": {
   "created_at": "2026-10-05T05:38:54.961726+00:00",
   "latency_s": 236.36,
@@ -80,6 +510,708 @@
   },
   "prompt_version": "interview_kit.v1"
  },
+ "8c9de7cfff3840bf": {
+  "created_at": "2026-10-05T05:45:40.095680+00:00",
+  "latency_s": 399.62,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Establish the candidate's alignment with the company's energy transition goals and probe their ability to apply safety and teamwork skills in high-pressure industrial environments.",
+   "questions": [
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "What specific low-carbon technologies are you interested in?",
+      "How would you adapt your current skills to support decarbonisation?"
+     ],
+     "good_answer_signals": [
+      "Connects efficiency gains from predictive maintenance to reduced energy waste",
+      "Mentions specific energy transition trends like hydrogen or CCUS",
+      "Shows curiosity about the company's specific sustainability goals"
+     ],
+     "purpose": "probe_gap",
+     "question": "Given the shift towards net-zero, how do you see the role of rotating equipment and predictive maintenance in reducing carbon emissions in an integrated energy company?"
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "How would you approach researching a new technology you've never used?",
+      "What trade-offs between reliability and sustainability would you consider?"
+     ],
+     "good_answer_signals": [
+      "Identifies technical hurdles like intermittency or system stability",
+      "Demonstrates a structured approach to learning new technologies",
+      "Balances technical feasibility with environmental impact"
+     ],
+     "purpose": "probe_gap",
+     "question": "If you were tasked with a project to integrate renewable energy sources into an existing gas plant, what would be the primary technical challenges you would anticipate?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "What was the reaction of the others on site?",
+      "If you had to do it over, what would you change?"
+     ],
+     "good_answer_signals": [
+      "Prioritises safety over speed or production",
+      "Follows established safety protocols and reporting channels",
+      "Shows awareness of the risk of 'normalisation of deviance'"
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a time when you noticed a potential safety hazard during your internship at the gas plant and how you did you handle it?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What happened if the data trended in the other direction?",
+      "How did you convince the reliability engineer to inspect the physical equipment?"
+     ],
+     "good_answer_signals": [
+      "Explains the technical logic behind the temperature rise and failure mode",
+      "Describes a specific, measurable outcome of the outcome",
+      "Clearly articulates the personal role in the data analysis process"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Walk me through the specific steps you took to identify the bearing wear issue on the sales-gas compressor; what data points were you looking for and why?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "sHow did this failure impact your 92% accuracy rate?",
+      "What specific sensor placement or data noise reduction techniques did you use?"
+     ],
+     "good_answer_signals": [
+      "Admits a specific technical mistake and describes the logical troubleshooting process",
+      "Describes the technical details of the rig's construction",
+      "Explains how the error resolution improved the final model accuracy"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding your senior project, what was the most significant technical failure or error you encountered while building the test rig, and how did you resolve it?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "What specific communication style did you change to reach them?",
+      "How did you measure the success of your mentoring?"
+     ],
+     "good_answer_signals": [
+      "Demonstrates empathy and adaptive communication",
+      "Describes a a structured approach to supporting others",
+      "Shows evidence of leadership through influence rather than authority"
+     ],
+     "purpose": "verify_evidence",
+     "question": "As a peer mentor, how did you handle a student who was struggling with mechanics and was not responding to your guidance?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "a188f60eea94b356": {
+  "created_at": "2026-10-05T05:47:40.297922+00:00",
+  "latency_s": 49.18,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Establish the candidate's ability to apply technical analysis and digital tools to solve engineering problems, while verifying the impact of their internship and capstone project.",
+   "questions": [
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "What specific formulas or features did you use?",
+      "How did the result change your approach to the problem?"
+     ],
+     "good_answer_signals": [
+      "Describes a logical workflow from data input to insight",
+      "Explains the 'why' behind the tool choice",
+      "Connects the digital output to a physical engineering decision"
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a specific instance where you used a digital tool like Excel or SolidWorks to analyze data or model a system to solve a technical problem?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What was the exact frequency change?",
+      "How did you verify that the lubrication was the primary cause of the stoppages?"
+     ],
+     "good_answer_signals": [
+      "References specific breakdown logs or timestamps",
+      "Quantifies the 'slight' reduction (e.g., percentage or hours)",
+      "Explains the causal link between lubrication and the specific failure mode"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding the lubrication schedule change at Bangpoo Precision Parts, what specific data did you use to identify the issue and how did you measure the reduction in stoppages?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "How did you validate your theoretical drying time against the actual results?",
+      "What was the biggest discrepancy between your model and the prototype?"
+     ],
+     "good_answer_signals": [
+      "Mentions heat transfer or fluid flow calculations",
+      "Discusses material properties (e.g., thermal conductivity)",
+      "Describes a systematic method for measuring and comparing results"
+     ],
+     "purpose": "verify_evidence",
+     "question": "For your solar dryer prototype, what engineering calculations or modeling did you perform to determine the dimensions and materials used?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "Who did you report this to and how?",
+      "What was the long-term fix implemented?"
+     ],
+     "good_answer_signals": [
+      "Demonstrates proactive hazard identification",
+      "Shows understanding of risk escalation paths",
+      "Focuses on prevention rather than just compliance"
+     ],
+     "purpose": "probe_gap",
+     "question": "Beyond following lock-out rules, can you tell me about a time you identified a potential safety hazard in a workshop or plant and what action you took to address it?"
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "What are the main technical barriers to scaling this technology?",
+      "How would you measure the carbon offset of such a transition?"
+     ],
+     "good_answer_signals": [
+      "Connects small-scale project to industrial-scale challenges",
+      "Mentions concepts like energy efficiency or renewable integration",
+      "Shows awareness of decarbonization goals"
+     ],
+     "purpose": "probe_gap",
+     "question": "How do you think the principles you applied in your solar dryer project could be scaled or adapted to help a large-scale energy company reduce its carbon footprint?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "c580cc23fc0dbb5d": {
+  "created_at": "2026-10-05T05:49:28.582852+00:00",
+  "latency_s": 10.69,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "focus_summary": "This interview aims to assess the candidate's potential for transitioning from a software-centric background to a physical engineering environment, specifically focusing on their ability to assess and manage risks in a physical plant setting and their lack of hydrogen-related field experience.",
+   "questions": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Tell me about a time you had to troubleshoot a situation where a physical component or hardware-related issue was affecting a system's performance."
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "If you were tasked with a new monitoring system installation in a live energy plant, what are the first three steps you would take to ensure your work does not create a new hazard?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Describe a time when you had to explain a technical concept or a piece of of documentation to someone with a different technical background."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Walk me through the specific logic you used to build the efficiency calculation for the electrolyser project. How did you ensure the data was accurate?"
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "In your solar forecasting hackathon project, what specific role did you play in the model's development, and what were the key metrics used to lke the model's accuracy?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "c8d54c252972a02b": {
+  "created_at": "2026-10-05T05:42:45.641217+00:00",
+  "latency_s": 70.83,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Establish the candidate's alignment with energy transition goals and their ability to apply safety leadership beyond observation, while verifying the technical depth of their predictive fouling model.",
+   "questions": [
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "Can you give an example of a specific low-carbon technology you've been following?",
+      "How would you apply your data skills to reduce emissions in a traditional refinery setting?"
+     ],
+     "good_answer_signals": [
+      "Connects process efficiency (fouling reduction) to reduced fuel consumption and CO2 emissions",
+      "Demonstrates awareness of current energy transition trends (e.g., carbon capture, hydrogen)",
+      "Shows a proactive interest in learning about sustainability"
+     ],
+     "purpose": "probe_gap",
+     "question": "Given the energy industry's shift toward decarbonisation, how do you see your skills in predictive modeling and process optimization contributing to a lower-carbon energy future?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "What specific safety protocol did you follow to report it?",
+      "What was the outcome of the outcome of the report?"
+     ],
+     "good_answer_signals": [
+      "Identifies a specific hazard (e.g., leak, trip hazard, majorité safety equipment failure)",
+      "Demonstrates an understanding of the 'stop work authority' or reporting culture",
+      "Prioritizes safety over speed or operational convenience"
+     ],
+     "purpose": "probe_gap",
+     "question": "Describe a time when you noticed a potential safety risk or a process anomaly during your refinery internship that you felt was necessary to report or address."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "Why did you choose a regression model over other methods?",
+      "How did you validate the model's accuracy against actual cleaning cycles?"
+     ],
+     "good_answer_signals": [
+      "Explains data cleaning/preprocessing steps (e"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Walk me through the technical process of how you built your predictive fouling model; specifically, how did you handle missing or noisy data in the 2-year dataset?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What was the resistance from the operations team to adopt your model?",
+      "How did you quantify the impact of the model on thes"
+     ],
+     "good_answer_signals": [
+      "Provides specific numbers or dates regarding the cleaning schedule shift",
+      "Describes the interaction between the data model and real-world plant operations",
+      "Explains how the model's predictions were translated into operational action"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding the model's adoption by the unit engineer, what specific operational changes were made to the cleaning schedule based on your findings?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "How would you ensure the operator actually follows the SOP?",
+      "How would you link the SOP to the findings of the HAZOP sessions you observed?"
+     ],
+     "good_answer_signals": [
+      "Mentions specific safety layers (e.g., LOTO, PPE, emergency shutdown)",
+      "Focuses on the user-centric design of the SOP for clarity and prevent errors",
+      "References the risk assessment process as the source for the SOP"
+     ],
+     "purpose": "probe_gap",
+     "question": "If you were tasked with writing a Standard Operating Procedure (SOP) for a new piece of equipment, what key safety considerations would you include to ensure operator safety?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "dd6d0c0859b0b174": {
+  "created_at": "2026-10-05T05:47:31.101861+00:00",
+  "latency_s": 55.36,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Verify the candidate's technical depth in data-driven problem solving and safety mindset while validating the impact of their solar farm and leadership experiences.",
+   "questions": [
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "What specific pandas functions did you use?",
+      "How did you handle missing or corrupted log entries?"
+     ],
+     "good_answer_signals": [
+      "Mentions specific data cleaning steps",
+      "Explains the logic used to group or filter faults",
+      "Describes the transition from raw logs to a actionable insight"
+     ],
+     "purpose": "probe_gap",
+     "question": "When analyzing the inverter fault logs, how did you specifically use Python to identify the recurring DC insulation fault and what was your process for cleaning the data?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "What was the specific risk?",
+      "Who did you communicate the risk to and why?"
+     ],
+     "good_answer_signals": [
+      "Demonstrates proactive risk identification",
+      "Shows adherence to safety protocols over speed/convenience",
+      "Describes clear communication with supervisors"
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a time during your internship when you noticed a potential safety risk or a deviation from LOTO procedures, and how did you handle it?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "What was the specific point of contention?",
+      "How did the resolution affect the project timeline or budget?"
+     ],
+     "good_answer_signals": [
+      "Describes a specific interpersonal or technical conflict",
+      "Shows evidence of active listening and negotiation",
+      "Explains the rationale behind the final decision"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding the solar water pump project, what was the most difficult conflict or technical disagreement you faced within your 10-person team, and how did you resolve it?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What would happen if those settings were incorrect?",
+      "How did you verify the new settings were correct before implementation?"
+     ],
+     "good_answer_signals": [
+      "Mentions specific relay settings (e.g., overcurrent, earth fault)",
+      "Explains the relationship between settings and system protection",
+      "Acknowledges the role of supervision and verification"
+     ],
+     "purpose": "verify_evidence",
+     "question": "You mentioned updating protection-relay settings for the 22 kV switchyard; what specific parameters were reviewed and what was the logic behind the changes?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "What assumptions did you make about battery efficiency or degradation?",
+      "How did you handle peak load fluctuations in your model?"
+     ],
+     "good_answer_signals": [
+      "Explains the validation method (e.g., comparing against historical data)",
+      "Discusses constraints like round-trip efficiency or C-rate",
+      "Justifies the choice of the 2 MWh size over other options"
+     ],
+     "purpose": "probe_gap",
+     "question": "In your battery storage model, how did you validate that the 11% reduction in curtailed energy was a realistic estimate rather than just a theoretical result?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "e9f87b0fe5806732": {
+  "created_at": "2026-10-05T05:51:03.540162+00:00",
+  "latency_s": 197.93,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Establish the candidate's ability to apply technical tools for problem-solving and their capacity for proactive hazard identification and operational troubleshooting during their internship.",
+   "questions": [
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "What specific parameters did you change to optimize the property of the output?",
+      "How did you validate the results of your model against real-world data?"
+     ],
+     "good_answer_signals": [
+      "Mention of specific input variables and constraints",
+      "Explanation of the logic used to build the model",
+      "Clear link between the tool's output and a decision made"
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a specific instance where you used Aspen Plus or Excel to model a process or analyze data to solve a particular engineering problem?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "What was the risk associated with that hazard?",
+      "How did you communicate this to your supervisor?"
+     ],
+     "good_answer_signals": [
+      "Ability to identify a specific risk (e.g., chemical spill, leak)",
+      "Proactive communication of the risk to a technician or supervisor",
+      "Understanding of the risk mitigation strategy used"
+     ],
+     "purpose": "probe_gap",
+     "question": "During your internship at the water treatment plant, did you encounter any situation where you identified a potential hazard or suggested a safety improvement?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What specific data points indicated the anomaly?",
+      "What was the result of your investigation?"
+     ],
+     "good_answer_signals": [
+      "Observation of a deviation from the standard operating procedure",
+      "Use of technical knowledge to hypothesize a reason for the anomaly",
+      "Collaboration with technicians to resolve the issue"
+     ],
+     "purpose": "probe_gap",
+     "question": "Beyond recording dosing results, can you tell me about a time you noticed an anomaly in the plant's operation and how you investigated it?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "What are the key performance indicators you are tracking?",
+      "What deliverables have you produced so far?"
+     ],
+     "good_answer_signals": [
+      "Detailed explanation of the membrane flux decline over time",
+      "Mention of specific laboratory equipment or software used for analysis",
+      "Clear timeline and expected deliverables"
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding your senior project on reverse-osmosis membrane fouling, what specific engineering analysis or methodology you are using to quantify the fouling rate?"
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "What was the most challenging part of the design process?",
+      "How did you ensure the design was efficient for decarbonization?"
+     ],
+     "good_answer_signals": [
+      "Specific mention of the personal role in the design (e estudante's specific calculations or literature review)",
+      "Technical explanation of the biogas upgrading process",
+      "Linking the design to carbon reduction goals"
+     ],
+     "purpose": "verify_evidence",
+     "question": "In your group design project for the biogas upgrading unit, what was your personal contribution to the design and what specific low-carbon technology was implemented?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "How did you adapt your communication style?",
+      "How did you verify that the other person understood you?"
+     ],
+     "good_answer_signals": [
+      "Simplification of technical jargon",
+      "Use of examples or visual aids",
+      "Confirmation of the other person's understanding"
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a situation where you had to explain a complex technical concept to someone who was not an engineer, such as a technician or a choir member?"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "ed1223e1a57d297b": {
+  "created_at": "2026-10-05T05:49:13.734149+00:00",
+  "latency_s": 383.11,
+  "model": "gemma-4-31b-it",
+  "output": {
+   "focus_summary": "Establish the candidate's ability to apply technical skills to solve operational problems, their awareness of the energy transition, and the depth of their academic simulation work.",
+   "questions": [
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "What specific low-carbon technologies are you interested in?",
+      "How would you apply your reservoir simulation skills to CCUS (Carbon Capture, Utilization, and Storage)?"
+     ],
+     "good_answer_signals": [
+      "Mention of CCUS, hydrogen, or renewable integration",
+      "Understanding of the energy transition's impact on traditional oil and gas",
+      "Alignment with company's sustainability goals"
+     ],
+     "purpose": "probe_gap",
+     "question": "Given the shift toward low-carbon energy, how do you see the role of petroleum engineering evolving to support decarbonisation in Thailand?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "What was the outcome of the problem-solving process?",
+      "How did you actually contribute to the technical solution?"
+     ],
+     "good_answer_signals": [
+      "Ability to describe a technical challenge",
+      "Logical approach to troubleshooting",
+      "Quantifiable impact of their contribution"
+     ],
+     "purpose": "probe_gap",
+     "question": "During your offshore internship, can you describe a specific technical problem you encountered and the steps you took to resolve it?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "What action did you take to mitigate the risk?",
+      "Why was that specific action important?"
+     ],
+     "good_answer_signals": [
+      "Proactive identification of hazard",
+      "Use of safety terminology (e.g., JSA, PTW)",
+      "Prioritising safety over speed or operational pressure"
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you give an example of a time when you noticed a potential safety risk or a hazard during your offshore rotation or field camp?"
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "How did you handle uncertainty in the 3D static model?",
+      "What specific parameters were changed to theve most impact on the recovery factor?"
+     ],
+     "good_answer_signals": [
+      "Detailed explanation of the technical methodology",
+      "Mention of sensitivity analysis or history matching",
+      "Clear link between simulation inputs and the recovery factor improvement"
+     ],
+     "purpose": "verify_evidence",
+     "question": "In your thesis, you improved recovery by 7 percentage points; walk me through the exact methodology you used to validate your simulation results."
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "Which Python libraries did you actually write the code for?",
+      "How would you scale this script to be an automated pipeline for a a larger dataset?"
+     ],
+     "good_answer_signals": [
+      "Clear explanation of the logic and flow of the data processing",
+      "Mention of specific libraries like pandas or numpy",
+      "Understanding of the efficiency gains from automation"
+     ],
+     "purpose": "verify_evidence",
+     "question": "You used Python scripts to post-process simulation output; can you explain the logic behind your script and how it automated the efficiency of your analysis?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "What was the specific conflict?",
+      "What was the result of the team's cohesion after your intervention?"
+     ],
+     "good_answer_signals": [
+      "Specific example of conflict resolution",
+      "Demonstration of leadership and communication skills",
+      "Focus on team goal over individual interests"
+     ],
+     "purpose": "verify_evidence",
+     "question": "As the captain of the football team, describe a situation where you had to manage a conflict between two team members to ensure the team's performance."
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "edbb0bcad9b099db": {
+  "created_at": "2026-10-05T05:46:12.534960+00:00",
+  "latency_s": 210.34,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "focus_summary": "This interview aims to validate the candidate's technical depth in their senior project and digital tool application, while assessing their commitment to the energy transition and their ability to lead cross-functional teams.",
+   "questions": [
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you walk us through the methodology and engineering analysis you performed during your senior project on the kinetics of alkyd resin polymerisation?"
+    },
+    {
+     "criterion_id": "data_digital_problem_solving",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Could you describe a specific instance where you used Aspen Plus or Python to solve a particular engineering problem or optimize a process?"
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Tell us about any specific coursework, projects, or professional initiatives you have participated in that directly target low-carbon technologies or emissions reduction."
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding your solvent recovery distillation project, what was your specific personal role in the design and implementation, and what were the total cost savings achieved?"
+    },
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding the reduction in batch rework rate from 0.4% to 1.5%, how did you implement the new viscosity checks, and what went wrong during the initial implementation?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Can you describe a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a technical presentation to a situation where you had to lead a leading cross-functional team to deliver a most important technical presentation to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to:"
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
  "eedf7f5b40ea457c": {
   "created_at": "2026-10-05T05:35:10.747258+00:00",
   "latency_s": 12.15,
@@ -153,6 +1285,87 @@
      ],
      "purpose": "probe_gap",
      "question": ""
+    }
+   ]
+  },
+  "prompt_version": "interview_kit.v1"
+ },
+ "fa411f14400173d2": {
+  "created_at": "2026-10-05T05:42:23.689093+00:00",
+  "latency_s": 12.19,
+  "model": "gemma-4-26b-a4b-it",
+  "output": {
+   "focus_summary": "This interview should establish whether the candidate's technical excellence in industrial AI and digital engineering can be translated into a proactive safety mindset and a proactive interest in the energy transition.",
+   "questions": [
+    {
+     "criterion_id": "practical_engineering_exposure",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Tell me about the specific sensor tags and data cleaning steps you took to build your anomaly detection model at Chao Phraya Power."
+    },
+    {
+     "criterion_id": "technical_academics_capstone",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Regarding your HRSG digital twin project, what specific physics-informed parameters did you include in your model to ensure the error remained under 3%?"
+    },
+    {
+     "criterion_id": "safety_and_risk_mindset",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Beyond the basic safety induction and PPE, can you describe a situation where you identified a potential safety hazard or risk on-site that required immediate attention?"
+    },
+    {
+     "criterion_id": "energy_transition_commitment",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "probe_gap",
+     "question": "Our company is heavily invested in transitioning to low-profile carbon emissions and renewable energy; how do you see your skills in industrial AI and digital engineering can be applied to optimize or support these new energy technologies?"
+    },
+    {
+     "criterion_id": "teamwork_leadership_communication",
+     "follow_up_probes": [
+      "",
+      ""
+     ],
+     "good_answer_signals": [
+      "",
+      "",
+      ""
+     ],
+     "purpose": "verify_evidence",
+     "question": "Describe a time when you had to communicate complex technical results, such as your anomaly detection model, to a non-technical plant manager or senior management. How did you communicate it?"
     }
    ]
   },
