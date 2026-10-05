@@ -120,12 +120,20 @@ def main() -> None:
         prompt = load_prompt("evidence_extractor.v1")
         core = agents.criteria_core(profile)
         rows = []
-        for cid in CONSISTENCY_SAMPLE:
+        # Repeat on the same model that produced the stored result; prefer planted cases on models with quota left.
+        available = [cid for cid in CONSISTENCY_SAMPLE if evals[cid][2].startswith("gemma")]
+        extra = [cid for cid in ("C-031", "C-021", "C-026", "C-010", "C-015", "C-024")
+                 if evals[cid][2].startswith("gemma") and cid not in available]
+        for cid in (available + extra)[:5]:
             user = prompt.user.substitute({"criteria": json.dumps(core, indent=1), "cv": redacted[cid]})
             scores, levels = [], []
-            for _ in range(2):
-                # Same model that produced the cached result, so this measures repeatability, not model differences.
-                out = patient(client._call, evals[cid][2], prompt.system, user, CandidateEvaluation)
+            try:
+                outs = [patient(client._call, evals[cid][2], prompt.system, user, CandidateEvaluation, tries=3)
+                        for _ in range(2)]
+            except Exception as exc:  # noqa: BLE001
+                print(f"  {cid}: skipped ({str(exc)[:80]})")
+                continue
+            for out in outs:
                 enr, _ = enrich_assessments(out["assessments"], profile["criteria"], redacted[cid])
                 scores.append(total_score(enr))
                 levels.append([a["level"] for a in enr])
